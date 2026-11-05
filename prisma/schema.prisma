@@ -1,0 +1,246 @@
+// Paddock Archive — relational schema for PostgreSQL (+ pgvector for retrieval).
+// Mirrors src/data/schema.ts. The app currently reads the validated seed + data/archive.json
+// directly; `npm run db:push && npm run db:seed` loads the same data into Postgres.
+//
+// Reference columns that may point at an unprofiled entity (e.g. a privateer team without a
+// profile page) are stored as `xxxRef` text: the id of a profiled record, or a display name.
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [vector]
+}
+
+model Source {
+  id        String   @id
+  title     String
+  publisher String
+  url       String?
+  note      String?
+  citations Citation[]
+}
+
+/// Polymorphic citation: any factual record can reference one or more sources.
+model Citation {
+  id         Int    @id @default(autoincrement())
+  sourceId   String
+  source     Source @relation(fields: [sourceId], references: [id])
+  entityType String // team | driver | car | season | event | leMans | manufacturer
+  entityId   String
+
+  @@unique([sourceId, entityType, entityId])
+  @@index([entityType, entityId])
+}
+
+model Era {
+  slug           String  @id
+  name           String
+  short          String
+  fromYear       Int
+  toYear         Int?
+  championshipId String?
+  summary        String
+  hallmarks      String[]
+  seasons        Season[]
+}
+
+model Championship {
+  id          String   @id
+  name        String
+  short       String
+  fromYear    Int
+  toYear      Int?
+  description String
+  seasons     Season[]
+}
+
+model RaceClass {
+  id          String @id
+  name        String
+  short       String
+  family      String // hyper | lmp1 | lmp2 | gt | hist
+  fromYear    Int
+  toYear      Int?
+  description String
+}
+
+model Manufacturer {
+  id      String @id
+  name    String
+  country String @db.Char(2)
+  summary String
+  cars    Car[]
+}
+
+model Car {
+  id             String       @id
+  name           String
+  manufacturerId String
+  manufacturer   Manufacturer @relation(fields: [manufacturerId], references: [id])
+  classId        String
+  fromYear       Int
+  toYear         Int?
+  powertrain     String
+  summary        String
+  verified       Boolean      @default(false)
+}
+
+model Team {
+  id           String            @id
+  country      String            @db.Char(2)
+  status       String // active | defunct
+  firstSeason  Int
+  lastSeason   Int?
+  manufacturerIds String[]
+  tagline      String
+  founding     String
+  peak         String
+  exit         String?
+  whyLeft      String?
+  moments      Json              @default("[]")
+  verified     Boolean           @default(false)
+  names        TeamName[]
+  entries      TeamSeasonEntry[]
+}
+
+/// Teams change names over time — the history is stored, not a single name.
+model TeamName {
+  id       Int    @id @default(autoincrement())
+  teamId   String
+  team     Team   @relation(fields: [teamId], references: [id], onDelete: Cascade)
+  name     String
+  fromYear Int
+  toYear   Int?
+
+  @@index([teamId])
+}
+
+model Driver {
+  id          String              @id
+  name        String
+  nationality String              @db.Char(2)
+  birthYear   Int?
+  status      String // active | retired
+  bio         String
+  verified    Boolean             @default(false)
+  entries     DriverSeasonEntry[]
+}
+
+model Season {
+  year              Int           @id
+  label             String?
+  championshipId    String?
+  championship      Championship? @relation(fields: [championshipId], references: [id])
+  eraSlug           String
+  era               Era           @relation(fields: [eraSlug], references: [slug])
+  status            String // complete | in-progress | le-mans-only | not-held
+  classes           String[]
+  rounds            Int?
+  regulations       String?
+  regulationChanges String[]
+  story             String?
+  champions         Json          @default("[]")
+  standings         Json          @default("[]")
+  verified          Boolean       @default(false)
+  events            Event[]
+}
+
+/// Team ↔ Season, with the class, car, car numbers and the name used that year.
+model TeamSeasonEntry {
+  id       Int      @id @default(autoincrement())
+  teamId   String
+  team     Team     @relation(fields: [teamId], references: [id], onDelete: Cascade)
+  season   Int
+  classId  String
+  carRef   String
+  numbers  String[]
+  nameUsed String?
+  note     String?
+
+  @@unique([teamId, season, classId, carRef])
+}
+
+/// Driver ↔ Team ↔ Season.
+model DriverSeasonEntry {
+  id       Int     @id @default(autoincrement())
+  driverId String
+  driver   Driver  @relation(fields: [driverId], references: [id], onDelete: Cascade)
+  season   Int
+  teamRef  String
+  classId  String
+  carRef   String
+  number   String?
+  note     String?
+
+  @@unique([driverId, season, teamRef, carRef])
+}
+
+model Event {
+  id       String   @id // "<season>-<slug>"
+  season   Int
+  seasonRel Season  @relation(fields: [season], references: [year])
+  round    Int
+  name     String
+  circuit  String
+  country  String   @db.Char(2)
+  date     String? // ISO date, or YYYY-MM when the day is unverified
+  format   String
+  summary  String?
+  verified Boolean  @default(false)
+  results  Result[]
+}
+
+/// One classified position (or pole) per row: belongs to Event + Class + Entry.
+model Result {
+  id         Int      @id @default(autoincrement())
+  eventId    String
+  event      Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  classId    String
+  kind       String // finish | pole | fastest_lap
+  position   Int?
+  teamRef    String
+  carRef     String
+  carNumber  String?
+  driverRefs String[]
+  laps       Int?
+  note       String?
+
+  @@index([eventId, classId])
+}
+
+model LeMansWinner {
+  year         Int      @id
+  carRef       String
+  manufacturer String
+  driverRefs   String[]
+  teamRef      String?
+  carNumber    String?
+  laps         Int?
+  date         String?
+}
+
+model Story {
+  slug    String   @id
+  title   String
+  dek     String
+  eraSlug String?
+  body    String
+  related String[]
+}
+
+/// Retrieval chunks for Ask the Archive. `embedding` is filled by an embedding job
+/// (see README → "How the AI grounding works"); until then retrieval runs BM25 in-process.
+model ArchiveChunk {
+  id        String                      @id // e.g. "team:audi-sport-team-joest"
+  kind      String
+  title     String
+  href      String
+  text      String
+  embedding Unsupported("vector(1024)")?
+  updatedAt DateTime                    @updatedAt
+}

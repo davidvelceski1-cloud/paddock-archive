@@ -1,0 +1,48 @@
+{
+  "name": "paddock-archive",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Paddock Archive — an AI-assisted encyclopedia of world-championship endurance racing, from Le Mans 1923 to the Hypercar era.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "data:import": "node scripts/import.ts",
+    "data:validate": "node scripts/import.ts --check",
+    "db:push": "prisma db push",
+    "db:seed": "prisma db seed"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.133.0",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "clsx": "^2.1.1",
+    "cmdk": "1.1.1",
+    "lucide-react": "^0.540.0",
+    "motion": "^12.23.0",
+    "next": "16.4.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-markdown": "10.1.0",
+    "recharts": "^3.2.1",
+    "remark-gfm": "^4.0.1",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.3.1",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.16.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "prisma": "^6.16.0",
+    "tailwindcss": "4.3.3",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

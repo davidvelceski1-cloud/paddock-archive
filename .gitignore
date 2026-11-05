@@ -1,0 +1,12 @@
+node_modules
+.next
+next-env.d.ts
+*.tsbuildinfo
+.env
+.env.local
+.vercel
+# Reader-submitted corrections (written by /api/corrections in local/self-hosted mode)
+data/corrections.jsonl
+
+# Logs
+*.log
