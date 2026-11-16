@@ -3,6 +3,7 @@ import type { Photo, TeamSeasonEntry } from "@/data/schema";
 import { countryName } from "@/data/countries";
 import {
   archive,
+  carPhoto,
   chassisOf,
   className,
   href,
@@ -79,7 +80,7 @@ function carPreview(id: string): Preview | undefined {
     kind: "car",
     title: c.name,
     subtitle: ix().manufacturers.get(c.manufacturerId)?.name,
-    image: img(photoOf(photoKey.car(id))),
+    image: img(carPhoto(id)),
     facts,
     people: s.driverIds.length ? `Drivers: ${names(s.driverIds.slice(0, 6))}${s.driverIds.length > 6 ? " and others" : ""}` : undefined,
   };

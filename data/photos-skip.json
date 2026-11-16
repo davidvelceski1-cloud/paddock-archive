@@ -2,6 +2,9 @@
   "car:Alfa Romeo 8C 2300": [
     "File:1937 Alfa Romeo 8C 2300 or 2900 Zagato.jpg"
   ],
+  "car:aston-martin-vantage-amr-gt3": [
+    "File:BeechdeanAMR.png"
+  ],
   "car:aston-martin-vantage-gte": [
     "File:Aston Martin Vantage GTE Thiim Silverstone 2018.jpg",
     "File:Aston MArtin Vantage GTE, GIMS 2018, Le Grand-Saconnex (1X7A1590).jpg"
@@ -47,10 +50,20 @@
   "car:Mercedes-Benz 300 SL": [
     "File:Fox Classic Car Collection, 2008 (02).JPG",
     "File:Mercedes 300SL grijs Nürburgring 2006 small.jpg",
-    "File:Würgauer Bergrennen 2022 Daimler Benz 300 SL-20220911-RM-114102.jpg"
+    "File:Würgauer Bergrennen 2022 Daimler Benz 300 SL-20220911-RM-114102.jpg",
+    "File:Mercedes-Benz W198 300 SL Gullwing Genf 2019 1Y7A5007.jpg"
   ],
   "car:Porsche 936/81": [
     "File:Porsche 93677 Spider.jpg"
+  ],
+  "car:porsche-911-gt3-rsr-gt2": [
+    "File:24 Heures du Mans 2014 7.jpg"
+  ],
+  "driver:jonny-edgar": [
+    "File:AO LMP2 WGI25 04.jpg"
+  ],
+  "driver:ryan-hardwick": [
+    "File:2023 6 Hours of Spa-Francorchamps Proton Competition Porsche 911 RSR-19 No.88 (DSC03179).jpg"
   ],
   "entry:alpine-endurance|2016|alpine-a460": [
     "File:Baxi DC Racing Alpine's Alpine A460 Nissan Driven by David Cheng Ho-Pin Tung and Nelson Panciatici.jpg"
@@ -95,6 +108,18 @@
   "entry:ferrari-af-corse|2022|ferrari-488-gte": [
     "File:2022 6 Hours of Monza - Start of the Race.jpg"
   ],
+  "entry:iron-dames|2025|porsche-911-gt3-r": [
+    "File:24h Le Mans 2025 - WGI (34).jpg"
+  ],
+  "entry:manthey|2024|porsche-911-gt3-r": [
+    "File:Porsche 911 NLS 2. 2024.jpg"
+  ],
+  "entry:manthey|2025|porsche-911-gt3-r": [
+    "File:Porsche 911 GT3 RS with Manthey Racing Kit (992, 2025) (55213300914).jpg"
+  ],
+  "entry:manthey|2026|porsche-911-gt3-r": [
+    "File:Porsche 911 GT3 RS with Manthey Racing Kit (992, 2025) (55213300914).jpg"
+  ],
   "entry:peugeot-sport|2009|peugeot-908-hdi-fap": [
     "File:2009 Peugeot 908 HDi FAP Goodwood, 2009 (05).jpg"
   ],
@@ -106,6 +131,12 @@
   ],
   "entry:rebellion-racing|2017|Oreca 07": [
     "File:2017-03-07 Geneva Motor Show 0862.JPG"
+  ],
+  "entry:team-wrt|2025|bmw-m4-gt3-evo": [
+    "File:ROWE, BMW M4 GT3 EVO, 24h Nürburgring 2025 winner (55053315264).jpg"
+  ],
+  "entry:team-wrt|2026|bmw-m4-gt3-evo": [
+    "File:David Jahn during FIA CEZ Endurance race at the Slovakia Ring (6 June 2026).jpg"
   ],
   "entry:toyota-gazoo-racing|2019|toyota-ts050-hybrid": [
     "File:Toyota TS050 Hybrid - Toyota Gazoo Racing - 2019 6 Hours of Spa-Francorchamps (cropped).jpg",

@@ -128,7 +128,7 @@ export const events: ArchiveInput["events"] = [
         laps: 342,
       },
       { classId: "lmp2", podium: [ref("Inter Europol Competition", "Oreca 07", "34", ["Jakub Śmiechowski", "Albert Costa", "Fabio Scherer"])] },
-      { classId: "lmgte-am", podium: [ref("Corvette Racing", "chevrolet-corvette-c8-r", "33", ["Ben Keating", "Nicolás Varrone", "Nicky Catsburg"])] },
+      { classId: "lmgte-am", podium: [ref("corvette-racing", "chevrolet-corvette-c8-r", "33", ["ben-keating", "Nicolás Varrone", "Nicky Catsburg"])] },
     ],
     "The centenary race. Ferrari won on its return to the top class, its first outright Le Mans win since 1965.",
   ),
@@ -137,9 +137,13 @@ export const events: ArchiveInput["events"] = [
   ev(2023, 7, "bahrain", "8 Hours of Bahrain", "Bahrain International Circuit", "BH", "2023-11", "8 Hours"),
 
   // ── 2025 ──
-  ev(2025, 1, "qatar", "Qatar 1812 km", "Lusail International Circuit", "QA", "2025-02-28", "1812 km", win(ref("ferrari-af-corse", "ferrari-499p", "50", ["antonio-fuoco", "miguel-molina", "nicklas-nielsen"]))),
-  ev(2025, 2, "imola", "6 Hours of Imola", "Autodromo Enzo e Dino Ferrari", "IT", "2025-04", "6 Hours"),
-  ev(2025, 3, "spa", "6 Hours of Spa-Francorchamps", "Circuit de Spa-Francorchamps", "BE", "2025-05", "6 Hours"),
+  // LMGT3 class winners from the 2025 FIA WEC season article (Wikipedia, read 16 November 2026).
+  ev(2025, 1, "qatar", "Qatar 1812 km", "Lusail International Circuit", "QA", "2025-02-28", "1812 km", [
+    ...win(ref("ferrari-af-corse", "ferrari-499p", "50", ["antonio-fuoco", "miguel-molina", "nicklas-nielsen"])),
+    gt3(ref("tf-sport", "chevrolet-corvette-z06-gt3r", "33", ["jonny-edgar", "Daniel Juncadella", "ben-keating"])),
+  ]),
+  ev(2025, 2, "imola", "6 Hours of Imola", "Autodromo Enzo e Dino Ferrari", "IT", "2025-04", "6 Hours", [gt3(ref("manthey", "porsche-911-gt3-r", "92", ["ryan-hardwick", "richard-lietz", "riccardo-pera"]))]),
+  ev(2025, 3, "spa", "6 Hours of Spa-Francorchamps", "Circuit de Spa-Francorchamps", "BE", "2025-05", "6 Hours", [gt3(ref("ferrari-af-corse", "ferrari-296-gt3", "21", ["François Hériau", "Simon Mann", "Alessio Rovera"]))]),
   ev(
     2025,
     4,
@@ -149,22 +153,25 @@ export const events: ArchiveInput["events"] = [
     "FR",
     "2025-06-15",
     "24 Hours",
-    [{ classId: "overall", podium: [ref("ferrari-af-corse", "ferrari-499p", "83", ["robert-kubica", "yifei-ye", "phil-hanson"])], laps: 387 }],
+    [
+      { classId: "overall", podium: [ref("ferrari-af-corse", "ferrari-499p", "83", ["robert-kubica", "yifei-ye", "phil-hanson"])], laps: 387 },
+      gt3(ref("manthey", "porsche-911-gt3-r", "92", ["ryan-hardwick", "richard-lietz", "riccardo-pera"])),
+    ],
     "AF Corse's separately entered #83 gave Ferrari a third straight win. Ye Yifei became the first Chinese driver to win Le Mans outright.",
   ),
-  ev(2025, 5, "sao-paulo", "6 Hours of São Paulo", "Autódromo José Carlos Pace (Interlagos)", "BR", "2025-07", "6 Hours"),
-  ev(2025, 6, "cota", "Lone Star Le Mans", "Circuit of the Americas", "US", "2025-09", "6 Hours"),
-  ev(2025, 7, "fuji", "6 Hours of Fuji", "Fuji Speedway", "JP", "2025-09", "6 Hours"),
-  ev(2025, 8, "bahrain", "8 Hours of Bahrain", "Bahrain International Circuit", "BH", "2025-11", "8 Hours"),
+  ev(2025, 5, "sao-paulo", "6 Hours of São Paulo", "Autódromo José Carlos Pace (Interlagos)", "BR", "2025-07", "6 Hours", [gt3(ref("akkodis-asp", "lexus-rc-f-gt3", "87", ["jose-maria-lopez", "Clemens Schmid", "Petru Umbrărescu"]))]),
+  ev(2025, 6, "cota", "Lone Star Le Mans", "Circuit of the Americas", "US", "2025-09", "6 Hours", [gt3(ref("united-autosports", "mclaren-720s-gt3-evo", "95", ["Sean Gelael", "Darren Leung", "Marino Sato"]))]),
+  ev(2025, 7, "fuji", "6 Hours of Fuji", "Fuji Speedway", "JP", "2025-09", "6 Hours", [gt3(ref("tf-sport", "chevrolet-corvette-z06-gt3r", "81", ["Rui Andrade", "Charlie Eastwood", "Tom Van Rompuy"]))]),
+  ev(2025, 8, "bahrain", "8 Hours of Bahrain", "Bahrain International Circuit", "BH", "2025-11", "8 Hours", [gt3(ref("akkodis-asp", "lexus-rc-f-gt3", "87", ["jose-maria-lopez", "Clemens Schmid", "Petru Umbrărescu"]))]),
 
   // ── 2026 ── (Qatar and Bahrain were cancelled; see the season record)
   ev(2026, 1, "imola", "6 Hours of Imola", "Autodromo Enzo e Dino Ferrari", "IT", "2026-04-19", "6 Hours", [
     ...win(TOY8_2026),
-    gt3(ref("Team WRT", "bmw-m4-gt3-evo", "69", ["Dan Harper", "Anthony McIntosh", "Parker Thompson"])),
+    gt3(ref("team-wrt", "bmw-m4-gt3-evo", "69", ["Dan Harper", "Anthony McIntosh", "Parker Thompson"])),
   ], "Toyota opened its comeback season with victory for the #8 crew."),
   ev(2026, 2, "spa", "6 Hours of Spa-Francorchamps", "Circuit de Spa-Francorchamps", "BE", "2026-05-09", "6 Hours", [
     ...win(BMW20_2026, { note: "A BMW one-two, the marque's first in the World Endurance Championship." }),
-    gt3(ref("Garage 59", "mclaren-720s-gt3-evo", "10", ["Antares Au", "Tom Fleming", "Marvin Kirchhöfer"])),
+    gt3(ref("garage-59", "mclaren-720s-gt3-evo", "10", ["Antares Au", "Tom Fleming", "Marvin Kirchhöfer"])),
   ]),
   ev(
     2026,
@@ -177,7 +184,7 @@ export const events: ArchiveInput["events"] = [
     "24 Hours",
     [
       { classId: "overall", podium: [TOY7_2026, BMW20_2026, TOY8_2026], laps: 381, note: "Won by 10.913 seconds." },
-      gt3(ref("TF Sport", "chevrolet-corvette-z06-gt3r", "33", ["Jonny Edgar", "Nicky Catsburg", "Ben Keating"])),
+      gt3(ref("tf-sport", "chevrolet-corvette-z06-gt3r", "33", ["jonny-edgar", "Nicky Catsburg", "ben-keating"])),
     ],
     "The 94th 24 Hours. The #7 Toyota held off BMW's #20 by under 11 seconds after 381 laps, for Toyota's sixth Le Mans win and a first for Nyck de Vries. TF Sport's Corvette won LMGT3.",
   ),
@@ -187,18 +194,18 @@ export const events: ArchiveInput["events"] = [
   ]),
   ev(2026, 5, "cota", "Lone Star Le Mans", "Circuit of the Americas", "US", "2026-09-06", "6 Hours", [
     ...win(ref("ferrari-af-corse", "ferrari-499p", "50", ["antonio-fuoco", "miguel-molina", "nicklas-nielsen"])),
-    gt3(ref("Heart of Racing Team", "aston-martin-vantage-amr-gt3", "27", ["Mattia Drudi", "Ian James", "Zacharie Robichon"])),
+    gt3(ref("heart-of-racing", "aston-martin-vantage-amr-gt3", "27", ["Mattia Drudi", "Ian James", "Zacharie Robichon"])),
   ]),
   ev(2026, 6, "fuji", "6 Hours of Fuji", "Fuji Speedway", "JP", "2026-09-27", "6 Hours", [
     ...win(TOY8_2026),
-    gt3(ref("Team WRT", "bmw-m4-gt3-evo", "32", ["Augusto Farfus", "Sean Gelael", "Darren Leung"])),
+    gt3(ref("team-wrt", "bmw-m4-gt3-evo", "32", ["Augusto Farfus", "Sean Gelael", "Darren Leung"])),
   ]),
   ev(2026, 7, "barcelona", "6 Hours of Barcelona", "Circuit de Barcelona-Catalunya", "ES", "2026-10-18", "6 Hours", [
     ...win(TOY8_2026, { note: "The win put the #8 crew in control of the title." }),
-    gt3(ref("The Bend Manthey", "porsche-911-gt3-r", "92", ["Richard Lietz", "Riccardo Pera", "Yasser Shahin"])),
+    gt3(ref("manthey", "porsche-911-gt3-r", "92", ["richard-lietz", "riccardo-pera", "Yasser Shahin"])),
   ], "The championship's first race in Barcelona, added after the Qatar round was postponed."),
   ev(2026, 8, "monza", "6 Hours of Monza", "Autodromo Nazionale Monza", "IT", "2026-11-08", "6 Hours", [
     ...win(ref("cadillac-hertz-team-jota", CADV, "38", ["Jack Aitken", "earl-bamber", "Sébastien Bourdais"])),
-    gt3(ref("The Bend Manthey", "porsche-911-gt3-r", "92", ["Richard Lietz", "Riccardo Pera", "Yasser Shahin"])),
+    gt3(ref("manthey", "porsche-911-gt3-r", "92", ["richard-lietz", "riccardo-pera", "Yasser Shahin"])),
   ], "The season finale, moved to November after the Bahrain round was cancelled. Cadillac and Jota won; the #8 Toyota crew were confirmed as champions."),
 ];

@@ -229,7 +229,10 @@ const wec: S[] = [
     regulationChanges: ["LMGT3 replaces LMGTE Am as the only GT class.", "LMP2 leaves the WEC (it remains at Le Mans).", "BMW, Alpine, Lamborghini and Isotta Fraschini join Hypercar."],
     story:
       "The biggest Hypercar grid yet. [Ferrari](/teams/ferrari-af-corse)'s #50 won Le Mans, the [Porsche Penske](/teams/porsche-penske-motorsport) #6 crew of [Estre](/drivers/kevin-estre), [Lotterer](/drivers/andre-lotterer) and [Vanthoor](/drivers/laurens-vanthoor) won the drivers' title, and [Toyota](/teams/toyota-gazoo-racing) took the manufacturers' championship.",
-    champions: [{ classId: "hypercar", drivers: ["kevin-estre", "andre-lotterer", "laurens-vanthoor"], manufacturer: "toyota", team: "porsche-penske-motorsport", car: "porsche-963" }],
+    champions: [
+      { classId: "hypercar", drivers: ["kevin-estre", "andre-lotterer", "laurens-vanthoor"], manufacturer: "toyota", team: "porsche-penske-motorsport", car: "porsche-963" },
+      { classId: "lmgt3", drivers: ["klaus-bachler", "Alex Malykhin", "joel-sturm"], team: "manthey", car: "porsche-911-gt3-r" },
+    ],
     sources: WEC_SOURCES,
   },
   {
@@ -242,7 +245,10 @@ const wec: S[] = [
     regulationChanges: ["Aston Martin joins Hypercar with the Valkyrie."],
     story:
       "[Ferrari](/teams/ferrari-af-corse)'s strongest season of the Hypercar era. The 499P won the Qatar opener, and AF Corse's separately entered #83 won Le Mans — the third straight Ferrari victory — making [Robert Kubica](/drivers/robert-kubica) a Le Mans winner and [Ye Yifei](/drivers/yifei-ye) the first Chinese driver to win the race outright. The #51 crew of [Pier Guidi](/drivers/alessandro-pier-guidi), [Calado](/drivers/james-calado) and [Giovinazzi](/drivers/antonio-giovinazzi) won the drivers' title and Ferrari the manufacturers' championship.\n\nResults for several rounds are not yet in the archive.",
-    champions: [{ classId: "hypercar", drivers: ["alessandro-pier-guidi", "james-calado", "antonio-giovinazzi"], manufacturer: "ferrari", team: "ferrari-af-corse", car: "ferrari-499p" }],
+    champions: [
+      { classId: "hypercar", drivers: ["alessandro-pier-guidi", "james-calado", "antonio-giovinazzi"], manufacturer: "ferrari", team: "ferrari-af-corse", car: "ferrari-499p" },
+      { classId: "lmgt3", drivers: ["ryan-hardwick", "richard-lietz", "riccardo-pera"], team: "manthey", car: "porsche-911-gt3-r" },
+    ],
     standings: [
       { classId: "hypercar", kind: "manufacturers", rows: [{ pos: 1, entrant: ["ferrari"] }] },
       { classId: "hypercar", kind: "drivers", rows: [{ pos: 1, entrant: ["alessandro-pier-guidi", "james-calado", "antonio-giovinazzi"], car: "ferrari-499p" }] },
@@ -270,7 +276,7 @@ const wec: S[] = [
       "Toyota's comeback year. The renamed [Toyota Racing](/teams/toyota-gazoo-racing) won the [Imola](/seasons/2026/imola) opener, then [Mike Conway](/drivers/mike-conway), [Kamui Kobayashi](/drivers/kamui-kobayashi) and [Nyck de Vries](/drivers/nyck-de-vries) won [Le Mans](/seasons/2026/le-mans) by 10.9 seconds from BMW, ending Ferrari's three-year run. The #8 crew of [Sébastien Buemi](/drivers/sebastien-buemi), [Brendon Hartley](/drivers/brendon-hartley) and [Ryo Hirakawa](/drivers/ryo-hirakawa) added wins at Fuji and Barcelona and took the drivers' title on 115 points; Toyota won the manufacturers' championship.\n\n[BMW](/teams/bmw-m-team-wrt) had its best WEC season — a first one-two at Spa and a win in São Paulo — and finished second among manufacturers. [Ferrari](/teams/ferrari-af-corse) won at COTA, and [Cadillac and Jota](/teams/cadillac-hertz-team-jota) won the Monza finale. In LMGT3, TF Sport's Jonny Edgar was champion.\n\nThe calendar was reshaped mid-season: Qatar was postponed and then cancelled, Bahrain was dropped, and the championship raced in Barcelona for the first time.",
     champions: [
       { classId: "hypercar", drivers: ["sebastien-buemi", "brendon-hartley", "ryo-hirakawa"], manufacturer: "toyota", team: "toyota-gazoo-racing", car: "toyota-gr010-hybrid" },
-      { classId: "lmgt3", drivers: ["Jonny Edgar"], team: "TF Sport", car: "chevrolet-corvette-z06-gt3r" },
+      { classId: "lmgt3", drivers: ["jonny-edgar"], team: "tf-sport", car: "chevrolet-corvette-z06-gt3r" },
     ],
     standings: [
       {

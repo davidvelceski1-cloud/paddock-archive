@@ -6,7 +6,7 @@ import { ClassTag, Ref, RelatedRail, SourcesSection } from "@/components/archive
 import { PhotoFigure, SeasonCarGallery } from "@/components/archive/Photo";
 import { AskContext } from "@/components/ask/AskContext";
 import { SummaryButton } from "@/components/ask/SummaryButton";
-import { archive, className, href, ix, photoKey, photoOf, resolveDriver, resolveManufacturer, resolveTeam, seasonLabel, seasonOfLeMans } from "@/lib/archive/data";
+import { archive, carPhoto, className, href, ix, resolveDriver, resolveManufacturer, resolveTeam, seasonLabel, seasonOfLeMans } from "@/lib/archive/data";
 import { carStats } from "@/lib/archive/stats";
 import { listJoin } from "@/lib/utils";
 
@@ -47,7 +47,7 @@ export default async function CarPage({ params }: { params: Params }) {
         >
           {c.summary}
         </PageHeader>
-        <PhotoFigure photo={photoOf(photoKey.car(c.id))} priority />
+        <PhotoFigure photo={carPhoto(c.id)} priority />
       </div>
 
       <dl className="mt-8 grid gap-4 text-sm sm:grid-cols-3">

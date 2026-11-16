@@ -6,7 +6,7 @@ import { NLFilterBar } from "@/components/filters/NLFilterBar";
 import { FilterChips } from "@/components/filters/FilterChips";
 import { Facets, Pager, SortLinks, paginate } from "@/components/filters/Facets";
 import { AskContext } from "@/components/ask/AskContext";
-import { archive, href, ix, seasonEndYear, teamDisplayName } from "@/lib/archive/data";
+import { archive, href, ix, photoKey, photoOf, seasonEndYear, teamDisplayName } from "@/lib/archive/data";
 import { teamClasses, teamStats } from "@/lib/archive/stats";
 import { applyTeams, fromParams } from "@/lib/search/filters";
 import { countryName } from "@/data/countries";
@@ -76,7 +76,20 @@ export default async function TeamsIndex({ searchParams }: { searchParams: SP })
         <ul className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {rows.map(({ t, s }) => (
             <li key={t.id}>
-              <Link href={href.team(t.id)} className="card card-link flex h-full flex-col p-5">
+              <Link href={href.team(t.id)} className="card card-link flex h-full flex-col overflow-hidden p-5">
+                {(() => {
+                  const photo = photoOf(photoKey.team(t.id));
+                  return (
+                    <span className="relative -mx-5 -mt-5 mb-4 block aspect-[16/7] bg-surface-2">
+                      {photo ? (
+                        // eslint-disable-next-line @next/next/no-img-element -- Commons thumbnail
+                        <img src={photo.src} alt={photo.alt} loading="lazy" decoding="async" className="absolute inset-0 size-full object-cover" />
+                      ) : (
+                        <span className="absolute inset-0 flex items-center justify-center text-xs text-muted-strong">No licensed photo yet</span>
+                      )}
+                    </span>
+                  );
+                })()}
                 <span className="flex items-start justify-between gap-3">
                   <span className="font-semibold tracking-tight text-ink">{teamDisplayName(t)}</span>
                   <StatusBadge status={t.status} until={t.lastSeason ? seasonEndYear(t.lastSeason) : null} />

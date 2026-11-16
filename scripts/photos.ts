@@ -35,6 +35,7 @@ let a = Archive.parse(seed);
 const importFile = path.join(process.cwd(), "data", "archive.json");
 if (fs.existsSync(importFile)) a = mergeArchive(a, ArchivePatch.parse(JSON.parse(fs.readFileSync(importFile, "utf8"))));
 const carName = (ref: string) => a.cars.find((c) => c.id === ref)?.name ?? ref;
+const ix_isGt3 = (ref: string) => a.cars.find((c) => c.id === ref)?.classId === "lmgt3";
 const teamName = (id: string, season?: number) => {
   const t = a.teams.find((x) => x.id === id);
   if (!t) return id;
@@ -142,7 +143,7 @@ const mentions = (text: string, words: string[]) => words.every((w) => has(text,
  * Stricter words for a car model: every word after the make except generic ones, so
  * "Audi R18 ultra" needs "r18" and "ultra" and "Ford GT40 Mk IV" needs "gt40", "mk" and "iv".
  */
-const MODEL_GENERIC = new Set(["hybrid", "racing", "team", "lm", "the"]);
+const MODEL_GENERIC = new Set(["hybrid", "racing", "team", "lm", "the", "evo", "evo2"]);
 function carModelWords(name: string) {
   const words = fold(name.replace(/\(.*?\)/g, "")).split(/[\s/]+/).filter(Boolean).slice(1);
   const strict = words.filter((w) => !MODEL_GENERIC.has(w));
@@ -230,7 +231,19 @@ if (!only || only === "cars") {
     const name = carName(ref);
     const words = carModelWords(name);
     const ok = (f: FileInfo | null) => (f && mentions(f.text, words) && !wrongClass(f.text, name) ? f : null);
-    await put(`car:${ref}`, name, async () => ok(await articlePhoto(name, (t) => mentions(fold(t), words))) ?? (await commonsSearch(`"${name}"`)).find((f) => ok(f)) ?? null);
+    // Exact name first, then looser forms: race-photo uploads often name the car without "Evo",
+    // or describe it as "LMGT3" / "GT3.R" rather than the marketing name.
+    const loose = name.replace(/\b(Evo2?|Evo 2)\b/gi, "").replace(/\s+/g, " ").trim();
+    const isGt3 = ix_isGt3(ref);
+    await put(`car:${ref}`, name, async () => {
+      const a1 = ok(await articlePhoto(name, (t) => mentions(fold(t), words)));
+      if (a1) return a1;
+      for (const q of [`"${name}"`, `"${loose}"`, ...(isGt3 ? [`${loose} LMGT3`, `${loose} WEC`, `${loose} 6 Hours`] : [`${loose} Le Mans`])]) {
+        const hit = (await commonsSearch(q)).find((f) => ok(f) && !/show|salon|museum|messe|gims|concept/i.test(f.title));
+        if (hit) return hit;
+      }
+      return null;
+    });
   }
   save();
 }

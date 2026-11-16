@@ -71,6 +71,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:2023_6_Hours_of_Spa-Francorchamps_Northwest_AMR_Aston_Martin_Vantage_AMR_No.98_(DSC09017).jpg",
     "auto": true
   },
+  "car:aston-martin-vantage-gte": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/TF_Sport%27s_Aston_Martin_Vantage_GTE.jpg/1280px-TF_Sport%27s_Aston_Martin_Vantage_GTE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Aston Martin Vantage GTE",
+    "credit": "David Merrett",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TF_Sport%27s_Aston_Martin_Vantage_GTE.jpg",
+    "auto": true
+  },
   "car:audi-r10-tdi": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Neckarsulm-AudiForum-Audi-R10-TDI.jpg/1280px-Neckarsulm-AudiForum-Audi-R10-TDI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Audi R10 TDI",
@@ -197,6 +206,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_BMW_M_Team_WRT_BMW_M_Hybrid_V8_No.20_(DSC2744).jpg",
     "auto": true
   },
+  "car:bmw-m4-gt3-evo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.31_%28DSC02566%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.31_%28DSC02566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW M4 GT3 Evo",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.31_(DSC02566).jpg",
+    "auto": true
+  },
   "car:bmw-m8-gte": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/BMW_M8_GTE_Felix_da_Costa_Silverstone_2018.jpg/1280px-BMW_M8_GTE_Felix_da_Costa_Silverstone_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "BMW M8 GTE",
@@ -204,6 +222,23 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:BMW_M8_GTE_Felix_da_Costa_Silverstone_2018.jpg",
+    "auto": true
+  },
+  "car:Bugatti Type 57C": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Jean-Pierre_Wimille_et_Pierre_Veyron_vainqueurs_des_24_Heures_du_Mans_1939_sur_Bugatti_Type_57C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Bugatti Type 57C",
+    "credit": "Paris-Soir",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jean-Pierre_Wimille_et_Pierre_Veyron_vainqueurs_des_24_Heures_du_Mans_1939_sur_Bugatti_Type_57C.jpg",
+    "auto": true
+  },
+  "car:Bugatti Type 57G": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/1936_Bugatti_T57G_Tank_at_PB_2022_side.jpg/1280px-1936_Bugatti_T57G_Tank_at_PB_2022_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Bugatti Type 57G",
+    "credit": "Prova MO",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1936_Bugatti_T57G_Tank_at_PB_2022_side.jpg",
     "auto": true
   },
   "car:cadillac-v-series-r": {
@@ -287,6 +322,14 @@
     "page": "https://commons.wikimedia.org/wiki/File:Dauer_962_LM_-_Mauro_Baldi,_Yannick_Dalmas_%26_Hurley_Haywood_at_Mulsanne_Corner_at_the_1994_Le_Mans_(31130420074)_(cropped).jpg",
     "auto": true
   },
+  "car:Delahaye 135CS": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Eug%C3%A8ne_Chaboud_%28G%29_et_Jean_Tr%C3%A9moulet_%28D%29%2C_vainqueurs_1938_des_24_Heures_du_Mans%2C_sur_Delahaye_135CS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Delahaye 135CS",
+    "credit": "L'Ouest Éclair",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Chaboud_(G)_et_Jean_Tr%C3%A9moulet_(D),_vainqueurs_1938_des_24_Heures_du_Mans,_sur_Delahaye_135CS.jpg",
+    "auto": true
+  },
   "car:Ferrari 166 MM": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ferrari-166-MM_Berlinetta-Touring.JPG/1280px-Ferrari-166-MM_Berlinetta-Touring.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari 166 MM",
@@ -358,6 +401,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:1962_Ferrari_250_GTO_SP25.jpg",
     "auto": true
   },
+  "car:ferrari-296-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/24_Heures_du_Mans_2026_LMGT3_No._21_Ferrari_296_GT3_Evo_Vista_AF_Corse.jpg/1280px-24_Heures_du_Mans_2026_LMGT3_No._21_Ferrari_296_GT3_Evo_Vista_AF_Corse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 296 GT3",
+    "credit": "T GOUREAU",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2026_LMGT3_No._21_Ferrari_296_GT3_Evo_Vista_AF_Corse.jpg",
+    "auto": true
+  },
   "car:ferrari-488-gte": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ferrari_488_GTE_EVO_-_Alessandro_Pier_Guidi%2C_James_Calado_%26_Daniel_Serra_in_the_Esses_at_the_2022_Le_Mans_%2853554182629%29_%28cropped%29.jpg/1280px-Ferrari_488_GTE_EVO_-_Alessandro_Pier_Guidi%2C_James_Calado_%26_Daniel_Serra_in_the_Esses_at_the_2022_Le_Mans_%2853554182629%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari 488 GTE",
@@ -374,6 +426,15 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2023_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.51_(DSC07093).jpg",
+    "auto": true
+  },
+  "car:ferrari-f430-gt2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Ferrari_F430_GT_and_a_Aston_Martin_Vantage_GT2_%283956900372%29.jpg/1280px-Ferrari_F430_GT_and_a_Aston_Martin_Vantage_GT2_%283956900372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari F430 GT2",
+    "credit": "David Merrett from Daventry, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_F430_GT_and_a_Aston_Martin_Vantage_GT2_(3956900372).jpg",
     "auto": true
   },
   "car:Ford GT40 Mk IV": {
@@ -401,6 +462,24 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:GT40_at_Goodwood.jpg",
+    "auto": true
+  },
+  "car:ford-mustang-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pro_Mustang_64_WGI25_03_%28cropped%29.jpg/1280px-Pro_Mustang_64_WGI25_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ford Mustang GT3 Evo",
+    "credit": "SmackJam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pro_Mustang_64_WGI25_03_(cropped).jpg",
+    "auto": true
+  },
+  "car:Glickenhaus 007 LMH": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/2021_24_Hours_of_Le_Mans_Scuderia_Cameron_Glickenhaus_Glickenhaus_SCG_007_LMH.jpg/1280px-2021_24_Hours_of_Le_Mans_Scuderia_Cameron_Glickenhaus_Glickenhaus_SCG_007_LMH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Glickenhaus 007 LMH",
+    "credit": "Kobokem2021",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2021_24_Hours_of_Le_Mans_Scuderia_Cameron_Glickenhaus_Glickenhaus_SCG_007_LMH.jpg",
     "auto": true
   },
   "car:Jaguar C-Type": {
@@ -517,6 +596,15 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Mazda-787B-No55-July2011.jpg",
+    "auto": true
+  },
+  "car:mclaren-720s-gt3-evo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/720GT3.png/1280px-720GT3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "McLaren 720S GT3 Evo",
+    "credit": "BrokenGearbox",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:720GT3.png",
     "auto": true
   },
   "car:mclaren-f1-gtr": {
@@ -914,6 +1002,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:Antonio_Giovinazzi_-_Ferrari_499P_-_Hybrid_during_the_pitwalk_at_the_2023_Le_Mans_(53468237574).jpg",
     "auto": true
   },
+  "driver:ben-keating": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ben_Keating_SP25.jpg/1280px-Ben_Keating_SP25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Portrait of Ben Keating",
+    "credit": "Mitchea99",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Ben_Keating_SP25.jpg",
+    "auto": true
+  },
   "driver:benoit-treluyer": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Benoit_Treluyer_2013_WEC_Silverstone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "alt": "Portrait of Benoît Tréluyer",
@@ -1040,6 +1137,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:James_Calado_Monza_2023.jpg",
     "auto": true
   },
+  "driver:joel-sturm": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Joel_Sturm_N%C3%BCrburgring_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Portrait of Joel Sturm",
+    "credit": "DriverDatabase1",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Joel_Sturm_N%C3%BCrburgring_2024.jpg",
+    "auto": true
+  },
   "driver:jose-maria-lopez": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Jose_Maria_Lopez_2014_WTCC_Race_of_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "alt": "Portrait of José María López",
@@ -1074,6 +1180,15 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kevin_Estre_(portrait,_2024).jpg",
+    "auto": true
+  },
+  "driver:klaus-bachler": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Klaus_bachler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Portrait of Klaus Bachler",
+    "credit": "DriverDatabase1",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Klaus_bachler.jpg",
     "auto": true
   },
   "driver:laurens-vanthoor": {
@@ -1245,6 +1360,24 @@
     "page": "https://commons.wikimedia.org/wiki/File:Philip_Hanson_2022_(cropped).jpg",
     "auto": true
   },
+  "driver:riccardo-pera": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Riccardo_Pera_-_Porsche_911_RSR_on_the_3rd_placed_podium_in_GTEAm_at_the_2023_Le_Mans_%2853468448014%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Portrait of Riccardo Pera",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Riccardo_Pera_-_Porsche_911_RSR_on_the_3rd_placed_podium_in_GTEAm_at_the_2023_Le_Mans_(53468448014)_(cropped).jpg",
+    "auto": true
+  },
+  "driver:richard-lietz": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Richard_Lietz_Driver_of_Dempsey_Proton_Racing%27s_Porsche_911_RSR_%2827225713055%29_%28cropped%29.jpg/1280px-Richard_Lietz_Driver_of_Dempsey_Proton_Racing%27s_Porsche_911_RSR_%2827225713055%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Portrait of Richard Lietz",
+    "credit": "David Merrett from Daventry, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Richard_Lietz_Driver_of_Dempsey_Proton_Racing%27s_Porsche_911_RSR_(27225713055)_(cropped).jpg",
+    "auto": true
+  },
   "driver:rinaldo-capello": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Rinaldo_Capello_in_the_pits_at_the_2004_Le_Mans_%2850857027458%29_%28cropped%29.jpg/1280px-Rinaldo_Capello_in_the_pits_at_the_2004_Le_Mans_%2850857027458%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Portrait of Rinaldo Capello",
@@ -1333,6 +1466,24 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:24H_Le_Mans_2025_Winning_picture_of_car_83_(cropped).jpg",
+    "auto": true
+  },
+  "entry:akkodis-asp|2024|lexus-rc-f-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/2024_6_Hours_of_Spa-Francorchamps_Akkodis_ASP_Team_Lexus_RC_F_GT3_No.78_%28DSC02360%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Akkodis_ASP_Team_Lexus_RC_F_GT3_No.78_%28DSC02360%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Lexus RC F GT3, Akkodis ASP Team, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Akkodis_ASP_Team_Lexus_RC_F_GT3_No.78_(DSC02360).jpg",
+    "auto": true
+  },
+  "entry:akkodis-asp|2026|lexus-rc-f-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/2026_6_Hours_of_Spa-Francorchamps_Akkodis_ASP_Team_Lexus_RC_F_LMGT3_No.87_%28DSC08183%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Akkodis_ASP_Team_Lexus_RC_F_LMGT3_No.87_%28DSC08183%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Lexus RC F GT3, Akkodis ASP Team, 2026 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Akkodis_ASP_Team_Lexus_RC_F_LMGT3_No.87_(DSC08183).jpg",
     "auto": true
   },
   "entry:alpine-endurance|2018|Alpine A470": {
@@ -1785,6 +1936,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:2023_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_(DSC09253).jpg",
     "auto": true
   },
+  "entry:ferrari-af-corse|2024|ferrari-296-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/2024_6_Hours_of_Spa-Francorchamps_Vista_AF_Corse_Ferrari_296_GT3_No.55_%28DSC05785%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Vista_AF_Corse_Ferrari_296_GT3_No.55_%28DSC05785%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 296 GT3, Vista AF Corse, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Vista_AF_Corse_Ferrari_296_GT3_No.55_(DSC05785).jpg",
+    "auto": true
+  },
   "entry:ferrari-af-corse|2024|ferrari-499p": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2024_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_%28DSC06009%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_%28DSC06009%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari 499P, Ferrari AF Corse, 2024 season",
@@ -1794,6 +1954,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_(DSC06009).jpg",
     "auto": true
   },
+  "entry:ferrari-af-corse|2025|ferrari-296-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/2025_6_Hours_of_Imola_AF_Corse_Ferrari_296_No.21_-_Heriau%2C_Mann%2C_Rovera.jpg/1280px-2025_6_Hours_of_Imola_AF_Corse_Ferrari_296_No.21_-_Heriau%2C_Mann%2C_Rovera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 296 GT3, Vista AF Corse, 2025 season",
+    "credit": "Road Atlanta Turn 5",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_6_Hours_of_Imola_AF_Corse_Ferrari_296_No.21_-_Heriau,_Mann,_Rovera.jpg",
+    "auto": true
+  },
   "entry:ferrari-af-corse|2025|ferrari-499p": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/2025_6_Hours_of_Imola_AF_Corse_Ferrari_499P_No.83_-_Hanson%2C_Kubica%2C_Ye.jpg/1280px-2025_6_Hours_of_Imola_AF_Corse_Ferrari_499P_No.83_-_Hanson%2C_Kubica%2C_Ye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari 499P, Ferrari AF Corse, 2025 season",
@@ -1801,6 +1970,15 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2025_6_Hours_of_Imola_AF_Corse_Ferrari_499P_No.83_-_Hanson,_Kubica,_Ye.jpg",
+    "auto": true
+  },
+  "entry:ferrari-af-corse|2026|ferrari-296-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/24_Heures_du_Mans_2026_LMGT3_No._21_Ferrari_296_GT3_Evo_Vista_AF_Corse.jpg/1280px-24_Heures_du_Mans_2026_LMGT3_No._21_Ferrari_296_GT3_Evo_Vista_AF_Corse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 296 GT3 Evo, Vista AF Corse, 2026 season",
+    "credit": "T GOUREAU",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2026_LMGT3_No._21_Ferrari_296_GT3_Evo_Vista_AF_Corse.jpg",
     "auto": true
   },
   "entry:ferrari-af-corse|2026|ferrari-499p": {
@@ -1865,6 +2043,69 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2023_6_Hours_of_Spa-Francorchamps_Glickenhaus_Racing_Glickenhaus_007_No.708_(DSC08810).jpg",
+    "auto": true
+  },
+  "entry:heart-of-racing|2024|aston-martin-vantage-amr-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/2024_6_Hours_of_Spa-Francorchamps_Heart_of_Racing_Team_Aston_Martin_Vantage_GT3_No.27_%28DSC02313%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Heart_of_Racing_Team_Aston_Martin_Vantage_GT3_No.27_%28DSC02313%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Aston Martin Vantage AMR GT3 Evo, Heart of Racing Team, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Heart_of_Racing_Team_Aston_Martin_Vantage_GT3_No.27_(DSC02313).jpg",
+    "auto": true
+  },
+  "entry:heart-of-racing|2025|aston-martin-vantage-amr-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Heart_of_Racing_GTD_WGI25_04.jpg/1280px-Heart_of_Racing_GTD_WGI25_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Aston Martin Vantage AMR GT3 Evo, Heart of Racing Team, 2025 season",
+    "credit": "SmackJam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Heart_of_Racing_GTD_WGI25_04.jpg",
+    "auto": true
+  },
+  "entry:heart-of-racing|2026|aston-martin-vantage-amr-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/HoR_GTD_WGI26_02.jpg/1280px-HoR_GTD_WGI26_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Aston Martin Vantage AMR GT3 Evo, Heart of Racing Team, 2026 season",
+    "credit": "SmackJam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HoR_GTD_WGI26_02.jpg",
+    "auto": true
+  },
+  "entry:iron-dames|2024|lamborghini-huracan-gt3-evo2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/2024_6_Hours_of_Spa-Francorchamps_Iron_Dames_Lamborghini_Hurac%C3%A1n_GT3_Evo2_No.85_%28DSC05833%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Iron_Dames_Lamborghini_Hurac%C3%A1n_GT3_Evo2_No.85_%28DSC05833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Lamborghini Huracán GT3 Evo2, Iron Dames, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Iron_Dames_Lamborghini_Hurac%C3%A1n_GT3_Evo2_No.85_(DSC05833).jpg",
+    "auto": true
+  },
+  "entry:iron-lynx|2024|lamborghini-huracan-gt3-evo2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/2024_6_Hours_of_Spa-Francorchamps_Iron_Lynx_Lamborghini_Hurac%C3%A1n_GT3_Evo2_No.60_%28DSC04136%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Iron_Lynx_Lamborghini_Hurac%C3%A1n_GT3_Evo2_No.60_%28DSC04136%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Lamborghini Huracán GT3 Evo2, Iron Lynx, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Iron_Lynx_Lamborghini_Hurac%C3%A1n_GT3_Evo2_No.60_(DSC04136).jpg",
+    "auto": true
+  },
+  "entry:iron-lynx|2025|mercedes-amg-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/2025_24_Hours_of_Le_Mans_%2854917543194%29.jpg/1280px-2025_24_Hours_of_Le_Mans_%2854917543194%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Mercedes-AMG GT3 Evo, Iron Lynx, 2025 season",
+    "credit": "Mickael Le rouzic",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_24_Hours_of_Le_Mans_(54917543194).jpg",
+    "auto": true
+  },
+  "entry:iron-lynx|2026|mercedes-amg-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Imola_6h_2026_-_55239968682.jpg/1280px-Imola_6h_2026_-_55239968682.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Mercedes-AMG GT3 Evo, Iron Lynx, 2026 season",
+    "credit": "Marcin Pultyn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Imola_6h_2026_-_55239968682.jpg",
     "auto": true
   },
   "entry:kokusai-kaihatsu|1995|mclaren-f1-gtr": {
@@ -2035,6 +2276,24 @@
     "auto": true,
     "note": "Same car and season; entrant not confirmed"
   },
+  "entry:proton-competition|2024|ford-mustang-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/2024_6_Hours_of_Spa-Francorchamps_Proton_Competition_Ford_Mustang_GT3_No.88_%28DSC03747%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Proton_Competition_Ford_Mustang_GT3_No.88_%28DSC03747%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ford Mustang GT3, Proton Competition, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Proton_Competition_Ford_Mustang_GT3_No.88_(DSC03747).jpg",
+    "auto": true
+  },
+  "entry:proton-competition|2025|ford-mustang-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/2025_6_Hours_of_Imola_Proton_Competition_Ford_Mustang_No.77_-_Barker%2C_Sousa%2C_Tuck.jpg/1280px-2025_6_Hours_of_Imola_Proton_Competition_Ford_Mustang_No.77_-_Barker%2C_Sousa%2C_Tuck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ford Mustang GT3, Proton Competition, 2025 season",
+    "credit": "Road Atlanta Turn 5",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_6_Hours_of_Imola_Proton_Competition_Ford_Mustang_No.77_-_Barker,_Sousa,_Tuck.jpg",
+    "auto": true
+  },
   "entry:rebellion-racing|2012|Lola B12/60": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Lola_B12-60_%28Rebellion_Racing%2C_Nicolas_Prost%29_2012_WEC_Fuji.jpg/1280px-Lola_B12-60_%28Rebellion_Racing%2C_Nicolas_Prost%29_2012_WEC_Fuji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Lola B12/60, Rebellion Racing, 2012 season",
@@ -2109,6 +2368,33 @@
     "page": "https://commons.wikimedia.org/wiki/File:1999_BMW_V12_LMR_FOS22.jpg",
     "auto": true,
     "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:team-wrt|2024|bmw-m4-gt3-evo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.31_%28DSC02566%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.31_%28DSC02566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW M4 GT3, Team WRT, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.31_(DSC02566).jpg",
+    "auto": true
+  },
+  "entry:tf-sport|2024|chevrolet-corvette-z06-gt3r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2024_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_GT3.R_No.82_%28DSC05979%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_GT3.R_No.82_%28DSC05979%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chevrolet Corvette Z06 GT3.R, TF Sport, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_GT3.R_No.82_(DSC05979).jpg",
+    "auto": true
+  },
+  "entry:tf-sport|2026|chevrolet-corvette-z06-gt3r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/2026_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_LMGT3.R_No.33_%28DSC5992%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_LMGT3.R_No.33_%28DSC5992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chevrolet Corvette Z06 GT3.R, TF Sport, 2026 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_LMGT3.R_No.33_(DSC5992).jpg",
+    "auto": true
   },
   "entry:toyota-gazoo-racing|2013|toyota-ts030-hybrid": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Sebastien_Buemi%2C_Stephane_Sarrazin_and_Anthony_Davidson_Drivers_of_Toyota_Racing%27s_Toyota_TS030_Hybrid_%288669124882%29.jpg/1280px-Sebastien_Buemi%2C_Stephane_Sarrazin_and_Anthony_Davidson_Drivers_of_Toyota_Racing%27s_Toyota_TS030_Hybrid_%288669124882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2230,13 +2516,40 @@
     "page": "https://commons.wikimedia.org/wiki/File:United_Autosports_Oreca_07_-_2019_4_hours_of_Shanghai_-_FIA_World_Endurance_Championship.jpg",
     "auto": true
   },
+  "entry:united-autosports|2024|mclaren-720s-gt3-evo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/2024_6_Hours_of_Spa-Francorchamps_United_Autosports_McLaren_720S_GT3_Evo_No.95_%28DSC03006%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_United_Autosports_McLaren_720S_GT3_Evo_No.95_%28DSC03006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "McLaren 720S GT3 Evo, United Autosports, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_United_Autosports_McLaren_720S_GT3_Evo_No.95_(DSC03006).jpg",
+    "auto": true
+  },
+  "entry:united-autosports|2025|mclaren-720s-gt3-evo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/2025_6_Hours_of_Imola_United_Autosports_McLaren_720S_No.59_-_Baud%2C_Cottingham%2C_Saucy.jpg/1280px-2025_6_Hours_of_Imola_United_Autosports_McLaren_720S_No.59_-_Baud%2C_Cottingham%2C_Saucy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "McLaren 720S GT3 Evo, United Autosports, 2025 season",
+    "credit": "Road Atlanta Turn 5",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_6_Hours_of_Imola_United_Autosports_McLaren_720S_No.59_-_Baud,_Cottingham,_Saucy.jpg",
+    "auto": true
+  },
+  "team:akkodis-asp": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/2026_6_Hours_of_Spa-Francorchamps_Akkodis_ASP_Team_Lexus_RC_F_LMGT3_No.87_%28DSC08183%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Akkodis_ASP_Team_Lexus_RC_F_LMGT3_No.87_%28DSC08183%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Akkodis ASP Team car on track",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Akkodis_ASP_Team_Lexus_RC_F_LMGT3_No.87_(DSC08183).jpg",
+    "auto": true
+  },
   "team:alpine-endurance": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/2026_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.36_%28DSC01584%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.36_%28DSC01584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2026_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.35_%28DSC5766%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.35_%28DSC5766%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Alpine Endurance Team car on track",
     "credit": "MarcelX42",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.36_(DSC01584).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.35_(DSC5766).jpg",
     "auto": true
   },
   "team:aston-martin-david-brown": {
@@ -2249,12 +2562,12 @@
     "auto": true
   },
   "team:aston-martin-racing": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/No.95_Aston_Martin_Vantage_AMR.jpg/1280px-No.95_Aston_Martin_Vantage_AMR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/2023_6_Hours_of_Spa-Francorchamps_Northwest_AMR_Aston_Martin_Vantage_AMR_No.98_%28DSC09017%29.jpg/1280px-2023_6_Hours_of_Spa-Francorchamps_Northwest_AMR_Aston_Martin_Vantage_AMR_No.98_%28DSC09017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Aston Martin Racing car on track",
-    "credit": "Takayuki Suzuki",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:No.95_Aston_Martin_Vantage_AMR.jpg",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2023_6_Hours_of_Spa-Francorchamps_Northwest_AMR_Aston_Martin_Vantage_AMR_No.98_(DSC09017).jpg",
     "auto": true
   },
   "team:audi-sport-team-joest": {
@@ -2267,12 +2580,12 @@
     "auto": true
   },
   "team:bentley-works": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2003BentleySpeed8.jpg/1280px-2003BentleySpeed8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Bentley_Speed_8_%282003_24_Hours_of_Le_Mans%2C_No.7%29%2C_Automobilforum_unter_den_Linden%2C_2006_%2801%29.jpg/1280px-Bentley_Speed_8_%282003_24_Hours_of_Le_Mans%2C_No.7%29%2C_Automobilforum_unter_den_Linden%2C_2006_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Team Bentley car on track",
-    "credit": "Brian Snelson",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2003BentleySpeed8.jpg",
+    "credit": "Bahnfrend",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bentley_Speed_8_(2003_24_Hours_of_Le_Mans,_No.7),_Automobilforum_unter_den_Linden,_2006_(01).jpg",
     "auto": true
   },
   "team:bmw-m-team-wrt": {
@@ -2321,12 +2634,48 @@
     "auto": true
   },
   "team:ferrari-af-corse": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/2025_6_Hours_of_Imola_AF_Corse_Ferrari_499P_No.83_-_Hanson%2C_Kubica%2C_Ye.jpg/1280px-2025_6_Hours_of_Imola_AF_Corse_Ferrari_499P_No.83_-_Hanson%2C_Kubica%2C_Ye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/2026_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_%28DSC09711%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_%28DSC09711%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari AF Corse car on track",
-    "credit": "Road Atlanta Turn 5",
+    "credit": "MarcelX42",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2025_6_Hours_of_Imola_AF_Corse_Ferrari_499P_No.83_-_Hanson,_Kubica,_Ye.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_(DSC09711).jpg",
+    "auto": true
+  },
+  "team:garage-59": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/720GT3.png/1280px-720GT3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Garage 59 car on track",
+    "credit": "BrokenGearbox",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:720GT3.png",
+    "auto": true
+  },
+  "team:heart-of-racing": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/HoR_GTD_WGI26_02.jpg/1280px-HoR_GTD_WGI26_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Heart of Racing Team car on track",
+    "credit": "SmackJam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HoR_GTD_WGI26_02.jpg",
+    "auto": true
+  },
+  "team:iron-dames": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Porsche_911_GT3R_Wallpaper.jpg/1280px-Porsche_911_GT3R_Wallpaper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Iron Dames car on track",
+    "credit": "FALKEN Motorsports",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_GT3R_Wallpaper.jpg",
+    "auto": true
+  },
+  "team:iron-lynx": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Imola_6h_2026_-_55239968682.jpg/1280px-Imola_6h_2026_-_55239968682.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Iron Lynx car on track",
+    "credit": "Marcin Pultyn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Imola_6h_2026_-_55239968682.jpg",
     "auto": true
   },
   "team:jaguar-works": {
@@ -2347,11 +2696,21 @@
     "auto": true
   },
   "team:kokusai-kaihatsu": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/McLaren_F1_GTR_95_P440_CPJ_Ritz.jpg/1280px-McLaren_F1_GTR_95_P440_CPJ_Ritz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/The_winning_Mclaren_F1_GTR_-59_of_Yannick_Dalmas%2C_Masanori_Sekiya_%26_J.J.Lehto_at_Ford_Chicane_at_Le_Mans_1995_%2849627439822%29.jpg/1280px-The_winning_Mclaren_F1_GTR_-59_of_Yannick_Dalmas%2C_Masanori_Sekiya_%26_J.J.Lehto_at_Ford_Chicane_at_Le_Mans_1995_%2849627439822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Kokusai Kaihatsu UK car on track",
-    "credit": "Sovxx",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:McLaren_F1_GTR_95_P440_CPJ_Ritz.jpg",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_winning_Mclaren_F1_GTR_-59_of_Yannick_Dalmas,_Masanori_Sekiya_%26_J.J.Lehto_at_Ford_Chicane_at_Le_Mans_1995_(49627439822).jpg",
+    "auto": true
+  },
+  "team:manthey": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Porsche_911_GT3R_Wallpaper.jpg/1280px-Porsche_911_GT3R_Wallpaper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Manthey car on track",
+    "credit": "FALKEN Motorsports",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_GT3R_Wallpaper.jpg",
     "auto": true
   },
   "team:mazdaspeed": {
@@ -2382,12 +2741,12 @@
     "auto": true
   },
   "team:peugeot-sport": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/2024_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC02285%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC02285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/2026_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC07945%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC07945%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Peugeot TotalEnergies car on track",
     "credit": "MarcelX42",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_(DSC02285).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_(DSC07945).jpg",
     "auto": true
   },
   "team:porsche-lmp1-team": {
@@ -2415,6 +2774,16 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:1983_Porsche_956_%2B_1998_Porsche_911_GT1-98_Goodwood,_2009_(01).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "team:proton-competition": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pro_Mustang_64_WGI25_03_%28cropped%29.jpg/1280px-Pro_Mustang_64_WGI25_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Proton Competition car on track",
+    "credit": "SmackJam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pro_Mustang_64_WGI25_03_(cropped).jpg",
     "auto": true
   },
   "team:rebellion-racing": {
@@ -2463,13 +2832,14 @@
     "auto": true
   },
   "team:team-bmw-motorsport": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/BMW_V12_LMR%2C_Techno-Classica_2018%2C_Essen_%28IMG_9769%29.jpg/1280px-BMW_V12_LMR%2C_Techno-Classica_2018%2C_Essen_%28IMG_9769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/1999_BMW_V12_LMR_FOS22.jpg/1280px-1999_BMW_V12_LMR_FOS22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Team BMW Motorsport car on track",
-    "credit": "Matti Blume",
+    "credit": "MrWalkr",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:BMW_V12_LMR,_Techno-Classica_2018,_Essen_(IMG_9769).jpg",
-    "auto": true
+    "page": "https://commons.wikimedia.org/wiki/File:1999_BMW_V12_LMR_FOS22.jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
   },
   "team:team-sauber-mercedes": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Mercedes-Benz_C291_front-right_2019_Michael_Schumacher_Private_Collection.jpg/1280px-Mercedes-Benz_C291_front-right_2019_Michael_Schumacher_Private_Collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2480,13 +2850,31 @@
     "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_C291_front-right_2019_Michael_Schumacher_Private_Collection.jpg",
     "auto": true
   },
-  "team:toyota-gazoo-racing": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/2024_6_Hours_of_Spa-Francorchamps_Toyota_Gazoo_Racing_Toyota_GR010_Hybrid_No.7_%28DSC04523%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Toyota_Gazoo_Racing_Toyota_GR010_Hybrid_No.7_%28DSC04523%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "alt": "Toyota Gazoo Racing car on track",
+  "team:team-wrt": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.31_%28DSC02566%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.31_%28DSC02566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Team WRT car on track",
     "credit": "MarcelX42",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Toyota_Gazoo_Racing_Toyota_GR010_Hybrid_No.7_(DSC04523).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Team_WRT_BMW_M4_GT3_No.31_(DSC02566).jpg",
+    "auto": true
+  },
+  "team:tf-sport": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/2026_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_LMGT3.R_No.33_%28DSC5992%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_LMGT3.R_No.33_%28DSC5992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "TF Sport car on track",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_LMGT3.R_No.33_(DSC5992).jpg",
+    "auto": true
+  },
+  "team:toyota-gazoo-racing": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/24_Heures_du_Mans_2026_Hypercar_No._7_Toyota_TR010_Hybrid.jpg/1280px-24_Heures_du_Mans_2026_Hypercar_No._7_Toyota_TR010_Hybrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Toyota Racing car on track",
+    "credit": "T GOUREAU",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2026_Hypercar_No._7_Toyota_TR010_Hybrid.jpg",
     "auto": true
   },
   "track:bahrain": {

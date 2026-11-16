@@ -35,6 +35,19 @@ export const photoKey = {
   entry: (e: Pick<TeamSeasonEntry, "teamId" | "season" | "car">) => `entry:${e.teamId}|${e.season}|${e.car}`,
 };
 export const photoOf = (key: string): Photo | undefined => photos()[key];
+/** A car's own photo, or else its most recent season photo (a real race photo of that model). */
+export function carPhoto(ref: string): Photo | undefined {
+  const own = photoOf(photoKey.car(ref));
+  if (own) return own;
+  const entries = archive()
+    .teamEntries.filter((e) => e.car === ref)
+    .sort((x, y) => y.season - x.season);
+  for (const e of entries) {
+    const p = photoOf(photoKey.entry(e));
+    if (p) return p;
+  }
+  return undefined;
+}
 /** Photos for a wallpaper slideshow: every key with one of the prefixes, one per image, newest seasons first. */
 export function wallpaperPhotos(prefixes: string[], max = 18) {
   const seen = new Set<string>();

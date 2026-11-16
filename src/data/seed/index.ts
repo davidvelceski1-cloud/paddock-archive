@@ -11,6 +11,7 @@ import { stories } from "./stories.ts";
 import { tracks } from "./tracks.ts";
 import { historicTeamEntries, historicTeams } from "./historic-teams.ts";
 import { gtCars } from "./gt-cars.ts";
+import { gt3DriverEntries, gt3Drivers, gt3TeamEntries, gt3Teams } from "./gt3.ts";
 
 export const seed: ArchiveInput = {
   tracks,
@@ -20,10 +21,10 @@ export const seed: ArchiveInput = {
   eras,
   manufacturers,
   cars: [...cars, ...gtCars],
-  teams: [...teams, ...historicTeams],
-  drivers,
-  teamEntries: [...teamEntries, ...historicTeamEntries],
-  driverEntries,
+  teams: [...teams, ...historicTeams, ...gt3Teams],
+  drivers: [...drivers, ...gt3Drivers],
+  teamEntries: [...teamEntries, ...historicTeamEntries, ...gt3TeamEntries],
+  driverEntries: [...driverEntries, ...gt3DriverEntries],
   seasons,
   events,
   leMans,

@@ -7,7 +7,7 @@ import { FilterChips } from "@/components/filters/FilterChips";
 import { Facets, Pager, paginate } from "@/components/filters/Facets";
 import { NameSearch } from "@/components/filters/NameSearch";
 import { AskContext } from "@/components/ask/AskContext";
-import { archive, href, resolveTeam } from "@/lib/archive/data";
+import { archive, href, photoKey, photoOf, resolveTeam } from "@/lib/archive/data";
 import { driverStats } from "@/lib/archive/stats";
 import { applyDrivers, fromParams } from "@/lib/search/filters";
 import { countryName } from "@/data/countries";
@@ -91,8 +91,23 @@ export default async function DriversIndex({ searchParams }: { searchParams: SP 
                 const lastTeam = s.entries.at(-1);
                 return (
                   <li key={d.id}>
-                    <Link href={href.driver(d.id)} className="card card-link flex h-full items-start justify-between gap-3 p-4">
-                      <span className="min-w-0">
+                    <Link href={href.driver(d.id)} className="card card-link flex h-full items-center justify-between gap-3 p-4">
+                      {(() => {
+                        const portrait = photoOf(photoKey.driver(d.id));
+                        return portrait ? (
+                          // eslint-disable-next-line @next/next/no-img-element -- Commons thumbnail
+                          <img src={portrait.src} alt={portrait.alt} loading="lazy" decoding="async" className="size-12 shrink-0 rounded-full bg-surface-2 object-cover object-top" />
+                        ) : (
+                          <span className="grid size-12 shrink-0 place-items-center rounded-full bg-surface-2 text-sm font-semibold text-muted-strong" aria-hidden>
+                            {d.name
+                              .split(" ")
+                              .map((w) => w[0])
+                              .slice(0, 2)
+                              .join("")}
+                          </span>
+                        );
+                      })()}
+                      <span className="min-w-0 flex-1">
                         <span className="block truncate font-medium text-ink">{d.name}</span>
                         <span className="block truncate text-sm text-muted-strong">
                           {countryName(d.nationality)}

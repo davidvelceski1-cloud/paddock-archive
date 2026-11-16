@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element -- Commons thumbnails are already sized; no optimiser needed. */
 import { Car, ImageOff, User } from "lucide-react";
 import type { Photo, TeamSeasonEntry } from "@/data/schema";
-import { chassisOf, photoKey, photoOf, resolveCar, resolveTeam, seasonLabel } from "@/lib/archive/data";
+import { carPhoto, chassisOf, photoKey, photoOf, resolveCar, resolveTeam, seasonLabel } from "@/lib/archive/data";
 import { ClassTag, Ref } from "@/components/archive/bits";
 import { cn } from "@/lib/utils";
 
@@ -70,7 +70,7 @@ export function PhotoFigure({
 export function entryPhoto(e: TeamSeasonEntry): { photo?: Photo; note?: string } {
   const own = photoOf(photoKey.entry(e));
   if (own) return { photo: own };
-  const general = photoOf(photoKey.car(e.car));
+  const general = carPhoto(e.car);
   return general ? { photo: general, note: "General photo, not from this season" } : {};
 }
 

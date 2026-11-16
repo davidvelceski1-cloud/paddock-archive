@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Chip, Container, PageHeader, PlaceholderNotice, Section } from "@/components/ui/primitives";
 import { ClassTag } from "@/components/archive/bits";
 import { AskContext } from "@/components/ask/AskContext";
-import { archive, href, ix, photoKey, photoOf } from "@/lib/archive/data";
+import { archive, carPhoto, href, ix } from "@/lib/archive/data";
 import { carStats, manufacturerStats } from "@/lib/archive/stats";
 import { countryName } from "@/data/countries";
 import type { ClassFamily } from "@/data/schema";
@@ -52,7 +52,7 @@ export default async function CarsIndex({ searchParams }: { searchParams: Promis
               <li key={c.id}>
                 <Link href={href.car(c.id)} className="card card-link flex h-full flex-col overflow-hidden p-5">
                   {(() => {
-                    const photo = photoOf(photoKey.car(c.id));
+                    const photo = carPhoto(c.id);
                     return (
                       <span className="relative -mx-5 -mt-5 mb-4 block aspect-[16/9] bg-surface-2">
                         {photo ? (
