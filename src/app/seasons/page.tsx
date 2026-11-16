@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Chip, Container, PageHeader, PlaceholderNotice } from "@/components/ui/primitives";
 import { ClassTag } from "@/components/archive/bits";
 import { AskContext, AskPrompts } from "@/components/ask/AskContext";
-import { archive, href, ix, leMansForSeason, resolveCar, resolveDriver, seasonLabel } from "@/lib/archive/data";
+import { archive, href, ix, leMansForSeason, photoKey, photoOf, resolveCar, resolveDriver, seasonLabel } from "@/lib/archive/data";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = { title: "Seasons", description: "Every season of world-championship endurance racing, from the first Le Mans in 1923 to the current FIA WEC season." };
@@ -83,9 +83,19 @@ export default async function SeasonsIndex({ searchParams }: { searchParams: SP 
                 const lm = leMansForSeason(s.year).at(-1);
                 const line = top?.drivers ? top.drivers.map((d) => resolveDriver(d).label.split(" ").at(-1)).join(" / ") : lm ? resolveCar(lm.car).label : "—";
                 const hasCalendar = a.events.some((ev) => ev.season === s.year);
+                // The Le Mans-winning car: that season's photo of the winning entry, else the car's photo.
+                const photo = lm
+                  ? ((lm.team ? photoOf(photoKey.entry({ teamId: lm.team, season: s.year, car: lm.car })) : undefined) ?? photoOf(photoKey.car(lm.car)) ?? photoOf(`wallpaper:le-mans-${lm.year}-1`))
+                  : undefined;
                 return (
                   <li key={s.year}>
-                    <Link href={href.season(s.year)} className="card card-link block h-full px-4 py-3">
+                    <Link href={href.season(s.year)} className="card card-link block h-full overflow-hidden px-4 py-3">
+                      {photo && (
+                        <span className="relative -mx-4 -mt-3 mb-3 block aspect-[16/8] bg-surface-2">
+                          {/* eslint-disable-next-line @next/next/no-img-element -- Commons thumbnail */}
+                          <img src={photo.src} alt={photo.alt} loading="lazy" decoding="async" className="absolute inset-0 size-full object-cover" />
+                        </span>
+                      )}
                       <span className="flex items-center justify-between gap-2">
                         <span className="tnum text-lg font-semibold tracking-tight text-ink">{seasonLabel(s.year)}</span>
                         {s.status === "in-progress" ? (

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Chip, Container, PageHeader, PlaceholderNotice, Section } from "@/components/ui/primitives";
 import { ClassTag } from "@/components/archive/bits";
 import { AskContext } from "@/components/ask/AskContext";
-import { archive, href, ix } from "@/lib/archive/data";
+import { archive, href, ix, photoKey, photoOf } from "@/lib/archive/data";
 import { carStats, manufacturerStats } from "@/lib/archive/stats";
 import { countryName } from "@/data/countries";
 import type { ClassFamily } from "@/data/schema";
@@ -50,7 +50,20 @@ export default async function CarsIndex({ searchParams }: { searchParams: Promis
             const s = carStats(c.id);
             return (
               <li key={c.id}>
-                <Link href={href.car(c.id)} className="card card-link flex h-full flex-col p-5">
+                <Link href={href.car(c.id)} className="card card-link flex h-full flex-col overflow-hidden p-5">
+                  {(() => {
+                    const photo = photoOf(photoKey.car(c.id));
+                    return (
+                      <span className="relative -mx-5 -mt-5 mb-4 block aspect-[16/9] bg-surface-2">
+                        {photo ? (
+                          // eslint-disable-next-line @next/next/no-img-element -- Commons thumbnail
+                          <img src={photo.src} alt={photo.alt} loading="lazy" decoding="async" className="absolute inset-0 size-full object-cover" />
+                        ) : (
+                          <span className="absolute inset-0 flex items-center justify-center text-xs text-muted-strong">No licensed photo yet</span>
+                        )}
+                      </span>
+                    );
+                  })()}
                   <span className="flex items-center justify-between gap-2">
                     <ClassTag id={c.classId} />
                     <span className="tnum text-xs text-muted-strong">

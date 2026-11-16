@@ -11,8 +11,19 @@ const INTERVAL = 7000;
  * crossfade to the next. Pauses while the tab is hidden; with reduced motion it shows
  * still photos and changes them less often, without the zoom.
  */
-export function Wallpaper({ photos, className }: { photos: WallpaperPhoto[]; className?: string }) {
-  const [i, setI] = useState(0);
+export function Wallpaper({
+  photos,
+  className,
+  creditClassName = "right-3 bottom-2 z-[2] text-white/70",
+  randomStart = false,
+}: {
+  photos: WallpaperPhoto[];
+  className?: string;
+  creditClassName?: string;
+  /** Start on a random photo (client-only slideshows, so pages don't all open on the same one). */
+  randomStart?: boolean;
+}) {
+  const [i, setI] = useState(() => (randomStart && photos.length ? Math.floor(Math.random() * photos.length) : 0));
   const [reduced, setReduced] = useState(false);
 
   useEffect(() => {
@@ -38,7 +49,7 @@ export function Wallpaper({ photos, className }: { photos: WallpaperPhoto[]; cla
   }, [i, photos]);
 
   if (!photos.length) return null;
-  const cur = photos[i];
+  const cur = photos[i % photos.length];
   return (
     <div className={className} aria-hidden>
       {photos.map((p, n) => {
@@ -53,7 +64,7 @@ export function Wallpaper({ photos, className }: { photos: WallpaperPhoto[]; cla
           </div>
         );
       })}
-      <span className="absolute bottom-2 right-3 z-[2] max-w-[60%] truncate text-[10px] text-white/70">Photo: {cur.credit}</span>
+      <span className={`absolute max-w-[60%] truncate text-[10px] ${creditClassName}`}>Photo: {cur.credit}</span>
     </div>
   );
 }

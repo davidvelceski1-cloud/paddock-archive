@@ -127,7 +127,9 @@ function seasonPreview(year: number): Preview | undefined {
     kind: "season",
     title: `${seasonLabel(year)} season`,
     subtitle: s.championshipId ? ix().championships.get(s.championshipId)?.short : "Le Mans",
-    image: lm ? (lm.team ? entryImage(lm.team, year, lm.car) : undefined) ?? img(photoOf(photoKey.car(lm.car))) : undefined,
+    image:
+      (lm ? ((lm.team ? entryImage(lm.team, year, lm.car) : undefined) ?? img(photoOf(photoKey.car(lm.car))) ?? img(photoOf(`wallpaper:le-mans-${lm.year}-1`))) : undefined) ??
+      img(photoOf("track:circuit-de-la-sarthe")),
     facts,
     people: lm ? `Le Mans winners: ${names(lm.drivers)}` : undefined,
   };

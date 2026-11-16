@@ -26,6 +26,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:2021_FIA_WEC_8_Hours_of_Bahrain_Alpine_A480_Alpine_Elf_Matmut.jpg",
     "auto": true
   },
+  "car:Aston Martin DBR1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/AM_DBR1.jpg/1280px-AM_DBR1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Aston Martin DBR1",
+    "credit": "Darren",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AM_DBR1.jpg",
+    "auto": true
+  },
   "car:aston-martin-vantage-amr": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/2023_6_Hours_of_Spa-Francorchamps_Northwest_AMR_Aston_Martin_Vantage_AMR_No.98_%28DSC09017%29.jpg/1280px-2023_6_Hours_of_Spa-Francorchamps_Northwest_AMR_Aston_Martin_Vantage_AMR_No.98_%28DSC09017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Aston Martin Vantage AMR (GTE)",
@@ -62,6 +71,33 @@
     "page": "https://commons.wikimedia.org/wiki/File:2009AudiR15TDI.jpg",
     "auto": true
   },
+  "car:audi-r18-e-tron-quattro": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/24h_Du_Mans_%2827493978780%29.jpg/1280px-24h_Du_Mans_%2827493978780%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Audi R18 e-tron quattro",
+    "credit": "Falcon® Photography from France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24h_Du_Mans_(27493978780).jpg",
+    "auto": true
+  },
+  "car:audi-r18-tdi": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/2011_Audi_R18_TDi_Ultra.jpg/1280px-2011_Audi_R18_TDi_Ultra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Audi R18 TDI",
+    "credit": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2011_Audi_R18_TDi_Ultra.jpg",
+    "auto": true
+  },
+  "car:audi-r18-ultra": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/2011_Audi_R18_TDi_Ultra.jpg/1280px-2011_Audi_R18_TDi_Ultra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Audi R18 ultra",
+    "credit": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2011_Audi_R18_TDi_Ultra.jpg",
+    "auto": true
+  },
   "car:audi-r8": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/2000_Audi_R8_LMP1_Front.jpg/1280px-2000_Audi_R8_LMP1_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Audi R8 (LMP)",
@@ -71,6 +107,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:2000_Audi_R8_LMP1_Front.jpg",
     "auto": true
   },
+  "car:Bentley 3 Litre": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/1924_Bentley_3-litre_Sports_Tourer_by_Park_Ward.jpg/1280px-1924_Bentley_3-litre_Sports_Tourer_by_Park_Ward.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Bentley 3 Litre",
+    "credit": "Mr.choppers",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1924_Bentley_3-litre_Sports_Tourer_by_Park_Ward.jpg",
+    "auto": true
+  },
   "car:bentley-speed-8": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2003BentleySpeed8.jpg/1280px-2003BentleySpeed8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Bentley Speed 8",
@@ -78,6 +123,15 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:2003BentleySpeed8.jpg",
+    "auto": true
+  },
+  "car:BMW V12 LMR": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/BMW_V12_LMR%2C_Techno-Classica_2018%2C_Essen_%28IMG_9769%29.jpg/1280px-BMW_V12_LMR%2C_Techno-Classica_2018%2C_Essen_%28IMG_9769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW V12 LMR",
+    "credit": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BMW_V12_LMR,_Techno-Classica_2018,_Essen_(IMG_9769).jpg",
     "auto": true
   },
   "car:bmw-m-hybrid-v8": {
@@ -98,6 +152,86 @@
     "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_(DSC07675).jpg",
     "auto": true
   },
+  "car:Chenard & Walcker Sport": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Chenard_%26_Walcker_Sport.jpg/1280px-Chenard_%26_Walcker_Sport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chenard & Walcker Sport",
+    "credit": "David Merrett",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chenard_%26_Walcker_Sport.jpg",
+    "auto": true
+  },
+  "car:Dauer 962 Le Mans": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Dauer_962_LM_-_Mauro_Baldi%2C_Yannick_Dalmas_%26_Hurley_Haywood_at_Mulsanne_Corner_at_the_1994_Le_Mans_%2831130420074%29_%28cropped%29.jpg/1280px-Dauer_962_LM_-_Mauro_Baldi%2C_Yannick_Dalmas_%26_Hurley_Haywood_at_Mulsanne_Corner_at_the_1994_Le_Mans_%2831130420074%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Dauer 962 Le Mans",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dauer_962_LM_-_Mauro_Baldi,_Yannick_Dalmas_%26_Hurley_Haywood_at_Mulsanne_Corner_at_the_1994_Le_Mans_(31130420074)_(cropped).jpg",
+    "auto": true
+  },
+  "car:Ferrari 166 MM": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ferrari-166-MM_Berlinetta-Touring.JPG/1280px-Ferrari-166-MM_Berlinetta-Touring.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 166 MM",
+    "credit": "Luc106",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari-166-MM_Berlinetta-Touring.JPG",
+    "auto": true
+  },
+  "car:Ferrari 250 LM": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Ferrari_Coupe_250_LM_1964_Mulhouse_FRA_001.JPG/1280px-Ferrari_Coupe_250_LM_1964_Mulhouse_FRA_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 250 LM",
+    "credit": "ignis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_Coupe_250_LM_1964_Mulhouse_FRA_001.JPG",
+    "auto": true
+  },
+  "car:Ferrari 250 P": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/1963-05-19_Willy_Mairesse%2C_N%C3%BCrburgring_-_Hatzenbach.jpg/1280px-1963-05-19_Willy_Mairesse%2C_N%C3%BCrburgring_-_Hatzenbach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 250 P",
+    "credit": "Spurzem",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:1963-05-19_Willy_Mairesse,_N%C3%BCrburgring_-_Hatzenbach.jpg",
+    "auto": true
+  },
+  "car:Ferrari 250 Testa Rossa": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/1961_Ferrari_250_TR_61_Spyder_Fantuzzi_34_left_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Ferrari 250 Testa Rossa",
+    "credit": "User:Sfoskett~commonswiki",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:1961_Ferrari_250_TR_61_Spyder_Fantuzzi_34_left_2.jpg",
+    "auto": true
+  },
+  "car:Ferrari 275 P": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/1964-05-31_Scarfiotti%2C_Ludovico_-_Ferrari.jpg/1280px-1964-05-31_Scarfiotti%2C_Ludovico_-_Ferrari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 275 P",
+    "credit": "Lothar Spurzem",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:1964-05-31_Scarfiotti,_Ludovico_-_Ferrari.jpg",
+    "auto": true
+  },
+  "car:Ferrari 330 TRI/LM": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ferrari_330_TR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Ferrari 330 TRI/LM",
+    "credit": "Craig Howell from San Carlos, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_330_TR.jpg",
+    "auto": true
+  },
+  "car:Ferrari 375 Plus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/1954_Ferrari_375_Plus_34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Ferrari 375 Plus",
+    "credit": "Unknown author",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:1954_Ferrari_375_Plus_34.jpg",
+    "auto": true
+  },
   "car:ferrari-488-gte": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ferrari_488_GTE_EVO_-_Alessandro_Pier_Guidi%2C_James_Calado_%26_Daniel_Serra_in_the_Esses_at_the_2022_Le_Mans_%2853554182629%29_%28cropped%29.jpg/1280px-Ferrari_488_GTE_EVO_-_Alessandro_Pier_Guidi%2C_James_Calado_%26_Daniel_Serra_in_the_Esses_at_the_2022_Le_Mans_%2853554182629%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari 488 GTE",
@@ -116,6 +250,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:2023_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.51_(DSC07093).jpg",
     "auto": true
   },
+  "car:Ford GT40 Mk IV": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/1967_Ford_GT40_Mk_IV_at_2004_Watkins_Glen_SVRA.jpg/1280px-1967_Ford_GT40_Mk_IV_at_2004_Watkins_Glen_SVRA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ford GT40 Mk IV",
+    "credit": "Nathan Bittinger from Rochester, NY, USA (uploaded by Micap)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1967_Ford_GT40_Mk_IV_at_2004_Watkins_Glen_SVRA.jpg",
+    "auto": true
+  },
   "car:ford-gt40": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/GT40_at_Goodwood.jpg/1280px-GT40_at_Goodwood.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ford GT40",
@@ -123,6 +266,24 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:GT40_at_Goodwood.jpg",
+    "auto": true
+  },
+  "car:Jaguar C-Type": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Jaguar_C-Type_1953.jpg/1280px-Jaguar_C-Type_1953.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Jaguar C-Type",
+    "credit": "DeFacto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jaguar_C-Type_1953.jpg",
+    "auto": true
+  },
+  "car:Jaguar XJR-12": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Silk_Cut_XJR12_3.jpg/1280px-Silk_Cut_XJR12_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Jaguar XJR-12",
+    "credit": "Alan from UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Silk_Cut_XJR12_3.jpg",
     "auto": true
   },
   "car:jaguar-d-type": {
@@ -134,6 +295,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:1956JaguarD-TypeLongNose.jpg",
     "auto": true
   },
+  "car:Lagonda M45R Rapide": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Lagonda_M45R_Rapide_%281935%29.jpg/1280px-Lagonda_M45R_Rapide_%281935%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Lagonda M45R Rapide",
+    "credit": "Olinone",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Lagonda_M45R_Rapide_(1935).jpg",
+    "auto": true
+  },
   "car:Lola B12/60": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Lola_B12-60.jpg/1280px-Lola_B12-60.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Lola B12/60",
@@ -141,6 +311,15 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Lola_B12-60.jpg",
+    "auto": true
+  },
+  "car:Lorraine-Dietrich B3-6": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/1925_Lorraine-Dietrich_B3-6_at_Goodwood_Revival_2012.jpg/1280px-1925_Lorraine-Dietrich_B3-6_at_Goodwood_Revival_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Lorraine-Dietrich B3-6",
+    "credit": "David Merrett from Daventry, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1925_Lorraine-Dietrich_B3-6_at_Goodwood_Revival_2012.jpg",
     "auto": true
   },
   "car:matra-ms670": {
@@ -159,6 +338,23 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Mazda-787B-No55-July2011.jpg",
+    "auto": true
+  },
+  "car:mclaren-f1-gtr": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/McLaren_F1_GTR_95_P440_CPJ_Ritz.jpg/1280px-McLaren_F1_GTR_95_P440_CPJ_Ritz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "McLaren F1 GTR",
+    "credit": "Sovxx",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:McLaren_F1_GTR_95_P440_CPJ_Ritz.jpg",
+    "auto": true
+  },
+  "car:Mirage GR8": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/1975_Gulf-Mirage_GR8_HCC21.jpg/1280px-1975_Gulf-Mirage_GR8_HCC21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Mirage GR8",
+    "credit": "MrWalkr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1975_Gulf-Mirage_GR8_HCC21.jpg",
     "auto": true
   },
   "car:nissan-gt-r-lm-nismo": {
@@ -213,6 +409,33 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.93_(DSC07965).jpg",
+    "auto": true
+  },
+  "car:Porsche 911 GT1-98": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/1983_Porsche_956_%2B_1998_Porsche_911_GT1-98_Goodwood%2C_2009_%2801%29.jpg/1280px-1983_Porsche_956_%2B_1998_Porsche_911_GT1-98_Goodwood%2C_2009_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Porsche 911 GT1-98",
+    "credit": "Bahnfrend",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1983_Porsche_956_%2B_1998_Porsche_911_GT1-98_Goodwood,_2009_(01).jpg",
+    "auto": true
+  },
+  "car:Porsche 935 K3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/1980_Porsche_935_Kremer_K3.jpg/1280px-1980_Porsche_935_Kremer_K3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Porsche 935 K3",
+    "credit": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1980_Porsche_935_Kremer_K3.jpg",
+    "auto": true
+  },
+  "car:Porsche 936": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Porsche_93677_Spider.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Porsche 936",
+    "credit": "ikerlaes",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porsche_93677_Spider.jpg",
     "auto": true
   },
   "car:porsche-917k": {
@@ -278,6 +501,42 @@
     "page": "https://commons.wikimedia.org/wiki/File:Rebellion_R13_Lotterer_Silverstone_2018_Luffield_01.jpg",
     "auto": true
   },
+  "car:Renault Alpine A442B": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/1978_Alpine_A442B.jpg/1280px-1978_Alpine_A442B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Renault Alpine A442B",
+    "credit": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1978_Alpine_A442B.jpg",
+    "auto": true
+  },
+  "car:Rondeau M379B": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/1980_Rondeau_M379B_-_Le_Mans_Winner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Rondeau M379B",
+    "credit": "Antoine uploaded by Micap",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1980_Rondeau_M379B_-_Le_Mans_Winner.jpg",
+    "auto": true
+  },
+  "car:Sauber-Mercedes C9": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Techno-Classica_2018%2C_Essen_%28IMG_9774%29.jpg/1280px-Techno-Classica_2018%2C_Essen_%28IMG_9774%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Sauber-Mercedes C9",
+    "credit": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Techno-Classica_2018,_Essen_(IMG_9774).jpg",
+    "auto": true
+  },
+  "car:Talbot-Lago T26 GS": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Mille_Miglia_2017_Talbot_Lago_T26_GS_Berlinette_1950.jpg/1280px-Mille_Miglia_2017_Talbot_Lago_T26_GS_Berlinette_1950.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Talbot-Lago T26 GS",
+    "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image ",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mille_Miglia_2017_Talbot_Lago_T26_GS_Berlinette_1950.jpg",
+    "auto": true
+  },
   "car:toyota-gr010-hybrid": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Osaka_Auto_Messe_2022_%28125%29_-_No.7_TOYOTA_GR010_HYBRID_ver_2021_FIA_World_Endurance_Championship.jpg/1280px-Osaka_Auto_Messe_2022_%28125%29_-_No.7_TOYOTA_GR010_HYBRID_ver_2021_FIA_World_Endurance_Championship.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Toyota GR010 Hybrid",
@@ -312,6 +571,15 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:GIMS_2024,_Le_Grand-Saconnex_(GIMS0226).jpg",
+    "auto": true
+  },
+  "car:TWR Porsche WSC-95": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/1996_Porsche_WSC-95_%2850991%29.jpg/1280px-1996_Porsche_WSC-95_%2850991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "TWR Porsche WSC-95",
+    "credit": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1996_Porsche_WSC-95_(50991).jpg",
     "auto": true
   },
   "driver:alessandro-pier-guidi": {
@@ -1319,6 +1587,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:Monza_old_ring.jpg",
     "auto": true
   },
+  "track:nurburgring": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/ADAC_GT_Masters_at_Nuerburgring.jpg/1280px-ADAC_GT_Masters_at_Nuerburgring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Nürburgring",
+    "credit": "Herranderssvensson",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ADAC_GT_Masters_at_Nuerburgring.jpg",
+    "auto": true
+  },
   "track:portimao": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Aut%C3%B3dromo_Internacional_do_Algarve_-_Portim%C3%A3o_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853656876708%29.jpg/1280px-Aut%C3%B3dromo_Internacional_do_Algarve_-_Portim%C3%A3o_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853656876708%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Algarve International Circuit",
@@ -1479,5 +1756,230 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Spa-Francorchamps_of_Belgium.svg",
     "auto": true
+  },
+  "wallpaper:le-mans-2012-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Matra_Simca_MS_670_Le_Mans_2012.jpg/1280px-Matra_Simca_MS_670_Le_Mans_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Dave Hamster",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Matra_Simca_MS_670_Le_Mans_2012.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2012"
+  },
+  "wallpaper:le-mans-2013-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Le_Mans_2013_%289347619806%29.jpg/1280px-Le_Mans_2013_%289347619806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Surreal Name Given",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Mans_2013_(9347619806).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2013"
+  },
+  "wallpaper:le-mans-2013-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Le_Mans_2013_%289345093085%29.jpg/1280px-Le_Mans_2013_%289345093085%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Surreal Name Given",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Mans_2013_(9345093085).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2013"
+  },
+  "wallpaper:le-mans-2014-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/24_Heures_du_Mans_2014_91.jpg/1280px-24_Heures_du_Mans_2014_91.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sebring12Hrs",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2014_91.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2014"
+  },
+  "wallpaper:le-mans-2014-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/24_Heures_du_Mans_2014_255.jpg/1280px-24_Heures_du_Mans_2014_255.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sebring12Hrs",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2014_255.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2014"
+  },
+  "wallpaper:le-mans-2015-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/24_Heures_Le_Mans_2015_%2818678330070%29.jpg/1280px-24_Heures_Le_Mans_2015_%2818678330070%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Kevin Decherf from Nantes, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_Le_Mans_2015_(18678330070).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2015"
+  },
+  "wallpaper:le-mans-2015-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/24_Heures_Le_Mans_2015_%2818680009849%29.jpg/1280px-24_Heures_Le_Mans_2015_%2818680009849%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Kevin Decherf from Nantes, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_Le_Mans_2015_(18680009849).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2015"
+  },
+  "wallpaper:le-mans-2016-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/24_Heures_Le_Mans_2016_%2827190307204%29.jpg/1280px-24_Heures_Le_Mans_2016_%2827190307204%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Kevin Decherf from Nantes, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_Le_Mans_2016_(27190307204).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2016"
+  },
+  "wallpaper:le-mans-2016-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/24_Heures_Le_Mans_2016_%2827802354275%29.jpg/1280px-24_Heures_Le_Mans_2016_%2827802354275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Kevin Decherf from Nantes, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_Le_Mans_2016_(27802354275).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2016"
+  },
+  "wallpaper:le-mans-2017-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/United_Autosports_Road_to_Le_Mans_2017-24_%2835311739775%29.jpg/1280px-United_Autosports_Road_to_Le_Mans_2017-24_%2835311739775%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "United Autosports",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:United_Autosports_Road_to_Le_Mans_2017-24_(35311739775).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2017"
+  },
+  "wallpaper:le-mans-2017-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Alpine_A470_-_Gibson_-_Signatech_Alpine_Matmut_-_24_Hours_of_Le_Mans_2017.jpg/1280px-Alpine_A470_-_Gibson_-_Signatech_Alpine_Matmut_-_24_Hours_of_Le_Mans_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "David Merrett",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alpine_A470_-_Gibson_-_Signatech_Alpine_Matmut_-_24_Hours_of_Le_Mans_2017.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2017"
+  },
+  "wallpaper:le-mans-2019-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Oreca_07_-_Gibson_-_Graff_Racing_-_2019_24_Hours_of_Le_Mans.jpg/1280px-Oreca_07_-_Gibson_-_Graff_Racing_-_2019_24_Hours_of_Le_Mans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "David Merrett",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oreca_07_-_Gibson_-_Graff_Racing_-_2019_24_Hours_of_Le_Mans.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2019"
+  },
+  "wallpaper:le-mans-2019-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Kessel_Racing%27s_Ferrari_488_GTE_%28Frey%2C_Gostner%2C_Gatting%29_at_Le_Mans_2019.jpeg/1280px-Kessel_Racing%27s_Ferrari_488_GTE_%28Frey%2C_Gostner%2C_Gatting%29_at_Le_Mans_2019.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "David Merrett from Daventry, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kessel_Racing%27s_Ferrari_488_GTE_(Frey,_Gostner,_Gatting)_at_Le_Mans_2019.jpeg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2019"
+  },
+  "wallpaper:le-mans-2020-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/United_Autosports_Le_Mans_24_Hours_2020_3.jpg/1280px-United_Autosports_Le_Mans_24_Hours_2020_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "JEP",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:United_Autosports_Le_Mans_24_Hours_2020_3.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2020"
+  },
+  "wallpaper:le-mans-2020-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/2020_24_Hours_of_Le_Mans_starting_grid.jpg/1280px-2020_24_Hours_of_Le_Mans_starting_grid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "United Autosports",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2020_24_Hours_of_Le_Mans_starting_grid.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2020"
+  },
+  "wallpaper:le-mans-2022-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ferrari_488_GTE-EVO_-_Kimura%2C_Schandorff_%26_Jensen_leads_Ferrari_488_GTE-EVO_-_Frey%2C_Gatting_%26_Bovy_through_Ford_Chicane_at_the_2022_Le_Mans_%2854277869250%29.jpg/1280px-Ferrari_488_GTE-EVO_-_Kimura%2C_Schandorff_%26_Jensen_leads_Ferrari_488_GTE-EVO_-_Frey%2C_Gatting_%26_Bovy_through_Ford_Chicane_at_the_2022_Le_Mans_%2854277869250%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_488_GTE-EVO_-_Kimura,_Schandorff_%26_Jensen_leads_Ferrari_488_GTE-EVO_-_Frey,_Gatting_%26_Bovy_through_Ford_Chicane_at_the_2022_Le_Mans_(54277869250).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2022"
+  },
+  "wallpaper:le-mans-2022-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Aston_Martin_Vantage_AMR_-_Satoshi_Hoshino%2C_Tomonobu_Fujii_%26_Charles_Fagg_at_Dunlop_Chicane_at_the_2022_Le_Mans_%2854281559319%29.jpg/1280px-Aston_Martin_Vantage_AMR_-_Satoshi_Hoshino%2C_Tomonobu_Fujii_%26_Charles_Fagg_at_Dunlop_Chicane_at_the_2022_Le_Mans_%2854281559319%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aston_Martin_Vantage_AMR_-_Satoshi_Hoshino,_Tomonobu_Fujii_%26_Charles_Fagg_at_Dunlop_Chicane_at_the_2022_Le_Mans_(54281559319).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2022"
+  },
+  "wallpaper:le-mans-2023-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Ferrari_499P_-51_-_24_Heures_du_Mans_2023_Winner_%2852966813258%29.jpg/1280px-Ferrari_499P_-51_-_24_Heures_du_Mans_2023_Winner_%2852966813258%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "crash71100",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_499P_-51_-_24_Heures_du_Mans_2023_Winner_(52966813258).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2023"
+  },
+  "wallpaper:le-mans-2023-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/DSC04135_2023_24h_Le_Mans.jpg/1280px-DSC04135_2023_24h_Le_Mans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Mickael Le rouzic",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DSC04135_2023_24h_Le_Mans.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2023"
+  },
+  "wallpaper:le-mans-2024-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ferrari_499P_No.50_-_24_Heures_du_Mans_2024_Winner_-_Chequered_Flag_%283%29.jpg/1280px-Ferrari_499P_No.50_-_24_Heures_du_Mans_2024_Winner_-_Chequered_Flag_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "crash71100",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_499P_No.50_-_24_Heures_du_Mans_2024_Winner_-_Chequered_Flag_(3).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2024"
+  },
+  "wallpaper:le-mans-2024-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Alpine3524lemans2024_%28cropped%29.jpg/1280px-Alpine3524lemans2024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "ACBE25",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alpine3524lemans2024_(cropped).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2024"
+  },
+  "wallpaper:le-mans-2025-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/24H_Le_Mans_2025_Nr._63.jpg/1280px-24H_Le_Mans_2025_Nr._63.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Lukas Raich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24H_Le_Mans_2025_Nr._63.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2025"
+  },
+  "wallpaper:le-mans-2025-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/24H_Le_Mans_2025_Nr._39_%283%29.jpg/1280px-24H_Le_Mans_2025_Nr._39_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Lukas Raich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24H_Le_Mans_2025_Nr._39_(3).jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2025"
+  },
+  "wallpaper:le-mans-2026-1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/24_Heures_du_Mans_2026_LMP2_No._343_Oreca_07-Gibson_INTER_EUROPOL_COMPETITION.jpg/1280px-24_Heures_du_Mans_2026_LMP2_No._343_Oreca_07-Gibson_INTER_EUROPOL_COMPETITION.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "T GOUREAU",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2026_LMP2_No._343_Oreca_07-Gibson_INTER_EUROPOL_COMPETITION.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2026"
+  },
+  "wallpaper:le-mans-2026-2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/24_Heures_du_Mans_2026_Hypercar_No._51_Ferrari_499P.jpg/1280px-24_Heures_du_Mans_2026_Hypercar_No._51_Ferrari_499P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "T GOUREAU",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2026_Hypercar_No._51_Ferrari_499P.jpg",
+    "auto": true,
+    "alt": "24 Hours of Le Mans 2026"
   }
 }

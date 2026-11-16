@@ -80,6 +80,10 @@ export function HoverPreviews() {
       className="preview-card pointer-events-none fixed z-[60] overflow-hidden rounded-2xl border border-line bg-surface shadow-[var(--shadow-lift)]"
       style={{ left: x, top: y, width: CARD_W, transform: above ? "translateY(-100%)" : undefined }}
     >
+      {!p.image && (
+        // No licensed photo yet: a quiet header band instead of an empty card top.
+        <div className="flex h-20 items-center justify-center bg-gradient-to-br from-[var(--accent-soft)] to-surface-2 text-[11px] text-muted-strong">No licensed photo yet</div>
+      )}
       {p.image && (
         <div className="relative aspect-[16/9] bg-surface-2">
           <img src={p.image.src} alt="" className="absolute inset-0 size-full object-cover" />

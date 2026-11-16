@@ -1,17 +1,56 @@
-[
-  "car:audi-r18-e-tron-quattro",
-  "car:audi-r18-tdi",
-  "car:audi-r18-ultra",
-  "car:Ferrari 458 Italia GTE",
-  "car:ford-gt",
-  "car:mclaren-f1-gtr",
-  "entry:ferrari-af-corse|2017|ferrari-488-gte",
-  "entry:ferrari-af-corse|2019|ferrari-488-gte",
-  "entry:ferrari-af-corse|2021|ferrari-488-gte",
-  "entry:porsche-lmp1-team|2016|porsche-919-hybrid",
-  "entry:rebellion-racing|2017|Oreca 07",
-  "entry:toyota-gazoo-racing|2019|toyota-ts050-hybrid",
-  "entry:toyota-gazoo-racing|2022|toyota-gr010-hybrid",
-  "track:nurburgring",
-  "track:silverstone"
-]
+{
+  "car:audi-r18-e-tron-quattro": [
+    "File:Audi R18 - Mondial de l'Automobile de Paris 2016 - 002.jpg"
+  ],
+  "car:audi-r18-tdi": [
+    "File:Audi R18 - Mondial de l'Automobile de Paris 2016 - 002.jpg"
+  ],
+  "car:audi-r18-ultra": [
+    "File:Audi R18 - Mondial de l'Automobile de Paris 2016 - 002.jpg"
+  ],
+  "car:Ferrari 458 Italia GTE": [
+    "File:Ferrari 458 Fort Worth June 2016 56 (Ferrari) (cropped-2).jpg"
+  ],
+  "car:ford-gt": [
+    "File:AF Corse Ferrari 488 GTE Rigon Silverstone 2018.jpg",
+    "File:GT Gulf (49549850812).jpg"
+  ],
+  "car:mclaren-f1-gtr": [
+    "File:1998 Goodwood Festival of Speed (15781190981).jpg"
+  ],
+  "entry:ferrari-af-corse|2017|ferrari-488-gte": true,
+  "entry:ferrari-af-corse|2019|ferrari-488-gte": true,
+  "entry:ferrari-af-corse|2021|ferrari-488-gte": true,
+  "entry:porsche-lmp1-team|2016|porsche-919-hybrid": true,
+  "entry:rebellion-racing|2017|Oreca 07": true,
+  "entry:toyota-gazoo-racing|2019|toyota-ts050-hybrid": true,
+  "entry:toyota-gazoo-racing|2022|toyota-gr010-hybrid": true,
+  "track:nurburgring": [
+    "File:Porsche 911 Carrera RSR, Bj. 1974 (2011-08-13 Sp).JPG"
+  ],
+  "track:silverstone": [
+    "File:McLaren MP4-16A 2015 McLaren MP4-16A shakedown (21219267118).jpg",
+    "File:Jan Magnussen, Silverstone British F3 1994.jpg"
+  ],
+  "car:Bentley 4½ Litre": [
+    "File:1928 Bentley Saloon at Toddington Railway Gala, 0513 8979023957.jpg"
+  ],
+  "car:Bentley Speed Six": [
+    "File:Sir Michael Kadoorie's 1930 Bentley Speed Six Mulliner Drop Head Coupe1.jpg"
+  ],
+  "car:Alfa Romeo 8C 2300": [
+    "File:1937 Alfa Romeo 8C 2300 or 2900 Zagato.jpg"
+  ],
+  "car:Bugatti Type 57C": [
+    "File:1939 Bugatti Type 57C Vanvooren Cabriolet- (21864460571).jpg"
+  ],
+  "car:Mercedes-Benz 300 SL": [
+    "File:Fox Classic Car Collection, 2008 (02).JPG"
+  ],
+  "car:Porsche 936/81": [
+    "File:Porsche 93677 Spider.jpg"
+  ],
+  "wallpaper:le-mans-2012-2": true,
+  "wallpaper:le-mans-2018-1": true,
+  "wallpaper:le-mans-2018-2": true
+}

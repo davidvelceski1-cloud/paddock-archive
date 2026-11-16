@@ -70,17 +70,23 @@ const FREE = /\b(cc|cc0|public domain|pd|gfdl|attribution|free art)\b/i;
 const strip = (html = "") => html.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
 const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
-type FileInfo = { title: string; photo: Omit<Photo, "alt">; text: string; date: string };
+type FileInfo = { title: string; photo: Omit<Photo, "alt">; text: string; date: string; w: number; h: number };
+
+/** Files rejected by hand for the key currently being filled (from data/photos-skip.json). */
+let rejectedNow = new Set<string>();
 
 /** `allowSvg`: accept SVG files (Commons serves a PNG rendering as the thumbnail), used for track maps. */
 function toFileInfo(page: any, allowSvg = false): FileInfo | null {
   const ii = page?.imageinfo?.[0];
   if (!ii || !(allowSvg ? /image\/(jpeg|png|webp|svg\+xml)/ : /image\/(jpeg|png|webp)/).test(ii.mime ?? "")) return null;
+  if (rejectedNow.has(page.title)) return null;
   const m = ii.extmetadata ?? {};
   const license = strip(m.LicenseShortName?.value) || "";
   if (!FREE.test(license)) return null;
   if (/logo|emblem|badge|icon/i.test(page.title)) return null;
   return {
+    w: Number(ii.width) || 0,
+    h: Number(ii.height) || 0,
     title: page.title,
     photo: {
       src: ii.thumburl ?? ii.url,
@@ -95,7 +101,7 @@ function toFileInfo(page: any, allowSvg = false): FileInfo | null {
   };
 }
 
-const IIPROP = { prop: "imageinfo", iiprop: "url|mime|extmetadata", iiurlwidth: String(WIDTH), iiextmetadatafilter: "Artist|Credit|LicenseShortName|LicenseUrl|ImageDescription|DateTimeOriginal|Categories" };
+const IIPROP = { prop: "imageinfo", iiprop: "url|mime|size|extmetadata", iiurlwidth: String(WIDTH), iiextmetadatafilter: "Artist|Credit|LicenseShortName|LicenseUrl|ImageDescription|DateTimeOriginal|Categories" };
 
 async function commonsFile(fileTitle: string, allowSvg = false): Promise<FileInfo | null> {
   const r = await api("commons.wikimedia.org", { action: "query", titles: fileTitle, ...IIPROP });
@@ -128,7 +134,20 @@ function modelWords(chassis: string) {
   const digits = words.filter((w) => /\d/.test(w) && w.length > 1);
   return digits.length ? digits : words.slice(1);
 }
-const mentions = (text: string, words: string[]) => words.every((w) => text.includes(w));
+/** Short tokens ("iv", "gt", "81") must match as whole words, so "gt" does not match "gte". */
+const has = (text: string, w: string) =>
+  w.length <= 3 ? new RegExp(`(^|[^a-z0-9])${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-z0-9]|$)`).test(text) : text.includes(w);
+const mentions = (text: string, words: string[]) => words.every((w) => has(text, w));
+/**
+ * Stricter words for a car model: every word after the make except generic ones, so
+ * "Audi R18 ultra" needs "r18" and "ultra" and "Ford GT40 Mk IV" needs "gt40", "mk" and "iv".
+ */
+const MODEL_GENERIC = new Set(["hybrid", "racing", "team", "lm", "the"]);
+function carModelWords(name: string) {
+  const words = fold(name.replace(/\(.*?\)/g, "")).split(/[\s/]+/).filter(Boolean).slice(1);
+  const strict = words.filter((w) => !MODEL_GENERIC.has(w));
+  return strict.length ? strict : modelWords(name);
+}
 /** Other categories whose cars share model names (a Vantage GT3 is not a Vantage GTE). */
 const OTHER_CLASSES = ["gt3", "gt4", "lmp3", "super gt", "supercup", "road car", "dtm"];
 const wrongClass = (text: string, chassis: string) => OTHER_CLASSES.some((c) => text.includes(c) && !fold(chassis).includes(c));
@@ -137,16 +156,22 @@ const GENERIC = new Set(["racing", "team", "sport", "sports", "motorsport", "mot
 // ───────────── Run ─────────────
 const existing: Record<string, Photo> = fs.existsSync(OUT) ? Photos.parse(JSON.parse(fs.readFileSync(OUT, "utf8"))) : {};
 const out: Record<string, Photo> = { ...existing };
-// data/photos-skip.json: keys whose automatic picks were wrong and removed by hand. Never auto-filled again.
+// data/photos-skip.json: automatic picks that were wrong and removed by hand.
+//   { "<key>": true }            never fill this key automatically
+//   { "<key>": ["File:…", …] }   never use these files for it, but keep looking for another
+// (A plain array of keys is read as all `true`.)
 const SKIP_FILE = path.join(path.dirname(OUT), "photos-skip.json");
-const skip = new Set<string>(fs.existsSync(SKIP_FILE) ? JSON.parse(fs.readFileSync(SKIP_FILE, "utf8")) : []);
-for (const k of skip) delete out[k];
-const want = (key: string) => !skip.has(key) && (!existing[key] || (refresh && existing[key].auto));
+const skipRaw: unknown = fs.existsSync(SKIP_FILE) ? JSON.parse(fs.readFileSync(SKIP_FILE, "utf8")) : {};
+const skip: Record<string, true | string[]> = Array.isArray(skipRaw) ? Object.fromEntries(skipRaw.map((k: string) => [k, true])) : (skipRaw as Record<string, true | string[]>);
+for (const [k, v] of Object.entries(skip)) if (v === true) delete out[k];
+const want = (key: string) => skip[key] !== true && (!out[key] || (refresh && !!existing[key]?.auto));
 const stats = { found: 0, missing: [] as string[] };
 const save = () => fs.writeFileSync(OUT, JSON.stringify(Object.fromEntries(Object.entries(out).sort(([x], [y]) => x.localeCompare(y))), null, 2) + "\n");
 
 async function put(key: string, alt: string, find: () => Promise<FileInfo | null>) {
   if (!want(key)) return;
+  const s = skip[key];
+  rejectedNow = new Set(Array.isArray(s) ? s : []);
   try {
     const f = await find();
     if (f) {
@@ -199,10 +224,11 @@ if (!only || only === "tracks") {
 
 if (!only || only === "cars") {
   console.log("Cars");
-  const refs = new Set([...a.cars.map((c) => c.id), ...a.teamEntries.map((e) => e.car)]);
+  // Profiled cars, cars raced by team entries, and every Le Mans winner (for the season hover cards).
+  const refs = new Set([...a.cars.map((c) => c.id), ...a.teamEntries.map((e) => e.car), ...a.leMans.map((l) => l.car)]);
   for (const ref of refs) {
     const name = carName(ref);
-    const words = modelWords(name);
+    const words = carModelWords(name);
     const ok = (f: FileInfo | null) => (f && mentions(f.text, words) && !wrongClass(f.text, name) ? f : null);
     await put(`car:${ref}`, name, async () => ok(await articlePhoto(name, (t) => mentions(fold(t), words))) ?? (await commonsSearch(`"${name}"`)).find((f) => ok(f)) ?? null);
   }
@@ -250,6 +276,36 @@ if (!only || only === "entries") {
       if (best) used.add(best.f.title);
       return best?.f ?? null;
     });
+  }
+  save();
+}
+
+// Extra background photos: wide, landscape race shots from each Le Mans of the WEC era.
+if (only === "wallpapers") {
+  console.log("Wallpapers (wide Le Mans race photos)");
+  const usedSrc = new Set(Object.values(out).map((p) => p.src));
+  const PER_YEAR = 2;
+  for (let year = 2012; year <= 2026; year++) {
+    for (let n = 1; n <= PER_YEAR; n++) {
+      await put(`wallpaper:le-mans-${year}-${n}`, `24 Hours of Le Mans ${year}`, async () => {
+        for (const q of [`"${year} 24 Hours of Le Mans"`, `Le Mans ${year} 24 Heures`]) {
+          const hit = (await commonsSearch(q, 40)).find(
+            (f) =>
+              !usedSrc.has(f.photo.src) &&
+              f.w >= 1600 &&
+              f.w / Math.max(1, f.h) >= 1.35 && // landscape, wallpaper-shaped
+              has(fold(f.title), String(year)) &&
+              f.text.includes("le mans") &&
+              !/podium|portrait|pit ?walk|autograph|parade|poster|ticket|crowd|grandstand|press/i.test(f.title),
+          );
+          if (hit) {
+            usedSrc.add(hit.photo.src);
+            return hit;
+          }
+        }
+        return null;
+      });
+    }
   }
   save();
 }
