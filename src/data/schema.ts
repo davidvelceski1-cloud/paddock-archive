@@ -158,6 +158,8 @@ export const Photo = z.object({
   page: z.string().url().optional(),
   /** true = picked automatically by scripts/photos.ts; set false once checked or chosen by hand. */
   auto: z.boolean().default(true),
+  /** Shown before the credit, e.g. "Same car and season; possibly another team's entry". */
+  note: z.string().optional(),
 });
 export const Photos = z.record(z.string(), Photo);
 

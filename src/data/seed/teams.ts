@@ -306,7 +306,7 @@ const CHASSIS: Record<string, [number, number, string][]> = {
   "Oreca 07": [[2017, 2017, "Oreca 07"]],
   "rebellion-r13": [[2018, 2019, "Rebellion R13"]],
   "nissan-gt-r-lm-nismo": [[2015, 2015, "Nissan GT-R LM Nismo"]],
-  "Ferrari 458 Italia GTE": [[2012, 2015, "Ferrari 458 Italia GTE"]],
+  "ferrari-458-italia-gte": [[2012, 2015, "Ferrari 458 Italia GTE"]],
   "ferrari-488-gte": [
     [2016, 2017, "Ferrari 488 GTE"],
     [2018, 2022, "Ferrari 488 GTE Evo"],
@@ -353,7 +353,7 @@ const entries: ArchiveInput["teamEntries"] = [
   // Nissan
   { teamId: "nissan-motorsports", season: 2015, classId: "lmp1", car: "nissan-gt-r-lm-nismo", numbers: ["21", "22", "23"], note: "Le Mans only." },
   // Ferrari / AF Corse
-  ...range(2012, 2015).map((season) => ({ teamId: "ferrari-af-corse", season, classId: "lmgte-pro" as const, car: "Ferrari 458 Italia GTE", numbers: ["51"], nameUsed: "AF Corse" })),
+  ...range(2012, 2015).map((season) => ({ teamId: "ferrari-af-corse", season, classId: "lmgte-pro" as const, car: "ferrari-458-italia-gte", numbers: ["51"], nameUsed: "AF Corse" })),
   ...range(2016, 2022).filter((y) => y !== 2020).map((season) => ({ teamId: "ferrari-af-corse", season, classId: "lmgte-pro" as const, car: "ferrari-488-gte", numbers: ["51"], nameUsed: "AF Corse" })),
   ...range(2023, 2026).map((season) => ({ teamId: "ferrari-af-corse", season, classId: "hypercar" as const, car: "ferrari-499p", numbers: ["50", "51"], nameUsed: "Ferrari AF Corse" })),
   ...[2024, 2025].map((season) => ({ teamId: "ferrari-af-corse", season, classId: "hypercar" as const, car: "ferrari-499p", numbers: ["83"], nameUsed: "AF Corse", note: "Separately entered third car." })),

@@ -53,7 +53,7 @@
     "page": "https://commons.wikimedia.org/wiki/File:AM_DBR1.jpg",
     "auto": true
   },
-  "car:Aston Martin DBR9": {
+  "car:aston-martin-dbr9": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/2008AstonMartinDBR9.jpg/1280px-2008AstonMartinDBR9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Aston Martin DBR9",
     "credit": "Brian Snelson",
@@ -69,15 +69,6 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2023_6_Hours_of_Spa-Francorchamps_Northwest_AMR_Aston_Martin_Vantage_AMR_No.98_(DSC09017).jpg",
-    "auto": true
-  },
-  "car:aston-martin-vantage-gte": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Aston_Martin_Vantage_GTE_Thiim_Silverstone_2018.jpg/1280px-Aston_Martin_Vantage_GTE_Thiim_Silverstone_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "alt": "Aston Martin Vantage GTE",
-    "credit": "John Chapman",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Aston_Martin_Vantage_GTE_Thiim_Silverstone_2018.jpg",
     "auto": true
   },
   "car:audi-r10-tdi": {
@@ -179,6 +170,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:2003BentleySpeed8.jpg",
     "auto": true
   },
+  "car:BMW V12 LM": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/BMW_V12_LM_%2824990483741%29_%282%29.jpg/1280px-BMW_V12_LM_%2824990483741%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW V12 LM",
+    "credit": "Alexandre Prévot from Nancy, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BMW_V12_LM_(24990483741)_(2).jpg",
+    "auto": true
+  },
   "car:BMW V12 LMR": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/BMW_V12_LMR%2C_Techno-Classica_2018%2C_Essen_%28IMG_9769%29.jpg/1280px-BMW_V12_LMR%2C_Techno-Classica_2018%2C_Essen_%28IMG_9769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "BMW V12 LMR",
@@ -195,6 +195,15 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_BMW_M_Team_WRT_BMW_M_Hybrid_V8_No.20_(DSC2744).jpg",
+    "auto": true
+  },
+  "car:bmw-m8-gte": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/BMW_M8_GTE_Felix_da_Costa_Silverstone_2018.jpg/1280px-BMW_M8_GTE_Felix_da_Costa_Silverstone_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW M8 GTE",
+    "credit": "John Chapman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BMW_M8_GTE_Felix_da_Costa_Silverstone_2018.jpg",
     "auto": true
   },
   "car:cadillac-v-series-r": {
@@ -215,7 +224,7 @@
     "page": "https://commons.wikimedia.org/wiki/File:Chenard_%26_Walcker_Sport.jpg",
     "auto": true
   },
-  "car:Chevrolet Corvette C5-R": {
+  "car:chevrolet-corvette-c5-r": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/CHEVROLET_CORVETTE_C5-R_RETROMOBILE_2023_%2852683233300%29.jpg/1280px-CHEVROLET_CORVETTE_C5-R_RETROMOBILE_2023_%2852683233300%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Chevrolet Corvette C5-R",
     "credit": "ERIC SALARD from Paris, FRANCE",
@@ -224,7 +233,7 @@
     "page": "https://commons.wikimedia.org/wiki/File:CHEVROLET_CORVETTE_C5-R_RETROMOBILE_2023_(52683233300).jpg",
     "auto": true
   },
-  "car:Chevrolet Corvette C6.R": {
+  "car:chevrolet-corvette-c6-r": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Corvette_C6R_Road_America_3.jpg/1280px-Corvette_C6R_Road_America_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Chevrolet Corvette C6.R",
     "credit": "Trebz",
@@ -233,7 +242,7 @@
     "page": "https://commons.wikimedia.org/wiki/File:Corvette_C6R_Road_America_3.jpg",
     "auto": true
   },
-  "car:Chevrolet Corvette C7.R": {
+  "car:chevrolet-corvette-c7-r": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Le_Mans_2014_-_GTE_Pro_-_-74_Chevrolet_Corvette_C7.R_-_Richard_Westbrook_at_the_wheel_%2814438372615%29.jpg/1280px-Le_Mans_2014_-_GTE_Pro_-_-74_Chevrolet_Corvette_C7.R_-_Richard_Westbrook_at_the_wheel_%2814438372615%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Chevrolet Corvette C7.R",
     "credit": "Mark Seymour from UK",
@@ -242,13 +251,31 @@
     "page": "https://commons.wikimedia.org/wiki/File:Le_Mans_2014_-_GTE_Pro_-_-74_Chevrolet_Corvette_C7.R_-_Richard_Westbrook_at_the_wheel_(14438372615).jpg",
     "auto": true
   },
-  "car:Chevrolet Corvette C8.R": {
+  "car:chevrolet-corvette-c8-r": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/2023_6_Hours_of_Spa-Francorchamps_Corvette_Racing_Chevrolet_Corvette_C8.R_No.33_%28DSC00037%29.jpg/1280px-2023_6_Hours_of_Spa-Francorchamps_Corvette_Racing_Chevrolet_Corvette_C8.R_No.33_%28DSC00037%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Chevrolet Corvette C8.R",
     "credit": "MarcelX42",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2023_6_Hours_of_Spa-Francorchamps_Corvette_Racing_Chevrolet_Corvette_C8.R_No.33_(DSC00037).jpg",
+    "auto": true
+  },
+  "car:chevrolet-corvette-z06-gt3r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/2026_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_LMGT3.R_No.33_%28DSC06746%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_LMGT3.R_No.33_%28DSC06746%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chevrolet Corvette Z06 GT3.R",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_LMGT3.R_No.33_(DSC06746).jpg",
+    "auto": true
+  },
+  "car:chrysler-viper-gts-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Lemans_chrysler_viper.jpg/1280px-Lemans_chrysler_viper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chrysler Viper GTS-R",
+    "credit": "Vvdberg at Dutch Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Lemans_chrysler_viper.jpg",
     "auto": true
   },
   "car:Dauer 962 Le Mans": {
@@ -322,6 +349,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:1954_Ferrari_375_Plus_34.jpg",
     "auto": true
   },
+  "car:ferrari-250-gto": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/1962_Ferrari_250_GTO_SP25.jpg/1280px-1962_Ferrari_250_GTO_SP25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 250 GTO",
+    "credit": "MrWalkr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1962_Ferrari_250_GTO_SP25.jpg",
+    "auto": true
+  },
   "car:ferrari-488-gte": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ferrari_488_GTE_EVO_-_Alessandro_Pier_Guidi%2C_James_Calado_%26_Daniel_Serra_in_the_Esses_at_the_2022_Le_Mans_%2853554182629%29_%28cropped%29.jpg/1280px-Ferrari_488_GTE_EVO_-_Alessandro_Pier_Guidi%2C_James_Calado_%26_Daniel_Serra_in_the_Esses_at_the_2022_Le_Mans_%2853554182629%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari 488 GTE",
@@ -347,6 +383,15 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:1967_Ford_GT40_Mk_IV_at_2004_Watkins_Glen_SVRA.jpg",
+    "auto": true
+  },
+  "car:ford-gt": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Ford_GT_LM_GTE_2018_Silverstone_-_20180819-IMG_8635.jpg/1280px-Ford_GT_LM_GTE_2018_Silverstone_-_20180819-IMG_8635.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ford GT (GTE)",
+    "credit": "skeep",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ford_GT_LM_GTE_2018_Silverstone_-_20180819-IMG_8635.jpg",
     "auto": true
   },
   "car:ford-gt40": {
@@ -411,6 +456,24 @@
     "page": "https://commons.wikimedia.org/wiki/File:Lagonda_M45R_Rapide_(1935).jpg",
     "auto": true
   },
+  "car:lamborghini-huracan-gt3-evo2": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lamborghini_Hurac%C3%A1n_racing_at_Nurburgring.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Lamborghini Huracán GT3 Evo2",
+    "credit": "Wikipedia Ninja Dojo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Hurac%C3%A1n_racing_at_Nurburgring.png",
+    "auto": true
+  },
+  "car:lexus-rc-f-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/2014-03-04_Geneva_Motor_Show_1465.JPG/1280px-2014-03-04_Geneva_Motor_Show_1465.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Lexus RC F GT3",
+    "credit": "Norbert Aepli, Switzerland (User:Noebu)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2014-03-04_Geneva_Motor_Show_1465.JPG",
+    "auto": true
+  },
   "car:Lola B12/60": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Lola_B12-60.jpg/1280px-Lola_B12-60.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Lola B12/60",
@@ -464,6 +527,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:McLaren_F1_GTR_95_P440_CPJ_Ritz.jpg",
     "auto": true
   },
+  "car:mercedes-amg-gt3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Mercedes-AMG_GT3_IMG_0766.jpg/1280px-Mercedes-AMG_GT3_IMG_0766.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Mercedes-AMG GT3",
+    "credit": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_GT3_IMG_0766.jpg",
+    "auto": true
+  },
   "car:Mercedes-Benz C11": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Mercedes-Benz_C11_front-left_Mercedes-Benz_Museum.jpg/1280px-Mercedes-Benz_C11_front-left_Mercedes-Benz_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Mercedes-Benz C11",
@@ -498,6 +570,15 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Nissan_Motorsports_-_Nissan_GT-R_LM_Nismo_-23_(18860958202).jpg",
+    "auto": true
+  },
+  "car:nissan-r390-gt1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nissan_R390_GT1_%281998%29_front-left_2015_Nissan_Global_Headquarters_Gallery.jpg/1280px-Nissan_R390_GT1_%281998%29_front-left_2015_Nissan_Global_Headquarters_Gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Nissan R390 GT1",
+    "credit": "Morio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nissan_R390_GT1_(1998)_front-left_2015_Nissan_Global_Headquarters_Gallery.jpg",
     "auto": true
   },
   "car:Oreca 07": {
@@ -572,6 +653,33 @@
     "page": "https://commons.wikimedia.org/wiki/File:Porsche_93677_Spider.jpg",
     "auto": true
   },
+  "car:porsche-911-gt1": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Porsche_911_GT1-96_front-left_Porsche_Museum.jpg/1280px-Porsche_911_GT1-96_front-left_Porsche_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Porsche 911 GT1",
+    "credit": "Morio",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_GT1-96_front-left_Porsche_Museum.jpg",
+    "auto": true
+  },
+  "car:porsche-911-gt3-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Porsche_911_GT3R_Wallpaper.jpg/1280px-Porsche_911_GT3R_Wallpaper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Porsche 911 GT3 R",
+    "credit": "FALKEN Motorsports",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_GT3R_Wallpaper.jpg",
+    "auto": true
+  },
+  "car:porsche-911-rsr": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/17_WEC_Nur_22.jpg/1280px-17_WEC_Nur_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Porsche 911 RSR",
+    "credit": "Herranderssvensson",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:17_WEC_Nur_22.jpg",
+    "auto": true
+  },
   "car:porsche-917k": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Porsche_917_Classic-Days_2022_IMG_6984.jpg/1280px-Porsche_917_Classic-Days_2022_IMG_6984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Porsche 917K",
@@ -588,6 +696,15 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Porsche,_IAA_2017,_Frankfurt_(1Y7A2248).jpg",
+    "auto": true
+  },
+  "car:porsche-935": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Porsche_935_Turbo_K3_Kremer_Racing_%286794053122%29.jpg/1280px-Porsche_935_Turbo_K3_Kremer_Racing_%286794053122%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Porsche 935",
+    "credit": "nakhon100",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porsche_935_Turbo_K3_Kremer_Racing_(6794053122).jpg",
     "auto": true
   },
   "car:porsche-956": {
@@ -662,7 +779,7 @@
     "page": "https://commons.wikimedia.org/wiki/File:Techno-Classica_2018,_Essen_(IMG_9774).jpg",
     "auto": true
   },
-  "car:Shelby Cobra Daytona Coupe": {
+  "car:shelby-cobra-daytona-coupe": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Shelby_Daytona%2C_1964.JPG/1280px-Shelby_Daytona%2C_1964.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Shelby Cobra Daytona Coupe",
     "credit": "User:Jaydec",
@@ -680,15 +797,6 @@
     "page": "https://commons.wikimedia.org/wiki/File:Mille_Miglia_2017_Talbot_Lago_T26_GS_Berlinette_1950.jpg",
     "auto": true
   },
-  "car:Toyota GT-One": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Toyota_GT-One_%28TS020%29_and_TS010_front_2012_WEC_Fuji.jpg/1280px-Toyota_GT-One_%28TS020%29_and_TS010_front_2012_WEC_Fuji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "alt": "Toyota GT-One",
-    "credit": "Morio",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Toyota_GT-One_(TS020)_and_TS010_front_2012_WEC_Fuji.jpg",
-    "auto": true
-  },
   "car:toyota-gr010-hybrid": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Osaka_Auto_Messe_2022_%28125%29_-_No.7_TOYOTA_GR010_HYBRID_ver_2021_FIA_World_Endurance_Championship.jpg/1280px-Osaka_Auto_Messe_2022_%28125%29_-_No.7_TOYOTA_GR010_HYBRID_ver_2021_FIA_World_Endurance_Championship.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Toyota GR010 Hybrid",
@@ -696,6 +804,15 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Osaka_Auto_Messe_2022_(125)_-_No.7_TOYOTA_GR010_HYBRID_ver_2021_FIA_World_Endurance_Championship.jpg",
+    "auto": true
+  },
+  "car:toyota-gt-one": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Toyota_GT-One_%28TS020%29_and_TS010_front_2012_WEC_Fuji.jpg/1280px-Toyota_GT-One_%28TS020%29_and_TS010_front_2012_WEC_Fuji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Toyota GT-One",
+    "credit": "Morio",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Toyota_GT-One_(TS020)_and_TS010_front_2012_WEC_Fuji.jpg",
     "auto": true
   },
   "car:toyota-ts030-hybrid": {
@@ -1218,6 +1335,92 @@
     "page": "https://commons.wikimedia.org/wiki/File:24H_Le_Mans_2025_Winning_picture_of_car_83_(cropped).jpg",
     "auto": true
   },
+  "entry:alpine-endurance|2018|Alpine A470": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2019_4_Hours_of_Silverstone_36_%2848664324118%29.jpg/1280px-2019_4_Hours_of_Silverstone_36_%2848664324118%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Alpine A470, Signatech Alpine, 2018–2019 season",
+    "credit": "https://www.flickr.com/photos/davehamster/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2019_4_Hours_of_Silverstone_36_(48664324118).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:alpine-endurance|2021|alpine-a480": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/2021_FIA_WEC_8_Hours_of_Bahrain_Alpine_A480_Alpine_Elf_Matmut.jpg/1280px-2021_FIA_WEC_8_Hours_of_Bahrain_Alpine_A480_Alpine_Elf_Matmut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Alpine A480, Alpine Elf Matmut, 2021 season",
+    "credit": "Kobokem2021",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2021_FIA_WEC_8_Hours_of_Bahrain_Alpine_A480_Alpine_Elf_Matmut.jpg",
+    "auto": true
+  },
+  "entry:alpine-endurance|2022|alpine-a480": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Alpine_A480_-_Andre_Negrao%2C_Nicolas_Lapierre_%26_Matthieu_Vaxiviere_in_the_Esses_at_the_2022_Le_Mans_%2853554182569%29.jpg/1280px-Alpine_A480_-_Andre_Negrao%2C_Nicolas_Lapierre_%26_Matthieu_Vaxiviere_in_the_Esses_at_the_2022_Le_Mans_%2853554182569%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Alpine A480, Alpine Elf Matmut, 2022 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alpine_A480_-_Andre_Negrao,_Nicolas_Lapierre_%26_Matthieu_Vaxiviere_in_the_Esses_at_the_2022_Le_Mans_(53554182569).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:alpine-endurance|2024|alpine-a424": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/2024_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.36_%28DSC04195%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.36_%28DSC04195%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Alpine A424, Alpine Endurance Team, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.36_(DSC04195).jpg",
+    "auto": true
+  },
+  "entry:alpine-endurance|2026|alpine-a424": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2026_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.35_%28DSC5766%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.35_%28DSC5766%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Alpine A424, Alpine Endurance Team, 2026 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Alpine_Endurance_Team_Alpine_A424_No.35_(DSC5766).jpg",
+    "auto": true
+  },
+  "entry:aston-martin-racing|2006|aston-martin-dbr9": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Aston_Martin_DBR9_GT1_2006_No_007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Aston Martin DBR9, Aston Martin Racing, 2006 season",
+    "credit": "6tee-zeven",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aston_Martin_DBR9_GT1_2006_No_007.jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:aston-martin-racing|2008|aston-martin-dbr9": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Aston_Martin_DBR9_heads_ot_of_Dunlop_Chicane_at_the_2008_Le_Mans_%2855058545489%29.jpg/1280px-Aston_Martin_DBR9_heads_ot_of_Dunlop_Chicane_at_the_2008_Le_Mans_%2855058545489%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Aston Martin DBR9, Aston Martin Racing, 2008 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aston_Martin_DBR9_heads_ot_of_Dunlop_Chicane_at_the_2008_Le_Mans_(55058545489).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:aston-martin-racing|2009|Lola-Aston Martin B09/60": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/2009_Lola-Aston_Martin_B09_60_Goodwood%2C_2009_%2801%29.jpg/1280px-2009_Lola-Aston_Martin_B09_60_Goodwood%2C_2009_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Lola-Aston Martin B09/60, Aston Martin Racing, 2009 season",
+    "credit": "Bahnfrend",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2009_Lola-Aston_Martin_B09_60_Goodwood,_2009_(01).jpg",
+    "auto": true
+  },
+  "entry:aston-martin-racing|2012|aston-martin-vantage-gte": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Vantage_GTE_97%2C_Silverstone_WEC_2012.png/1280px-Vantage_GTE_97%2C_Silverstone_WEC_2012.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Aston Martin V8 Vantage GTE, Aston Martin Racing, 2012 season",
+    "credit": "Tje23",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vantage_GTE_97,_Silverstone_WEC_2012.png",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
   "entry:aston-martin-racing|2014|aston-martin-vantage-gte": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Le_Mans_2014_-_GTE_Pro_-_-97_Aston_Martin_Racing_V8_Vantage_-_Stefan_Mucke_Bruno_Senna_Darren_Turner_%2814433990821%29.jpg/1280px-Le_Mans_2014_-_GTE_Pro_-_-97_Aston_Martin_Racing_V8_Vantage_-_Stefan_Mucke_Bruno_Senna_Darren_Turner_%2814433990821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Aston Martin V8 Vantage GTE, Aston Martin Racing, 2014 season",
@@ -1227,6 +1430,25 @@
     "page": "https://commons.wikimedia.org/wiki/File:Le_Mans_2014_-_GTE_Pro_-_-97_Aston_Martin_Racing_V8_Vantage_-_Stefan_Mucke_Bruno_Senna_Darren_Turner_(14433990821).jpg",
     "auto": true
   },
+  "entry:aston-martin-racing|2015|aston-martin-vantage-gte": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Aston_Martin_Racing_-_Aston_Martin_Vantage_V8_-97_%2818839857896%29.jpg/1280px-Aston_Martin_Racing_-_Aston_Martin_Vantage_V8_-97_%2818839857896%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Aston Martin V8 Vantage GTE, Aston Martin Racing, 2015 season",
+    "credit": "Kevin Decherf from Nantes, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aston_Martin_Racing_-_Aston_Martin_Vantage_V8_-97_(18839857896).jpg",
+    "auto": true
+  },
+  "entry:aston-martin-racing|2016|aston-martin-vantage-gte": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/4_Hours_of_Silverstone_2016_-_European_Le_Mans_Series_-_Aston_Martin_V8_Vantage_-_Aston_Martin_Racing.jpg/1280px-4_Hours_of_Silverstone_2016_-_European_Le_Mans_Series_-_Aston_Martin_V8_Vantage_-_Aston_Martin_Racing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Aston Martin V8 Vantage GTE, Aston Martin Racing, 2016 season",
+    "credit": "David Merrett",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:4_Hours_of_Silverstone_2016_-_European_Le_Mans_Series_-_Aston_Martin_V8_Vantage_-_Aston_Martin_Racing.jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
   "entry:aston-martin-racing|2018|aston-martin-vantage-amr": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/No.95_Aston_Martin_Vantage_AMR.jpg/1280px-No.95_Aston_Martin_Vantage_AMR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Aston Martin Vantage AMR, Aston Martin Racing, 2018–2019 season",
@@ -1234,6 +1456,63 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:No.95_Aston_Martin_Vantage_AMR.jpg",
+    "auto": true
+  },
+  "entry:audi-sport-team-joest|2000|audi-r8": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2000_Thousand_Years_winning_Audi_R8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Audi R8 (LMP), Audi Sport Team Joest, 2000 season",
+    "credit": "Bahnfrend",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2000_Thousand_Years_winning_Audi_R8.jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:audi-sport-team-joest|2001|audi-r8": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Audi_R8_-_Frank_Biela%2C_Emanuele_Pirro_%26_Tom_Kristensen_at_the_2001_Le_Mans_%2854282171887%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Audi R8 (LMP), Audi Sport Team Joest, 2001 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Audi_R8_-_Frank_Biela,_Emanuele_Pirro_%26_Tom_Kristensen_at_the_2001_Le_Mans_(54282171887).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:audi-sport-team-joest|2006|audi-r10-tdi": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/2006_Audi_Sport_Team_Joest%27s_Audi_R10_TDI_%2849379464663%29.jpg/1280px-2006_Audi_Sport_Team_Joest%27s_Audi_R10_TDI_%2849379464663%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Audi R10 TDI, Audi Sport Team Joest, 2006 season",
+    "credit": "David Merrett from Daventry, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2006_Audi_Sport_Team_Joest%27s_Audi_R10_TDI_(49379464663).jpg",
+    "auto": true
+  },
+  "entry:audi-sport-team-joest|2007|audi-r10-tdi": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Audi_R10_2007.jpg/1280px-Audi_R10_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Audi R10 TDI, Audi Sport Team Joest, 2007 season",
+    "credit": "Fabrice Pluchet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Audi_R10_2007.jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:audi-sport-team-joest|2008|audi-r10-tdi": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Audi_R10_TDI%2C_2008_-_Flickr_-_Supermac1961.jpg/1280px-Audi_R10_TDI%2C_2008_-_Flickr_-_Supermac1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Audi R10 TDI, Audi Sport Team Joest, 2008 season",
+    "credit": "Supermac1961 from CHAFFORD HUNDRED, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Audi_R10_TDI,_2008_-_Flickr_-_Supermac1961.jpg",
+    "auto": true
+  },
+  "entry:audi-sport-team-joest|2011|audi-r18-tdi": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/PLM_2011_2_Audi_2.jpg/1280px-PLM_2011_2_Audi_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Audi R18 TDI, Audi Sport Team Joest, 2011 season",
+    "credit": "Chris Pruitt",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PLM_2011_2_Audi_2.jpg",
     "auto": true
   },
   "entry:audi-sport-team-joest|2012|audi-r18-e-tron-quattro": {
@@ -1281,6 +1560,53 @@
     "page": "https://commons.wikimedia.org/wiki/File:No._8_Audi_R18_(2016)_-_Lucas_di_Grassi,_Loic_Duval,_Oliver_Jarvis_-_2016_24_Hours_of_Le_Mans_(1).jpg",
     "auto": true
   },
+  "entry:bentley-works|2001|Bentley EXP Speed 8": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Bentley_EXP_Speed_8_-_Andy_Wallace%2C_Eric_van_de_Poele_%26_Butch_Leitzinger_at_the_2001_Le_Mans_%2854281578871%29.jpg/1280px-Bentley_EXP_Speed_8_-_Andy_Wallace%2C_Eric_van_de_Poele_%26_Butch_Leitzinger_at_the_2001_Le_Mans_%2854281578871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Bentley EXP Speed 8, Team Bentley, 2001 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bentley_EXP_Speed_8_-_Andy_Wallace,_Eric_van_de_Poele_%26_Butch_Leitzinger_at_the_2001_Le_Mans_(54281578871).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:bentley-works|2002|Bentley EXP Speed 8": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Bentley_EXP_Speed_8_heads_under_the_Dunlop_Bridge_at_the_2002_Le_Mans_%2854295077713%29.jpg/1280px-Bentley_EXP_Speed_8_heads_under_the_Dunlop_Bridge_at_the_2002_Le_Mans_%2854295077713%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Bentley EXP Speed 8, Team Bentley, 2002 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bentley_EXP_Speed_8_heads_under_the_Dunlop_Bridge_at_the_2002_Le_Mans_(54295077713).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:bentley-works|2003|bentley-speed-8": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Bentley_Speed_8_%282003_24_Hours_of_Le_Mans%2C_No.7%29%2C_Automobilforum_unter_den_Linden%2C_2006_%2801%29.jpg/1280px-Bentley_Speed_8_%282003_24_Hours_of_Le_Mans%2C_No.7%29%2C_Automobilforum_unter_den_Linden%2C_2006_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Bentley Speed 8, Team Bentley, 2003 season",
+    "credit": "Bahnfrend",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bentley_Speed_8_(2003_24_Hours_of_Le_Mans,_No.7),_Automobilforum_unter_den_Linden,_2006_(01).jpg",
+    "auto": true
+  },
+  "entry:bmw-m-team-wrt|2024|bmw-m-hybrid-v8": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/2024_6_Hours_of_Spa-Francorchamps_BMW_M_Team_WRT_BMW_M_Hybrid_V8_No.20_%28DSC05965%29.jpg/1280px-2024_6_Hours_of_Spa-Francorchamps_BMW_M_Team_WRT_BMW_M_Hybrid_V8_No.20_%28DSC05965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW M Hybrid V8, BMW M Team WRT, 2024 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_BMW_M_Team_WRT_BMW_M_Hybrid_V8_No.20_(DSC05965).jpg",
+    "auto": true
+  },
+  "entry:bmw-m-team-wrt|2025|bmw-m-hybrid-v8": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/2025_6_Hours_of_Imola_Team_WRT_BMW_M_Hybrid_No.20_-_Frijns%2C_Rast%2C_Sheldon_van_der_Linde.jpg/1280px-2025_6_Hours_of_Imola_Team_WRT_BMW_M_Hybrid_No.20_-_Frijns%2C_Rast%2C_Sheldon_van_der_Linde.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW M Hybrid V8, BMW M Team WRT, 2025 season",
+    "credit": "Road Atlanta Turn 5",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_6_Hours_of_Imola_Team_WRT_BMW_M_Hybrid_No.20_-_Frijns,_Rast,_Sheldon_van_der_Linde.jpg",
+    "auto": true
+  },
   "entry:bmw-m-team-wrt|2026|bmw-m-hybrid-v8": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/24_Heures_du_Mans_2026_Hypercar_No._15_BMW_M_Hybrid_V8.jpg/1280px-24_Heures_du_Mans_2026_Hypercar_No._15_BMW_M_Hybrid_V8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "BMW M Hybrid V8, BMW M Team WRT, 2026 season",
@@ -1288,6 +1614,15 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2026_Hypercar_No._15_BMW_M_Hybrid_V8.jpg",
+    "auto": true
+  },
+  "entry:cadillac-hertz-team-jota|2025|cadillac-v-series-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2025_Cadillac_V-Series_R_Hertz_Team_JOTA.jpg/1280px-2025_Cadillac_V-Series_R_Hertz_Team_JOTA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Cadillac V-Series.R, Cadillac Hertz Team Jota, 2025 season",
+    "credit": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_Cadillac_V-Series_R_Hertz_Team_JOTA.jpg",
     "auto": true
   },
   "entry:cadillac-hertz-team-jota|2026|cadillac-v-series-r": {
@@ -1299,6 +1634,112 @@
     "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_(DSC07675).jpg",
     "auto": true
   },
+  "entry:corvette-racing|2001|chevrolet-corvette-c5-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chevrolet_Corvette_C5-R_-_Kelly_Collins%2C_Andy_Pilgrim_%26_Franck_Freon_at_the_Esses_at_the_2001_Le_Mans_%2854283444959%29.jpg/1280px-Chevrolet_Corvette_C5-R_-_Kelly_Collins%2C_Andy_Pilgrim_%26_Franck_Freon_at_the_Esses_at_the_2001_Le_Mans_%2854283444959%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chevrolet Corvette C5-R, Corvette Racing, 2001 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C5-R_-_Kelly_Collins,_Andy_Pilgrim_%26_Franck_Freon_at_the_Esses_at_the_2001_Le_Mans_(54283444959).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:corvette-racing|2002|chevrolet-corvette-c5-r": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Corvette_Racing_Chevrolet_Corvette_C5R_-_GTS_Winner_2002_Grand_Prix_of_Mosport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Chevrolet Corvette C5-R, Corvette Racing, 2002 season",
+    "credit": "TorontoGuy79",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Corvette_Racing_Chevrolet_Corvette_C5R_-_GTS_Winner_2002_Grand_Prix_of_Mosport.jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:corvette-racing|2005|chevrolet-corvette-c6-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Chevrolet_Corvette_C6.R_Z06_-_Oliver_Gavin%2C_Olivier_Beretta_%26_Jan_Magnussen_enters_the_Esses_at_the_2005_Le_Mans_%2854306512211%29.jpg/1280px-Chevrolet_Corvette_C6.R_Z06_-_Oliver_Gavin%2C_Olivier_Beretta_%26_Jan_Magnussen_enters_the_Esses_at_the_2005_Le_Mans_%2854306512211%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chevrolet Corvette C6.R, Corvette Racing, 2005 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C6.R_Z06_-_Oliver_Gavin,_Olivier_Beretta_%26_Jan_Magnussen_enters_the_Esses_at_the_2005_Le_Mans_(54306512211).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:corvette-racing|2006|chevrolet-corvette-c6-r": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Chevrolet_Corvette_C6.R_Z06_-_Ron_Fellows%2C_Johnny_O%60Connell_%26_Max_Papis_in_the_Esses_at_the_2006_Le_Mans_%2854323408619%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Chevrolet Corvette C6.R, Corvette Racing, 2006 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C6.R_Z06_-_Ron_Fellows,_Johnny_O%60Connell_%26_Max_Papis_in_the_Esses_at_the_2006_Le_Mans_(54323408619).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:corvette-racing|2015|chevrolet-corvette-c7-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/2015_Rolex_24hrs_of_Daytona_%2816497234536%29.jpg/1280px-2015_Rolex_24hrs_of_Daytona_%2816497234536%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chevrolet Corvette C7.R, Corvette Racing, 2015 season",
+    "credit": "Jeremy Stoutamyer",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16497234536).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:corvette-racing|2021|chevrolet-corvette-c8-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Chevrolet_Corvette_C8.R_at_the_2021_Road_Race_Showcase.jpg/1280px-Chevrolet_Corvette_C8.R_at_the_2021_Road_Race_Showcase.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chevrolet Corvette C8.R, Corvette Racing, 2021 season",
+    "credit": "Arturo Hurtado",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C8.R_at_the_2021_Road_Race_Showcase.jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:corvette-racing|2022|chevrolet-corvette-c8-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Chevrolet_Corvette_C8.R_-_Antonio_Garcia%2C_Jordan_Taylor_%26_Nicky_Catsburg_in_the_Esses_at_the_2022_Le_Mans_%2853515138355%29.jpg/1280px-Chevrolet_Corvette_C8.R_-_Antonio_Garcia%2C_Jordan_Taylor_%26_Nicky_Catsburg_in_the_Esses_at_the_2022_Le_Mans_%2853515138355%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chevrolet Corvette C8.R, Corvette Racing, 2022 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C8.R_-_Antonio_Garcia,_Jordan_Taylor_%26_Nicky_Catsburg_in_the_Esses_at_the_2022_Le_Mans_(53515138355).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:corvette-racing|2023|chevrolet-corvette-c8-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/2023_6_Hours_of_Spa-Francorchamps_Corvette_Racing_Chevrolet_Corvette_C8.R_No.33_%28DSC00037%29.jpg/1280px-2023_6_Hours_of_Spa-Francorchamps_Corvette_Racing_Chevrolet_Corvette_C8.R_No.33_%28DSC00037%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Chevrolet Corvette C8.R, Corvette Racing, 2023 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2023_6_Hours_of_Spa-Francorchamps_Corvette_Racing_Chevrolet_Corvette_C8.R_No.33_(DSC00037).jpg",
+    "auto": true
+  },
+  "entry:ferrari-af-corse|2013|ferrari-458-italia-gte": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Le_Mans_2013_%28147_of_631%29_%289344221499%29.jpg/1280px-Le_Mans_2013_%28147_of_631%29_%289344221499%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 458 Italia GTE, AF Corse, 2013 season",
+    "credit": "Surreal Name Given",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Mans_2013_(147_of_631)_(9344221499).jpg",
+    "auto": true
+  },
+  "entry:ferrari-af-corse|2014|ferrari-458-italia-gte": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/WEC_2014_Silverstone_6_hrs_-_-51_AF_Corse_Ferrari_458_Italia_GT_Pro_-_Bruni_Wilander_%2813954462092%29.jpg/1280px-WEC_2014_Silverstone_6_hrs_-_-51_AF_Corse_Ferrari_458_Italia_GT_Pro_-_Bruni_Wilander_%2813954462092%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 458 Italia GTE, AF Corse, 2014 season",
+    "credit": "Mark Seymour from UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WEC_2014_Silverstone_6_hrs_-_-51_AF_Corse_Ferrari_458_Italia_GT_Pro_-_Bruni_Wilander_(13954462092).jpg",
+    "auto": true
+  },
+  "entry:ferrari-af-corse|2015|ferrari-458-italia-gte": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/AF_Corse_-_Ferrari_458_Italia_--_Riley_Motorsports_-_SRT_Viper_GTS-R_%2818678365858%29.jpg/1280px-AF_Corse_-_Ferrari_458_Italia_--_Riley_Motorsports_-_SRT_Viper_GTS-R_%2818678365858%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 458 Italia GTE, AF Corse, 2015 season",
+    "credit": "Kevin Decherf from Nantes, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AF_Corse_-_Ferrari_458_Italia_--_Riley_Motorsports_-_SRT_Viper_GTS-R_(18678365858).jpg",
+    "auto": true
+  },
   "entry:ferrari-af-corse|2016|ferrari-488-gte": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Le_Mans_2016_-_GTE_Pro_-_-51_AF_Corse_Ferrari_488_GTE_-_Gianmaria_Bruni_James_Calado_Alessandro_Pier_Guidi_%2827739716782%29.jpg/1280px-Le_Mans_2016_-_GTE_Pro_-_-51_AF_Corse_Ferrari_488_GTE_-_Gianmaria_Bruni_James_Calado_Alessandro_Pier_Guidi_%2827739716782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari 488 GTE, AF Corse, 2016 season",
@@ -1308,9 +1749,27 @@
     "page": "https://commons.wikimedia.org/wiki/File:Le_Mans_2016_-_GTE_Pro_-_-51_AF_Corse_Ferrari_488_GTE_-_Gianmaria_Bruni_James_Calado_Alessandro_Pier_Guidi_(27739716782).jpg",
     "auto": true
   },
+  "entry:ferrari-af-corse|2017|ferrari-488-gte": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/2017_6_Hours_of_COTA_No_51.jpg/1280px-2017_6_Hours_of_COTA_No_51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 488 GTE, AF Corse, 2017 season",
+    "credit": "Spheroidite",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2017_6_Hours_of_COTA_No_51.jpg",
+    "auto": true
+  },
   "entry:ferrari-af-corse|2018|ferrari-488-gte": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_No._51_AF_Corse_Ferrari_488_GTE_Evo_%28LMGTE_Pro%29_-_2019_24_Hours_of_Le_Mans.jpg/1280px-The_No._51_AF_Corse_Ferrari_488_GTE_Evo_%28LMGTE_Pro%29_-_2019_24_Hours_of_Le_Mans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari 488 GTE Evo, AF Corse, 2018–2019 season",
+    "credit": "David Merrett",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_No._51_AF_Corse_Ferrari_488_GTE_Evo_(LMGTE_Pro)_-_2019_24_Hours_of_Le_Mans.jpg",
+    "auto": true
+  },
+  "entry:ferrari-af-corse|2019|ferrari-488-gte": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_No._51_AF_Corse_Ferrari_488_GTE_Evo_%28LMGTE_Pro%29_-_2019_24_Hours_of_Le_Mans.jpg/1280px-The_No._51_AF_Corse_Ferrari_488_GTE_Evo_%28LMGTE_Pro%29_-_2019_24_Hours_of_Le_Mans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 488 GTE Evo, AF Corse, 2019–2020 season",
     "credit": "David Merrett",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
@@ -1353,6 +1812,70 @@
     "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_(DSC09711).jpg",
     "auto": true
   },
+  "entry:ford-chip-ganassi|2016|ford-gt": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Le_Mans_2016_-_GT_Am_-_-67_Chip_Ganassi_Ford_GT_-_Marino_Franchitti_Andy_Priaulx_Harry_Tincknell_%2827796962175%29.jpg/1280px-Le_Mans_2016_-_GT_Am_-_-67_Chip_Ganassi_Ford_GT_-_Marino_Franchitti_Andy_Priaulx_Harry_Tincknell_%2827796962175%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ford GT (GTE), Ford Chip Ganassi Racing, 2016 season",
+    "credit": "Mark Seymour from UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Mans_2016_-_GT_Am_-_-67_Chip_Ganassi_Ford_GT_-_Marino_Franchitti_Andy_Priaulx_Harry_Tincknell_(27796962175).jpg",
+    "auto": true
+  },
+  "entry:ford-chip-ganassi|2017|ford-gt": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Chevrolet_Corvette_C7.R_and_Ford_GT_2017_Petit_Le_Mans.jpg/1280px-Chevrolet_Corvette_C7.R_and_Ford_GT_2017_Petit_Le_Mans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ford GT (GTE), Ford Chip Ganassi Racing, 2017 season",
+    "credit": "Osajus",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C7.R_and_Ford_GT_2017_Petit_Le_Mans.jpg",
+    "auto": true
+  },
+  "entry:ford-chip-ganassi|2018|ford-gt": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/2018_12_Hours_of_Sebring%2C_Ford_Nr._66.jpg/1280px-2018_12_Hours_of_Sebring%2C_Ford_Nr._66.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ford GT (GTE), Ford Chip Ganassi Racing, 2018–2019 season",
+    "credit": "Patrick Smith",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2018_12_Hours_of_Sebring,_Ford_Nr._66.jpg",
+    "auto": true
+  },
+  "entry:glickenhaus|2021|Glickenhaus 007 LMH": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/2021_24_Hours_of_Le_Mans_Scuderia_Cameron_Glickenhaus_Glickenhaus_SCG_007_LMH.jpg/1280px-2021_24_Hours_of_Le_Mans_Scuderia_Cameron_Glickenhaus_Glickenhaus_SCG_007_LMH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Glickenhaus 007 LMH, Scuderia Cameron Glickenhaus, 2021 season",
+    "credit": "Kobokem2021",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2021_24_Hours_of_Le_Mans_Scuderia_Cameron_Glickenhaus_Glickenhaus_SCG_007_LMH.jpg",
+    "auto": true
+  },
+  "entry:glickenhaus|2022|Glickenhaus 007 LMH": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Glickenhaus_007_LMH_bodywork_in_front_of_the_pit_garage_at_the_2022_Le_Mans_%2854279838950%29.jpg/1280px-Glickenhaus_007_LMH_bodywork_in_front_of_the_pit_garage_at_the_2022_Le_Mans_%2854279838950%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Glickenhaus 007 LMH, Scuderia Cameron Glickenhaus, 2022 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glickenhaus_007_LMH_bodywork_in_front_of_the_pit_garage_at_the_2022_Le_Mans_(54279838950).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:glickenhaus|2023|Glickenhaus 007 LMH": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2023_6_Hours_of_Spa-Francorchamps_Glickenhaus_Racing_Glickenhaus_007_No.708_%28DSC08810%29.jpg/1280px-2023_6_Hours_of_Spa-Francorchamps_Glickenhaus_Racing_Glickenhaus_007_No.708_%28DSC08810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Glickenhaus 007 LMH, Scuderia Cameron Glickenhaus, 2023 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2023_6_Hours_of_Spa-Francorchamps_Glickenhaus_Racing_Glickenhaus_007_No.708_(DSC08810).jpg",
+    "auto": true
+  },
+  "entry:kokusai-kaihatsu|1995|mclaren-f1-gtr": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/The_winning_Mclaren_F1_GTR_-59_of_Yannick_Dalmas%2C_Masanori_Sekiya_%26_J.J.Lehto_at_Ford_Chicane_at_Le_Mans_1995_%2849627439822%29.jpg/1280px-The_winning_Mclaren_F1_GTR_-59_of_Yannick_Dalmas%2C_Masanori_Sekiya_%26_J.J.Lehto_at_Ford_Chicane_at_Le_Mans_1995_%2849627439822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "McLaren F1 GTR, Kokusai Kaihatsu UK, 1995 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_winning_Mclaren_F1_GTR_-59_of_Yannick_Dalmas,_Masanori_Sekiya_%26_J.J.Lehto_at_Ford_Chicane_at_Le_Mans_1995_(49627439822).jpg",
+    "auto": true
+  },
   "entry:nissan-motorsports|2015|nissan-gt-r-lm-nismo": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Nissan_Motorsports_-_Nissan_GT-R_LM_Nismo_-23_%2818860958202%29.jpg/1280px-Nissan_Motorsports_-_Nissan_GT-R_LM_Nismo_-23_%2818860958202%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Nissan GT-R LM Nismo, Nissan Motorsports, 2015 season",
@@ -1361,6 +1884,46 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Nissan_Motorsports_-_Nissan_GT-R_LM_Nismo_-23_(18860958202).jpg",
     "auto": true
+  },
+  "entry:peugeot-sport|2007|peugeot-908-hdi-fap": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Peugeot_908_HDI_FAP_-_Marc_Gene%2C_Nicolas_MInassian_%26_Jacques_Villeneuve_in_the_Esses_at_the_2007_Le_Mans_%2855029649497%29.jpg/1280px-Peugeot_908_HDI_FAP_-_Marc_Gene%2C_Nicolas_MInassian_%26_Jacques_Villeneuve_in_the_Esses_at_the_2007_Le_Mans_%2855029649497%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Peugeot 908 HDi FAP, Team Peugeot Total, 2007 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Peugeot_908_HDI_FAP_-_Marc_Gene,_Nicolas_MInassian_%26_Jacques_Villeneuve_in_the_Esses_at_the_2007_Le_Mans_(55029649497).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:peugeot-sport|2008|peugeot-908-hdi-fap": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Peugeot_908_HDi_FAP_2008.JPG/1280px-Peugeot_908_HDi_FAP_2008.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Peugeot 908 HDi FAP, Team Peugeot Total, 2008 season",
+    "credit": "Neef - 2",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Peugeot_908_HDi_FAP_2008.JPG",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:peugeot-sport|2010|peugeot-908-hdi-fap": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Peugeot_908_HDi_FAP_Nr4_Spa_2010.JPG/1280px-Peugeot_908_HDi_FAP_Nr4_Spa_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Peugeot 908 HDi FAP, Team Peugeot Total, 2010 season",
+    "credit": "DoomWarrior",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Peugeot_908_HDi_FAP_Nr4_Spa_2010.JPG",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:peugeot-sport|2011|peugeot-908": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/PLM_2011_7_Peugeot_2.jpg/1280px-PLM_2011_7_Peugeot_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Peugeot 908, Team Peugeot Total, 2011 season",
+    "credit": "Chris Pruitt",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PLM_2011_7_Peugeot_2.jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
   },
   "entry:peugeot-sport|2023|peugeot-9x8": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/2023_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC09508%29.jpg/1280px-2023_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC09508%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1379,6 +1942,16 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_(DSC02285).jpg",
     "auto": true
+  },
+  "entry:peugeot-sport|2025|peugeot-9x8": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2025_24_Hours_of_Le_Mans_%2854917550384%29.jpg/1280px-2025_24_Hours_of_Le_Mans_%2854917550384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Peugeot 9X8 (2024 evolution, with rear wing), Peugeot TotalEnergies, 2025 season",
+    "credit": "Mickael Le rouzic",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025_24_Hours_of_Le_Mans_(54917550384).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
   },
   "entry:peugeot-sport|2026|peugeot-9x8": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/2026_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC07945%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC07945%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1405,6 +1978,15 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Porsche_Team_-_Porsche_919_Hybrid_-17_(18243489744).jpg",
+    "auto": true
+  },
+  "entry:porsche-lmp1-team|2016|porsche-919-hybrid": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Porsche_919_Hybrid_no_2_at_2016_6_Hours_of_Silverstone.jpg/1280px-Porsche_919_Hybrid_no_2_at_2016_6_Hours_of_Silverstone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Porsche 919 Hybrid, Porsche LMP1 Team, 2016 season",
+    "credit": "davefiddes on Flickr : https://www.flickr.com/people/davefiddes/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porsche_919_Hybrid_no_2_at_2016_6_Hours_of_Silverstone.jpg",
     "auto": true
   },
   "entry:porsche-lmp1-team|2017|porsche-919-hybrid": {
@@ -1443,6 +2025,16 @@
     "page": "https://commons.wikimedia.org/wiki/File:Penske_963_7_WGI25_03.jpg",
     "auto": true
   },
+  "entry:porsche-works|1998|Porsche 911 GT1-98": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/1983_Porsche_956_%2B_1998_Porsche_911_GT1-98_Goodwood%2C_2009_%2801%29.jpg/1280px-1983_Porsche_956_%2B_1998_Porsche_911_GT1-98_Goodwood%2C_2009_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Porsche 911 GT1-98, Porsche AG, 1998 season",
+    "credit": "Bahnfrend",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1983_Porsche_956_%2B_1998_Porsche_911_GT1-98_Goodwood,_2009_(01).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
   "entry:rebellion-racing|2012|Lola B12/60": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Lola_B12-60_%28Rebellion_Racing%2C_Nicolas_Prost%29_2012_WEC_Fuji.jpg/1280px-Lola_B12-60_%28Rebellion_Racing%2C_Nicolas_Prost%29_2012_WEC_Fuji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Lola B12/60, Rebellion Racing, 2012 season",
@@ -1459,6 +2051,25 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:2013_24_Hours_of_Le_Mans_3822_(9120952518)_(cropped).jpg",
+    "auto": true
+  },
+  "entry:rebellion-racing|2014|Rebellion R-One": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/24_Heures_du_Mans_2014_46.jpg/1280px-24_Heures_du_Mans_2014_46.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Rebellion R-One, Rebellion Racing, 2014 season",
+    "credit": "Sebring12Hrs",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2014_46.jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:rebellion-racing|2017|Oreca 07": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/2017_6_Hours_of_COTA_No_13.jpg/1280px-2017_6_Hours_of_COTA_No_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Oreca 07, Rebellion Racing, 2017 season",
+    "credit": "Spheroidite",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2017_6_Hours_of_COTA_No_13.jpg",
     "auto": true
   },
   "entry:rebellion-racing|2018|rebellion-r13": {
@@ -1479,6 +2090,26 @@
     "page": "https://commons.wikimedia.org/wiki/File:Rebellion_Racing%27s_Rebellion_R13_Gibson_No._1_driven_by_Neel_Jani,_Andr%C3%A9_Lotterer_and_Bruno_Senna.jpg",
     "auto": true
   },
+  "entry:team-bmw-motorsport|1998|BMW V12 LM": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/BMW_V12_LM_-_Pierluigi_Martini%2C_Johnny_Cecotto_%26_Joachim_Winkelhock_at_the_1998_Le_Mans_%2851856777829%29.jpg/1280px-BMW_V12_LM_-_Pierluigi_Martini%2C_Johnny_Cecotto_%26_Joachim_Winkelhock_at_the_1998_Le_Mans_%2851856777829%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW V12 LM, Team BMW Motorsport, 1998 season",
+    "credit": "Martin Lee from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BMW_V12_LM_-_Pierluigi_Martini,_Johnny_Cecotto_%26_Joachim_Winkelhock_at_the_1998_Le_Mans_(51856777829).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
+  "entry:team-bmw-motorsport|1999|BMW V12 LMR": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/1999_BMW_V12_LMR_FOS22.jpg/1280px-1999_BMW_V12_LMR_FOS22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW V12 LMR, Team BMW Motorsport, 1999 season",
+    "credit": "MrWalkr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1999_BMW_V12_LMR_FOS22.jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
   "entry:toyota-gazoo-racing|2013|toyota-ts030-hybrid": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Sebastien_Buemi%2C_Stephane_Sarrazin_and_Anthony_Davidson_Drivers_of_Toyota_Racing%27s_Toyota_TS030_Hybrid_%288669124882%29.jpg/1280px-Sebastien_Buemi%2C_Stephane_Sarrazin_and_Anthony_Davidson_Drivers_of_Toyota_Racing%27s_Toyota_TS030_Hybrid_%288669124882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Toyota TS030 Hybrid, Toyota Racing, 2013 season",
@@ -1496,6 +2127,16 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Le_Mans_2014_-_LMP1_Hybrid_-_-8_Toyota_TS040_-_Sebastien_Buemi_at_the_wheel_(14251688019).jpg",
     "auto": true
+  },
+  "entry:toyota-gazoo-racing|2015|toyota-ts040-hybrid": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/24_Heures_Le_Mans_2015_%2818680009849%29.jpg/1280px-24_Heures_Le_Mans_2015_%2818680009849%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Toyota TS040 Hybrid, Toyota Racing, 2015 season",
+    "credit": "Kevin Decherf from Nantes, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_Le_Mans_2015_(18680009849).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
   },
   "entry:toyota-gazoo-racing|2016|toyota-ts050-hybrid": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/No._5_Toyota_TS050_Hybrid_-_2016_24_Hours_of_Le_Mans_%281%29.jpg/1280px-No._5_Toyota_TS050_Hybrid_-_2016_24_Hours_of_Le_Mans_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1524,6 +2165,16 @@
     "page": "https://commons.wikimedia.org/wiki/File:Toyota_TS050_Hybrid_-_Toyota_Gazoo_Racing_-_2019_6_Hours_of_Spa-Francorchamps.jpg",
     "auto": true
   },
+  "entry:toyota-gazoo-racing|2019|toyota-ts050-hybrid": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/2019_4_Hours_of_Silverstone_8_%2848664828317%29.jpg/1280px-2019_4_Hours_of_Silverstone_8_%2848664828317%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Toyota TS050 Hybrid, Toyota Gazoo Racing, 2019–2020 season",
+    "credit": "https://www.flickr.com/photos/davehamster/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2019_4_Hours_of_Silverstone_8_(48664828317).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
   "entry:toyota-gazoo-racing|2021|toyota-gr010-hybrid": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Osaka_Auto_Messe_2022_%28126%29_-_No.7_TOYOTA_GR010_HYBRID_ver_2021_FIA_World_Endurance_Championship.jpg/1280px-Osaka_Auto_Messe_2022_%28126%29_-_No.7_TOYOTA_GR010_HYBRID_ver_2021_FIA_World_Endurance_Championship.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Toyota GR010 Hybrid, Toyota Gazoo Racing, 2021 season",
@@ -1551,6 +2202,16 @@
     "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Toyota_Gazoo_Racing_Toyota_GR010_Hybrid_No.7_(DSC04523).jpg",
     "auto": true
   },
+  "entry:toyota-gazoo-racing|2025|toyota-gr010-hybrid": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/24h_Le_Mans_2025_-_WGI_%281%29.jpg/1280px-24h_Le_Mans_2025_-_WGI_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Toyota GR010 Hybrid, Toyota Gazoo Racing, 2025 season",
+    "credit": "WikiGenesis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24h_Le_Mans_2025_-_WGI_(1).jpg",
+    "auto": true,
+    "note": "Same car and season; entrant not confirmed"
+  },
   "entry:toyota-gazoo-racing|2026|toyota-gr010-hybrid": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/24_Heures_du_Mans_2026_Hypercar_No._7_Toyota_TR010_Hybrid.jpg/1280px-24_Heures_du_Mans_2026_Hypercar_No._7_Toyota_TR010_Hybrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Toyota TR010 Hybrid (renamed GR010), Toyota Racing, 2026 season",
@@ -1558,6 +2219,15 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2026_Hypercar_No._7_Toyota_TR010_Hybrid.jpg",
+    "auto": true
+  },
+  "entry:united-autosports|2019|Oreca 07": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/United_Autosports_Oreca_07_-_2019_4_hours_of_Shanghai_-_FIA_World_Endurance_Championship.jpg/1280px-United_Autosports_Oreca_07_-_2019_4_hours_of_Shanghai_-_FIA_World_Endurance_Championship.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Oreca 07, United Autosports, 2019–2020 season",
+    "credit": "United Autosports/Jakob Ebrey",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:United_Autosports_Oreca_07_-_2019_4_hours_of_Shanghai_-_FIA_World_Endurance_Championship.jpg",
     "auto": true
   },
   "team:alpine-endurance": {

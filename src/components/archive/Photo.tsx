@@ -43,7 +43,7 @@ export function PhotoFigure({
       </div>
       {photo && (
         <figcaption className="mt-1.5 text-[11px] leading-snug text-muted-strong">
-          {note && <span className="font-medium">{note} · </span>}
+          {(note ?? photo.note) && <span className="font-medium">{note ?? photo.note} · </span>}
           Photo: {photo.credit} ·{" "}
           {photo.licenseUrl ? (
             <a href={photo.licenseUrl} className="underline underline-offset-2 hover:text-ink" rel="license noopener" target="_blank">

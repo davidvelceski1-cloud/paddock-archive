@@ -452,7 +452,7 @@ export const historicTeamEntries: E[] = [
   { teamId: "ecurie-ecosse", season: 1957, classId: "prototype", car: "jaguar-d-type", numbers: [] },
   // Aston Martin, Shelby, JWA, Matra
   { teamId: "aston-martin-david-brown", season: 1959, classId: "prototype", car: "Aston Martin DBR1", numbers: [] },
-  { teamId: "shelby-american", season: 1964, classId: "gt-historic", car: "Shelby Cobra Daytona Coupe", numbers: [] },
+  { teamId: "shelby-american", season: 1964, classId: "gt-historic", car: "shelby-cobra-daytona-coupe", numbers: [] },
   { teamId: "shelby-american", season: 1966, classId: "prototype", car: "ford-gt40", chassis: "Ford GT40 Mk II", numbers: n("2") },
   { teamId: "shelby-american", season: 1967, classId: "prototype", car: "Ford GT40 Mk IV", numbers: n("1") },
   { teamId: "jw-automotive", season: 1968, classId: "prototype", car: "ford-gt40", chassis: "Ford GT40 (Gulf)", numbers: n("9") },
@@ -494,18 +494,18 @@ export const historicTeamEntries: E[] = [
   { teamId: "audi-sport-team-joest", season: 2010, classId: "lmp1", car: "audi-r15-tdi", numbers: n("9") },
   { teamId: "audi-sport-team-joest", season: 2011, classId: "lmp1", car: "audi-r18-tdi", numbers: [] },
   // Toyota's GT-One years (team record lives in teams.ts)
-  { teamId: "toyota-gazoo-racing", season: 1998, classId: "gt1", car: "Toyota GT-One", numbers: [] },
-  { teamId: "toyota-gazoo-racing", season: 1999, classId: "lmgtp", car: "Toyota GT-One", numbers: [] },
+  { teamId: "toyota-gazoo-racing", season: 1998, classId: "gt1", car: "toyota-gt-one", numbers: [] },
+  { teamId: "toyota-gazoo-racing", season: 1999, classId: "lmgtp", car: "toyota-gt-one", numbers: [] },
   // Aston Martin Racing's GT1 and prototype years (team record lives in teams.ts)
-  ...[2005, 2006, 2007, 2008].map((season): E => ({ teamId: "aston-martin-racing", season, classId: "gt1", car: "Aston Martin DBR9", numbers: [] })),
+  ...[2005, 2006, 2007, 2008].map((season): E => ({ teamId: "aston-martin-racing", season, classId: "gt1", car: "aston-martin-dbr9", numbers: [] })),
   { teamId: "aston-martin-racing", season: 2009, classId: "lmp1", car: "Lola-Aston Martin B09/60", numbers: [] },
   // Corvette Racing
-  ...[2001, 2002, 2004].map((season): E => ({ teamId: "corvette-racing", season, classId: "gts", car: "Chevrolet Corvette C5-R", numbers: [] })),
-  ...[2005, 2006].map((season): E => ({ teamId: "corvette-racing", season, classId: "gt1", car: "Chevrolet Corvette C6.R", numbers: [] })),
-  { teamId: "corvette-racing", season: 2011, classId: "lmgte-pro", car: "Chevrolet Corvette C6.R", numbers: [] },
-  { teamId: "corvette-racing", season: 2015, classId: "lmgte-pro", car: "Chevrolet Corvette C7.R", numbers: [] },
-  ...[2021, 2022].map((season): E => ({ teamId: "corvette-racing", season, classId: "lmgte-pro", car: "Chevrolet Corvette C8.R", numbers: [] })),
-  { teamId: "corvette-racing", season: 2023, classId: "lmgte-am", car: "Chevrolet Corvette C8.R", numbers: n("33") },
+  ...[2001, 2002, 2004].map((season): E => ({ teamId: "corvette-racing", season, classId: "gts", car: "chevrolet-corvette-c5-r", numbers: [] })),
+  ...[2005, 2006].map((season): E => ({ teamId: "corvette-racing", season, classId: "gt1", car: "chevrolet-corvette-c6-r", numbers: [] })),
+  { teamId: "corvette-racing", season: 2011, classId: "lmgte-pro", car: "chevrolet-corvette-c6-r", numbers: [] },
+  { teamId: "corvette-racing", season: 2015, classId: "lmgte-pro", car: "chevrolet-corvette-c7-r", numbers: [] },
+  ...[2021, 2022].map((season): E => ({ teamId: "corvette-racing", season, classId: "lmgte-pro", car: "chevrolet-corvette-c8-r", numbers: [] })),
+  { teamId: "corvette-racing", season: 2023, classId: "lmgte-am", car: "chevrolet-corvette-c8-r", numbers: n("33") },
   // Ford GT, Glickenhaus
   ...[2016, 2017, 2018].map((season): E => ({ teamId: "ford-chip-ganassi", season, classId: "lmgte-pro", car: "ford-gt", numbers: n("66", "67") })),
   ...[2021, 2022, 2023].map((season): E => ({ teamId: "glickenhaus", season, classId: "hypercar", car: "Glickenhaus 007 LMH", numbers: n("708", "709") })),

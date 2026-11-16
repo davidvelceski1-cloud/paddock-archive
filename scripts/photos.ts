@@ -239,7 +239,9 @@ if (!only || only === "entries") {
   console.log("Season entries (car photos by year)");
   const usedByTeam = new Map<string, Set<string>>();
   const seen = new Set<string>();
-  for (const e of [...a.teamEntries].filter((x) => onlySeason === undefined || x.season === onlySeason).sort((x, y) => x.teamId.localeCompare(y.teamId) || x.season - y.season)) {
+  // Before 1995, a year in a photo's title is usually the car's build year, not the race season,
+  // so older seasons use the car's general photo (labelled as such) instead.
+  for (const e of [...a.teamEntries].filter((x) => x.season >= 1995 && (onlySeason === undefined || x.season === onlySeason)).sort((x, y) => x.teamId.localeCompare(y.teamId) || x.season - y.season)) {
     const key = `entry:${e.teamId}|${e.season}|${e.car}`;
     if (seen.has(key)) continue;
     seen.add(key);
@@ -256,25 +258,32 @@ if (!only || only === "entries") {
     const used = usedByTeam.get(e.teamId) ?? new Set<string>();
     usedByTeam.set(e.teamId, used);
     await put(key, `${chassis}, ${team}, ${years.join("–")} season`, async () => {
+      // best: this team's car (team word or car number) in this season.
+      // fallback: the same model in this season, entrant unconfirmed — labelled as such on the page.
       let best = null as { f: FileInfo; score: number } | null;
+      let fallback = null as { f: FileInfo; score: number } | null;
+      const NOT_ON_TRACK = /lego|motor ?show|auto ?show|salon|museum|messe|gims|gantry|sign|display|exhibit|retromobile|techno-classica|festival|concours|model|toy|diecast/i;
       for (const y of years) {
-        for (const q of [`${base} ${y}`, `${base} ${y} Le Mans`]) {
+        for (const q of [`${base} ${y}`, `${base} ${y} Le Mans`, `"${team}" ${y}`, `${team} ${base} ${y}`]) {
           for (const f of await commonsSearch(q)) {
-            if (used.has(f.title) || !mentions(f.text, words) || wrongClass(f.text, chassis)) continue;
+            if (used.has(f.title) || !mentions(f.text, words) || wrongClass(f.text, chassis) || NOT_ON_TRACK.test(f.title)) continue;
             const inTitle = years.some((yy) => fold(f.title).includes(String(yy)));
             const dated = years.some((yy) => f.date.startsWith(String(yy)));
             if (!inTitle && !dated) continue; // no evidence it's from this season
             const byTeam = teamWords.some((w) => f.text.includes(w));
             const byNumber = e.numbers.some((n) => new RegExp(`(#|-|no\\.? ?|n° ?)${n}\\b`).test(fold(f.title)));
-            if (!byTeam && !byNumber) continue; // could be another entrant's car
-            const score = (inTitle ? 2 : 0) + (dated ? 2 : 0) + (byTeam ? 1 : 0) + (byNumber ? 1 : 0);
-            if (!best || score > best.score) best = { f, score };
+            const score = (inTitle ? 2 : 0) + (dated ? 2 : 0) + (byTeam ? 1 : 0) + (byNumber ? 1 : 0) + (f.w >= f.h ? 1 : 0);
+            if (byTeam || byNumber) {
+              if (!best || score > best.score) best = { f, score };
+            } else if (inTitle && (!fallback || score > fallback.score)) fallback = { f, score };
           }
-          if (best && best.score >= 5) break;
+          if (best && best.score >= 6) break;
         }
+        if (best && best.score >= 6) break;
       }
-      if (best) used.add(best.f.title);
-      return best?.f ?? null;
+      const pick = best ?? (fallback ? { ...fallback, f: { ...fallback.f, photo: { ...fallback.f.photo, note: "Same car and season; entrant not confirmed" } } } : null);
+      if (pick) used.add(pick.f.title);
+      return pick?.f ?? null;
     });
   }
   save();

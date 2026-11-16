@@ -357,5 +357,8 @@ export const manufacturers: ArchiveInput["manufacturers"] = [
   { id: "oreca", name: "Oreca", country: "FR", summary: "French constructor and team; builder of the Rebellion R13 and the dominant LMP2 chassis of the spec-engine era." },
   { id: "chevrolet", name: "Chevrolet", country: "US", summary: "Corvette Racing's GT programme made it one of the most successful GT marques at Le Mans." },
   { id: "lamborghini", name: "Lamborghini", country: "IT", summary: "LMDh entrant with the SC63 in 2024." },
+  { id: "shelby", name: "Shelby", country: "US", summary: "Carroll Shelby's company built the Cobra and its Daytona Coupe, GT class winners at Le Mans in 1964, and ran Ford's winning GT40s." },
+  { id: "chrysler", name: "Chrysler (Viper)", country: "US", summary: "The V10-engined Viper GTS-R, raced as a Chrysler in Europe and a Dodge in America, won its class at Le Mans from 1998 to 2000." },
+  { id: "lexus", name: "Lexus", country: "JP", summary: "Toyota's premium brand, an LMGT3 entrant with the RC F GT3 from 2024." },
   { id: "glickenhaus", name: "Glickenhaus", country: "US", summary: "Jim Glickenhaus's small American constructor, whose 007 LMH raced in Hypercar from 2021 to 2023 and finished third at Le Mans in 2022." },
 ];

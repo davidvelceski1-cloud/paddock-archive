@@ -1,4 +1,11 @@
 {
+  "car:Alfa Romeo 8C 2300": [
+    "File:1937 Alfa Romeo 8C 2300 or 2900 Zagato.jpg"
+  ],
+  "car:aston-martin-vantage-gte": [
+    "File:Aston Martin Vantage GTE Thiim Silverstone 2018.jpg",
+    "File:Aston MArtin Vantage GTE, GIMS 2018, Le Grand-Saconnex (1X7A1590).jpg"
+  ],
   "car:audi-r18-e-tron-quattro": [
     "File:Audi R18 - Mondial de l'Automobile de Paris 2016 - 002.jpg"
   ],
@@ -8,7 +15,21 @@
   "car:audi-r18-ultra": [
     "File:Audi R18 - Mondial de l'Automobile de Paris 2016 - 002.jpg"
   ],
-  "car:Ferrari 458 Italia GTE": [
+  "car:Bentley 4½ Litre": [
+    "File:1928 Bentley Saloon at Toddington Railway Gala, 0513 8979023957.jpg"
+  ],
+  "car:Bentley Speed Six": [
+    "File:Sir Michael Kadoorie's 1930 Bentley Speed Six Mulliner Drop Head Coupe1.jpg"
+  ],
+  "car:BMW V12 LM": [
+    "File:BMW V12 LMR, Techno-Classica 2018, Essen (IMG 9769).jpg"
+  ],
+  "car:Bugatti Type 57C": [
+    "File:1939 Bugatti Type 57C Vanvooren Cabriolet- (21864460571).jpg",
+    "File:Bugatti Type 57C Atalante (1938) (55079062663).jpg",
+    "File:1939 Bugatti Type 57C Cabriolet Van Vooren 3158196160.jpg"
+  ],
+  "car:ferrari-458-italia-gte": [
     "File:Ferrari 458 Fort Worth June 2016 56 (Ferrari) (cropped-2).jpg"
   ],
   "car:ford-gt": [
@@ -16,16 +37,86 @@
     "File:GT Gulf (49549850812).jpg",
     "File:1. VLN Race 2012 (7035482425).jpg"
   ],
+  "car:Glickenhaus 007 LMH": [
+    "File:1000 Miles of Sebring 2023-03-17 James Glickenhaus.jpg",
+    "File:1000 Miles of Sebring 2023-03-17 James Glickenhaus (cropped).jpg"
+  ],
   "car:mclaren-f1-gtr": [
     "File:1998 Goodwood Festival of Speed (15781190981).jpg"
   ],
-  "entry:ferrari-af-corse|2017|ferrari-488-gte": true,
-  "entry:ferrari-af-corse|2019|ferrari-488-gte": true,
-  "entry:ferrari-af-corse|2021|ferrari-488-gte": true,
-  "entry:porsche-lmp1-team|2016|porsche-919-hybrid": true,
-  "entry:rebellion-racing|2017|Oreca 07": true,
-  "entry:toyota-gazoo-racing|2019|toyota-ts050-hybrid": true,
-  "entry:toyota-gazoo-racing|2022|toyota-gr010-hybrid": true,
+  "car:Mercedes-Benz 300 SL": [
+    "File:Fox Classic Car Collection, 2008 (02).JPG",
+    "File:Mercedes 300SL grijs Nürburgring 2006 small.jpg",
+    "File:Würgauer Bergrennen 2022 Daimler Benz 300 SL-20220911-RM-114102.jpg"
+  ],
+  "car:Porsche 936/81": [
+    "File:Porsche 93677 Spider.jpg"
+  ],
+  "entry:alpine-endurance|2016|alpine-a460": [
+    "File:Baxi DC Racing Alpine's Alpine A460 Nissan Driven by David Cheng Ho-Pin Tung and Nelson Panciatici.jpg"
+  ],
+  "entry:aston-martin-racing|2005|aston-martin-dbr9": [
+    "File:2005 RAR Aston Martin DBR9 ZIC.jpg"
+  ],
+  "entry:aston-martin-racing|2007|aston-martin-dbr9": [
+    "File:Aston Martin DBR9 Prenois 2007.jpeg"
+  ],
+  "entry:aston-martin-racing|2017|aston-martin-vantage-gte": [
+    "File:4 Hours Monza European Le Mans Series - World Series Formula V8 3.5 - TCR International Series - Autodromo Nazionale di Monza 14-05-2017 (33974659543).jpg"
+  ],
+  "entry:aston-martin-racing|2019|aston-martin-vantage-amr": [
+    "File:2019 Aston Martin Vantage V8 AMR Hero Edition.jpg"
+  ],
+  "entry:audi-sport-team-joest|2002|audi-r8": [
+    "File:Audi Sport North America Audi R8 - Winner 2002 Grand Prix of Mosport.jpg"
+  ],
+  "entry:audi-sport-team-joest|2010|audi-r15-tdi": [
+    "File:Audi R15 TDI Plus at 8 Heures du Castellet 2010 - side view.jpg"
+  ],
+  "entry:audi-sport-team-joest|2012|audi-r18-ultra": [
+    "File:Audi R18 e-tron quattro no1 2012 WEC Fuji.jpg"
+  ],
+  "entry:corvette-racing|2004|chevrolet-corvette-c5-r": [
+    "File:Chevrolet Corvette Z06 Commemorative Edition Coupé (C5, 2004) (55218472542).jpg"
+  ],
+  "entry:corvette-racing|2011|chevrolet-corvette-c6-r": [
+    "File:Corvette C6.R DKR 47 Silverstone 2011.jpg"
+  ],
+  "entry:ferrari-af-corse|2017|ferrari-488-gte": [
+    "File:Ferrari 488 GTE n° 51 - Spirit of Race - 4 Heures de Silverstone 2017.jpg"
+  ],
+  "entry:ferrari-af-corse|2019|ferrari-488-gte": [
+    "File:2019 4 Hours of Silverstone 71 (48664666416).jpg"
+  ],
+  "entry:ferrari-af-corse|2021|ferrari-488-gte": [
+    "File:CetilarRacing 47 24 Ore LM 2021.jpg",
+    "File:2021 4 Hours of Monza - Race.jpg"
+  ],
+  "entry:ferrari-af-corse|2022|ferrari-488-gte": [
+    "File:2022 6 Hours of Monza - Start of the Race.jpg"
+  ],
+  "entry:peugeot-sport|2009|peugeot-908-hdi-fap": [
+    "File:2009 Peugeot 908 HDi FAP Goodwood, 2009 (05).jpg"
+  ],
+  "entry:peugeot-sport|2022|peugeot-9x8": [
+    "File:Peugeot 9X8, MA Paris 2022 - 0010.jpg"
+  ],
+  "entry:porsche-lmp1-team|2016|porsche-919-hybrid": [
+    "File:2016 Porsche 919 Hybrid LEGO Car Show (31410942020).jpg"
+  ],
+  "entry:rebellion-racing|2017|Oreca 07": [
+    "File:2017-03-07 Geneva Motor Show 0862.JPG"
+  ],
+  "entry:toyota-gazoo-racing|2019|toyota-ts050-hybrid": [
+    "File:Toyota TS050 Hybrid - Toyota Gazoo Racing - 2019 6 Hours of Spa-Francorchamps (cropped).jpg",
+    "File:Toyota TS050 Hybrid - Toyota Gazoo Racing - 2019 6 Hours of Spa-Francorchamps.jpg"
+  ],
+  "entry:toyota-gazoo-racing|2022|toyota-gr010-hybrid": [
+    "File:Toyota Gazoo Racing GR010 Hybrid -7 pit gantry sign at the 2022 Le Mans (54279656833).jpg"
+  ],
+  "team:ford-chip-ganassi": true,
+  "team:glickenhaus": true,
+  "team:united-autosports": true,
   "track:nurburgring": [
     "File:Porsche 911 Carrera RSR, Bj. 1974 (2011-08-13 Sp).JPG"
   ],
@@ -33,36 +124,7 @@
     "File:McLaren MP4-16A 2015 McLaren MP4-16A shakedown (21219267118).jpg",
     "File:Jan Magnussen, Silverstone British F3 1994.jpg"
   ],
-  "car:Bentley 4½ Litre": [
-    "File:1928 Bentley Saloon at Toddington Railway Gala, 0513 8979023957.jpg"
-  ],
-  "car:Bentley Speed Six": [
-    "File:Sir Michael Kadoorie's 1930 Bentley Speed Six Mulliner Drop Head Coupe1.jpg"
-  ],
-  "car:Alfa Romeo 8C 2300": [
-    "File:1937 Alfa Romeo 8C 2300 or 2900 Zagato.jpg"
-  ],
-  "car:Bugatti Type 57C": [
-    "File:1939 Bugatti Type 57C Vanvooren Cabriolet- (21864460571).jpg",
-    "File:Bugatti Type 57C Atalante (1938) (55079062663).jpg"
-  ],
-  "car:Mercedes-Benz 300 SL": [
-    "File:Fox Classic Car Collection, 2008 (02).JPG",
-    "File:Mercedes 300SL grijs Nürburgring 2006 small.jpg"
-  ],
-  "car:Porsche 936/81": [
-    "File:Porsche 93677 Spider.jpg"
-  ],
   "wallpaper:le-mans-2012-2": true,
   "wallpaper:le-mans-2018-1": true,
-  "wallpaper:le-mans-2018-2": true,
-  "car:BMW V12 LM": [
-    "File:BMW V12 LMR, Techno-Classica 2018, Essen (IMG 9769).jpg"
-  ],
-  "car:Glickenhaus 007 LMH": [
-    "File:1000 Miles of Sebring 2023-03-17 James Glickenhaus.jpg"
-  ],
-  "team:ford-chip-ganassi": true,
-  "team:glickenhaus": true,
-  "team:united-autosports": true
+  "wallpaper:le-mans-2018-2": true
 }

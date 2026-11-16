@@ -66,7 +66,7 @@ export const events: ArchiveInput["events"] = [
     "24 Hours",
     [
       { classId: "overall", podium: [AUDI1_2012, ref(AUDI, R18, "2", ["tom-kristensen", "allan-mcnish", "rinaldo-capello"])], laps: 378 },
-      { classId: "lmgte-pro", podium: [ref("ferrari-af-corse", "Ferrari 458 Italia GTE", "51", ["Giancarlo Fisichella", "Gianmaria Bruni", "Toni Vilander"])] },
+      { classId: "lmgte-pro", podium: [ref("ferrari-af-corse", "ferrari-458-italia-gte", "51", ["Giancarlo Fisichella", "Gianmaria Bruni", "Toni Vilander"])] },
     ],
     "The first hybrid victory at Le Mans. Toyota's TS030 made its debut and led before both cars retired.",
   ),
@@ -92,7 +92,7 @@ export const events: ArchiveInput["events"] = [
       { classId: "overall", podium: [POR2_2016, TOY6_2016, AUDI8_2016], pole: POR2_2016, laps: 384, note: "The leading #5 Toyota lost power in the final minutes and did not complete the last lap within the required time." },
       { classId: "lmp2", podium: [ref("Signatech Alpine", "alpine-a460", "36", ["nicolas-lapierre", "gustavo-menezes", "Stéphane Richelmi"])] },
       { classId: "lmgte-pro", podium: [ref("Ford Chip Ganassi Racing", "ford-gt", "68", ["Joey Hand", "Dirk Müller", "Sébastien Bourdais"])] },
-      { classId: "lmgte-am", podium: [ref("Scuderia Corsa", "Ferrari 458 Italia GTE", "62", ["Bill Sweedler", "Townsend Bell", "Jeff Segal"])] },
+      { classId: "lmgte-am", podium: [ref("Scuderia Corsa", "ferrari-458-italia-gte", "62", ["Bill Sweedler", "Townsend Bell", "Jeff Segal"])] },
     ],
     "Toyota's #5 led with minutes to go, then lost power and stopped on the main straight. Porsche's #2 won; Ford won GTE Pro fifty years after the GT40's first victory.",
   ),
@@ -128,7 +128,7 @@ export const events: ArchiveInput["events"] = [
         laps: 342,
       },
       { classId: "lmp2", podium: [ref("Inter Europol Competition", "Oreca 07", "34", ["Jakub Śmiechowski", "Albert Costa", "Fabio Scherer"])] },
-      { classId: "lmgte-am", podium: [ref("Corvette Racing", "Chevrolet Corvette C8.R", "33", ["Ben Keating", "Nicolás Varrone", "Nicky Catsburg"])] },
+      { classId: "lmgte-am", podium: [ref("Corvette Racing", "chevrolet-corvette-c8-r", "33", ["Ben Keating", "Nicolás Varrone", "Nicky Catsburg"])] },
     ],
     "The centenary race. Ferrari won on its return to the top class, its first outright Le Mans win since 1965.",
   ),
@@ -160,11 +160,11 @@ export const events: ArchiveInput["events"] = [
   // ── 2026 ── (Qatar and Bahrain were cancelled; see the season record)
   ev(2026, 1, "imola", "6 Hours of Imola", "Autodromo Enzo e Dino Ferrari", "IT", "2026-04-19", "6 Hours", [
     ...win(TOY8_2026),
-    gt3(ref("Team WRT", "BMW M4 GT3 Evo", "69", ["Dan Harper", "Anthony McIntosh", "Parker Thompson"])),
+    gt3(ref("Team WRT", "bmw-m4-gt3-evo", "69", ["Dan Harper", "Anthony McIntosh", "Parker Thompson"])),
   ], "Toyota opened its comeback season with victory for the #8 crew."),
   ev(2026, 2, "spa", "6 Hours of Spa-Francorchamps", "Circuit de Spa-Francorchamps", "BE", "2026-05-09", "6 Hours", [
     ...win(BMW20_2026, { note: "A BMW one-two, the marque's first in the World Endurance Championship." }),
-    gt3(ref("Garage 59", "McLaren 720S GT3 Evo", "10", ["Antares Au", "Tom Fleming", "Marvin Kirchhöfer"])),
+    gt3(ref("Garage 59", "mclaren-720s-gt3-evo", "10", ["Antares Au", "Tom Fleming", "Marvin Kirchhöfer"])),
   ]),
   ev(
     2026,
@@ -177,28 +177,28 @@ export const events: ArchiveInput["events"] = [
     "24 Hours",
     [
       { classId: "overall", podium: [TOY7_2026, BMW20_2026, TOY8_2026], laps: 381, note: "Won by 10.913 seconds." },
-      gt3(ref("TF Sport", "Chevrolet Corvette Z06 GT3.R", "33", ["Jonny Edgar", "Nicky Catsburg", "Ben Keating"])),
+      gt3(ref("TF Sport", "chevrolet-corvette-z06-gt3r", "33", ["Jonny Edgar", "Nicky Catsburg", "Ben Keating"])),
     ],
     "The 94th 24 Hours. The #7 Toyota held off BMW's #20 by under 11 seconds after 381 laps, for Toyota's sixth Le Mans win and a first for Nyck de Vries. TF Sport's Corvette won LMGT3.",
   ),
   ev(2026, 4, "sao-paulo", "6 Hours of São Paulo", "Autódromo José Carlos Pace (Interlagos)", "BR", "2026-07-12", "6 Hours", [
     ...win(ref(BMW, BMWV8, "15", ["Kevin Magnussen", "Raffaele Marciello", "Dries Vanthoor"])),
-    gt3(ref("Racing Team Turkey by TF", "Chevrolet Corvette Z06 GT3.R", "34", ["Peter Dempsey", "Charlie Eastwood", "Salih Yoluç"])),
+    gt3(ref("Racing Team Turkey by TF", "chevrolet-corvette-z06-gt3r", "34", ["Peter Dempsey", "Charlie Eastwood", "Salih Yoluç"])),
   ]),
   ev(2026, 5, "cota", "Lone Star Le Mans", "Circuit of the Americas", "US", "2026-09-06", "6 Hours", [
     ...win(ref("ferrari-af-corse", "ferrari-499p", "50", ["antonio-fuoco", "miguel-molina", "nicklas-nielsen"])),
-    gt3(ref("Heart of Racing Team", "Aston Martin Vantage AMR GT3 Evo", "27", ["Mattia Drudi", "Ian James", "Zacharie Robichon"])),
+    gt3(ref("Heart of Racing Team", "aston-martin-vantage-amr-gt3", "27", ["Mattia Drudi", "Ian James", "Zacharie Robichon"])),
   ]),
   ev(2026, 6, "fuji", "6 Hours of Fuji", "Fuji Speedway", "JP", "2026-09-27", "6 Hours", [
     ...win(TOY8_2026),
-    gt3(ref("Team WRT", "BMW M4 GT3 Evo", "32", ["Augusto Farfus", "Sean Gelael", "Darren Leung"])),
+    gt3(ref("Team WRT", "bmw-m4-gt3-evo", "32", ["Augusto Farfus", "Sean Gelael", "Darren Leung"])),
   ]),
   ev(2026, 7, "barcelona", "6 Hours of Barcelona", "Circuit de Barcelona-Catalunya", "ES", "2026-10-18", "6 Hours", [
     ...win(TOY8_2026, { note: "The win put the #8 crew in control of the title." }),
-    gt3(ref("The Bend Manthey", "Porsche 911 GT3 R", "92", ["Richard Lietz", "Riccardo Pera", "Yasser Shahin"])),
+    gt3(ref("The Bend Manthey", "porsche-911-gt3-r", "92", ["Richard Lietz", "Riccardo Pera", "Yasser Shahin"])),
   ], "The championship's first race in Barcelona, added after the Qatar round was postponed."),
   ev(2026, 8, "monza", "6 Hours of Monza", "Autodromo Nazionale Monza", "IT", "2026-11-08", "6 Hours", [
     ...win(ref("cadillac-hertz-team-jota", CADV, "38", ["Jack Aitken", "earl-bamber", "Sébastien Bourdais"])),
-    gt3(ref("The Bend Manthey", "Porsche 911 GT3 R", "92", ["Richard Lietz", "Riccardo Pera", "Yasser Shahin"])),
+    gt3(ref("The Bend Manthey", "porsche-911-gt3-r", "92", ["Richard Lietz", "Riccardo Pera", "Yasser Shahin"])),
   ], "The season finale, moved to November after the Bahrain round was cancelled. Cadillac and Jota won; the #8 Toyota crew were confirmed as champions."),
 ];

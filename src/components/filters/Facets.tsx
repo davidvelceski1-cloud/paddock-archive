@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { toParams, type Filters } from "@/lib/search/filters";
 import { cn } from "@/lib/utils";
+import { ScrollRow } from "@/components/filters/ScrollRow";
 
 export type Facet = { label: string; key: keyof Filters; options: { value: string | number | boolean | undefined; label: string }[] };
 
@@ -17,7 +18,7 @@ export function Facets({ facets, filters, basePath }: { facets: Facet[]; filters
       {facets.map((fc) => (
         <div key={fc.key} className="flex items-center gap-3" role="group" aria-label={fc.label}>
           <span className="w-24 shrink-0 text-xs font-medium uppercase tracking-[0.1em] text-muted-strong">{fc.label}</span>
-          <div className="no-scrollbar flex min-w-0 gap-1.5 overflow-x-auto py-0.5">
+          <ScrollRow label={fc.label}>
             {fc.options.map((o) => {
               const active = filters[fc.key] === o.value || (o.value === undefined && filters[fc.key] === undefined);
               return (
@@ -35,7 +36,7 @@ export function Facets({ facets, filters, basePath }: { facets: Facet[]; filters
                 </Link>
               );
             })}
-          </div>
+          </ScrollRow>
         </div>
       ))}
     </div>
