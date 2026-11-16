@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, CalendarDays } from "lucide-react";
+import { ArrowRight, CalendarDays, ChevronRight } from "lucide-react";
 import { Container, PlaceholderNotice, Section } from "@/components/ui/primitives";
 import { HeroSearch } from "@/components/home/HeroSearch";
 import { AskContext } from "@/components/ask/AskContext";
@@ -28,17 +28,22 @@ export default function Home() {
   return (
     <>
       <AskContext kind="home" suggestions={[]} />
-      <section className="hero-glow relative overflow-hidden border-b border-line/60">
-        <Container className="pb-16 pt-16 text-center sm:pb-20 sm:pt-24">
-          <p className="rise mb-5 inline-flex items-center gap-2 rounded-full border border-line bg-surface/80 px-3 py-1 text-xs text-body backdrop-blur">
-            <span className="size-1.5 rounded-full bg-[var(--accent-3)]" aria-hidden />
-            Le Mans 1923 → the Hypercar era
-          </p>
-          <h1 className="display rise mx-auto max-w-3xl text-5xl sm:text-7xl">
+      <section className="bg-surface">
+        <Container className="pb-20 pt-16 text-center sm:pb-24 sm:pt-24">
+          <p className="rise mb-3 text-[17px] font-semibold text-muted-strong sm:text-xl">Le Mans 1923 to the Hypercar era</p>
+          <h1 className="display rise mx-auto max-w-4xl text-5xl sm:text-[80px]">
             Every lap of <span className="text-gradient">endurance</span> history.
           </h1>
-          <p className="rise mx-auto mt-5 max-w-xl text-lg text-body">Seasons, teams, drivers and cars of world-championship endurance racing — linked, sourced, and searchable in plain language.</p>
-          <div className="rise mt-9">
+          <p className="rise mx-auto mt-5 max-w-2xl text-xl text-body sm:text-2xl sm:leading-snug">Seasons, teams, drivers and cars. Linked, sourced, and searchable in plain language.</p>
+          <p className="rise mt-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-lg sm:text-xl">
+            <Link href="/seasons" className="inline-flex items-center gap-0.5 text-accent-ink hover:underline">
+              Explore seasons <ChevronRight className="size-5" strokeWidth={2} aria-hidden />
+            </Link>
+            <Link href="/le-mans" className="inline-flex items-center gap-0.5 text-accent-ink hover:underline">
+              Le Mans winners <ChevronRight className="size-5" strokeWidth={2} aria-hidden />
+            </Link>
+          </p>
+          <div className="rise mt-12">
             <HeroSearch />
           </div>
         </Container>
@@ -46,7 +51,7 @@ export default function Home() {
 
       <Container>
         {/* Quick stats */}
-        <ul aria-label="Archive at a glance" className="-mt-px grid grid-cols-2 gap-px overflow-hidden rounded-b-2xl border-x border-b border-line bg-line sm:grid-cols-4">
+        <ul aria-label="Archive at a glance" className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
           {(
             [
               ["Seasons covered", stats.seasons, "/seasons"],
@@ -55,15 +60,15 @@ export default function Home() {
               ["Races", stats.races, "/le-mans"],
             ] as const
           ).map(([label, value, to]) => (
-            <li key={label} className="bg-surface">
-              <Link href={to} className="block h-full px-5 py-5 transition-colors hover:bg-surface-2">
-                <span className="tnum block text-3xl font-semibold tracking-tight text-ink">{fmtNum(value)}</span>
-                <span className="mt-1 block text-sm text-body">{label}</span>
+            <li key={label}>
+              <Link href={to} className="card card-link block h-full px-6 py-7 text-center">
+                <span className="tnum block text-5xl font-semibold tracking-tight text-ink">{fmtNum(value)}</span>
+                <span className="mt-2 block text-[15px] text-muted-strong">{label}</span>
               </Link>
             </li>
           ))}
         </ul>
-        <div className="mt-3 flex justify-center">
+        <div className="mt-4 flex justify-center">
           <PlaceholderNotice />
         </div>
 
@@ -72,7 +77,7 @@ export default function Home() {
           <ol className="no-scrollbar -mx-4 flex snap-x gap-3 overflow-x-auto px-4 pb-3 sm:mx-0 sm:px-0">
             {a.eras.map((e, i) => (
               <li key={e.slug} className="w-64 shrink-0 snap-start">
-                <Link href={href.era(e.slug)} className="card card-link flex h-full flex-col p-4">
+                <Link href={href.era(e.slug)} className="card card-link flex h-full flex-col p-6">
                   <span className="flex items-center gap-2">
                     <span className="h-1.5 w-8 rounded-full" style={{ background: ERA_TONE[e.slug] }} aria-hidden />
                     <span className="tnum text-xs text-muted-strong">
@@ -89,8 +94,7 @@ export default function Home() {
 
         <div className="mt-14 grid gap-6 lg:grid-cols-[1fr_2fr]">
           {/* On this day */}
-          <section aria-labelledby="otd-h" className="card relative overflow-hidden p-6">
-            <div className="hero-glow pointer-events-none absolute inset-0 opacity-70" aria-hidden />
+          <section aria-labelledby="otd-h" className="card relative overflow-hidden p-8">
             <div className="relative">
               <h2 id="otd-h" className="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.12em] text-muted-strong">
                 <CalendarDays className="size-4" strokeWidth={1.5} aria-hidden />
@@ -126,7 +130,7 @@ export default function Home() {
                 const era = s.eraSlug ? ix().eras.get(s.eraSlug) : undefined;
                 return (
                   <li key={s.slug}>
-                    <Link href={href.story(s.slug)} className="card card-link flex h-full flex-col p-5">
+                    <Link href={href.story(s.slug)} className="card card-link flex h-full flex-col p-7">
                       <span className="text-xs font-medium uppercase tracking-[0.12em] text-muted-strong">{era?.name ?? "Story"}</span>
                       <span className="mt-3 text-lg font-semibold leading-snug tracking-tight text-ink">{s.title}</span>
                       <span className="mt-2 flex-1 text-sm text-body">{s.dek}</span>
@@ -150,7 +154,7 @@ export default function Home() {
               ["/cars", "Cars & manufacturers", "From the Bentley Boys to the Ferrari 499P."],
             ].map(([to, title, body]) => (
               <li key={to}>
-                <Link href={to} className="card card-link block h-full p-5">
+                <Link href={to} className="card card-link block h-full p-7">
                   <span className="font-semibold tracking-tight text-ink">{title}</span>
                   <span className="mt-1.5 block text-sm text-body">{body}</span>
                 </Link>

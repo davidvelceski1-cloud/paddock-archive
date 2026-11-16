@@ -106,6 +106,8 @@ export const TeamSeasonEntry = z.object({
   season: z.number().int(),
   classId: ClassId,
   car: z.string(),
+  /** Chassis designation raced that season, e.g. "Ferrari 488 GTE Evo". Falls back to the car's name. */
+  chassis: z.string().optional(),
   numbers: z.array(z.string()).default([]),
   nameUsed: z.string().optional(),
   note: z.string().optional(),
@@ -120,6 +122,24 @@ export const DriverSeasonEntry = z.object({
   number: z.string().optional(),
   note: z.string().optional(),
 });
+
+/**
+ * A freely licensed photo (Wikimedia Commons, or the owner's own). Photos live outside
+ * the archive records, in data/photos.json, keyed "driver:<id>", "team:<id>",
+ * "car:<carRef>" or "entry:<teamId>|<season>|<carRef>". See scripts/photos.ts.
+ */
+export const Photo = z.object({
+  src: z.string().url(),
+  alt: z.string(),
+  credit: z.string(),
+  license: z.string(),
+  licenseUrl: z.string().url().optional(),
+  /** File page where the author and licence can be checked. */
+  page: z.string().url().optional(),
+  /** true = picked automatically by scripts/photos.ts; set false once checked or chosen by hand. */
+  auto: z.boolean().default(true),
+});
+export const Photos = z.record(z.string(), Photo);
 
 export const EntryRef = z.object({
   team: z.string(),
@@ -245,6 +265,7 @@ export type Driver = z.infer<typeof Driver>;
 export type TeamSeasonEntry = z.infer<typeof TeamSeasonEntry>;
 export type DriverSeasonEntry = z.infer<typeof DriverSeasonEntry>;
 export type EntryRef = z.infer<typeof EntryRef>;
+export type Photo = z.infer<typeof Photo>;
 export type ClassResult = z.infer<typeof ClassResult>;
 export type RaceEvent = z.infer<typeof RaceEvent>;
 export type Standings = z.infer<typeof Standings>;

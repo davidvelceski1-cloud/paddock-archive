@@ -158,6 +158,7 @@ model TeamSeasonEntry {
   season   Int
   classId  String
   carRef   String
+  chassis  String?
   numbers  String[]
   nameUsed String?
   note     String?

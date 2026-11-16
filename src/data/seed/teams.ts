@@ -225,7 +225,47 @@ export const teams: ArchiveInput["teams"] = [
 
 const range = (a: number, b: number) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
 
-export const teamEntries: ArchiveInput["teamEntries"] = [
+/**
+ * Chassis designation by car and season, applied to every team entry below.
+ * Each row is [first season, last season, name]; a season not covered falls back to the car's name.
+ * PLACEHOLDER — pending verification like the rest of the seed.
+ */
+const CHASSIS: Record<string, [number, number, string][]> = {
+  "toyota-ts030-hybrid": [[2012, 2013, "Toyota TS030 Hybrid"]],
+  "toyota-ts040-hybrid": [[2014, 2015, "Toyota TS040 Hybrid"]],
+  "toyota-ts050-hybrid": [[2016, 2019, "Toyota TS050 Hybrid"]],
+  "toyota-gr010-hybrid": [[2021, 2025, "Toyota GR010 Hybrid"]],
+  "audi-r18-e-tron-quattro": [
+    [2012, 2015, "Audi R18 e-tron quattro"],
+    [2016, 2016, "Audi R18"],
+  ],
+  "audi-r18-ultra": [[2012, 2012, "Audi R18 ultra"]],
+  "porsche-919-hybrid": [[2014, 2017, "Porsche 919 Hybrid"]],
+  "Peugeot 905": [[1992, 1993, "Peugeot 905 Evo 1 Bis"]],
+  "peugeot-908-hdi-fap": [[2007, 2010, "Peugeot 908 HDi FAP"]],
+  "peugeot-908": [[2011, 2011, "Peugeot 908"]],
+  "peugeot-9x8": [
+    [2022, 2023, "Peugeot 9X8"],
+    [2024, 2025, "Peugeot 9X8 (2024 evolution, with rear wing)"],
+  ],
+  "Lola B12/60": [[2012, 2013, "Lola B12/60"]],
+  "Rebellion R-One": [[2014, 2016, "Rebellion R-One"]],
+  "Oreca 07": [[2017, 2017, "Oreca 07"]],
+  "rebellion-r13": [[2018, 2019, "Rebellion R13"]],
+  "nissan-gt-r-lm-nismo": [[2015, 2015, "Nissan GT-R LM Nismo"]],
+  "Ferrari 458 Italia GTE": [[2012, 2015, "Ferrari 458 Italia GTE"]],
+  "ferrari-488-gte": [
+    [2016, 2017, "Ferrari 488 GTE"],
+    [2018, 2022, "Ferrari 488 GTE Evo"],
+  ],
+  "ferrari-499p": [[2023, 2025, "Ferrari 499P"]],
+  "porsche-963": [[2023, 2025, "Porsche 963"]],
+  "aston-martin-vantage-gte": [[2012, 2017, "Aston Martin V8 Vantage GTE"]],
+  "aston-martin-vantage-amr": [[2018, 2019, "Aston Martin Vantage AMR"]],
+};
+const chassisFor = (car: string, season: number) => CHASSIS[car]?.find(([a, b]) => season >= a && season <= b)?.[2];
+
+const entries: ArchiveInput["teamEntries"] = [
   // Toyota
   ...[2012, 2013].map((season) => ({ teamId: "toyota-gazoo-racing", season, classId: "lmp1" as const, car: "toyota-ts030-hybrid", numbers: ["7", "8"], nameUsed: "Toyota Racing" })),
   { teamId: "toyota-gazoo-racing", season: 2014, classId: "lmp1", car: "toyota-ts040-hybrid", numbers: ["7", "8"], nameUsed: "Toyota Racing" },
@@ -266,3 +306,5 @@ export const teamEntries: ArchiveInput["teamEntries"] = [
   ...range(2012, 2017).map((season) => ({ teamId: "aston-martin-racing", season, classId: "lmgte-pro" as const, car: "aston-martin-vantage-gte", numbers: ["97"] })),
   ...[2018, 2019].map((season) => ({ teamId: "aston-martin-racing", season, classId: "lmgte-pro" as const, car: "aston-martin-vantage-amr", numbers: ["95", "97"] })),
 ];
+
+export const teamEntries: ArchiveInput["teamEntries"] = entries.map((e) => ({ ...e, chassis: e.chassis ?? chassisFor(e.car, e.season) }));

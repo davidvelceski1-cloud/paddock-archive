@@ -27,6 +27,7 @@ Optional, in `.env.local` (see `.env.example`):
 | `npm run typecheck` | TypeScript check |
 | `npm run data:validate` | Validate the seed + any imported data, including cross-references |
 | `npm run data:import -- <files>` | Import JSON/CSV into `data/archive.json` |
+| `npm run photos:fetch` | Find freely licensed photos on Wikimedia Commons for drivers, teams, cars and each season's car → `data/photos.json` |
 | `npm run db:push` / `db:seed` | Create the Postgres schema and load the archive into it |
 
 Requires Node 22.18+ (scripts run TypeScript directly).
@@ -50,7 +51,7 @@ Every filter, compare state and page is a shareable URL. Pages ship per-page met
 
 Defined once with zod in [`src/data/schema.ts`](src/data/schema.ts) and mirrored in [`prisma/schema.prisma`](prisma/schema.prisma):
 
-`Source`, `RaceClass`, `Championship`, `Era`, `Manufacturer`, `Car`, `Team` (with **name history**), `Driver`, `TeamSeasonEntry` (team ↔ season: class, car, car numbers, name used), `DriverSeasonEntry` (driver ↔ team ↔ season), `Season` (champions, standings, regulations), `RaceEvent` → `ClassResult` (podium, pole, fastest lap, laps), `LeMansWinner`, `Story`.
+`Source`, `RaceClass`, `Championship`, `Era`, `Manufacturer`, `Car`, `Team` (with **name history**), `Driver`, `TeamSeasonEntry` (team ↔ season: class, car, **chassis raced that year**, car numbers, name used), `DriverSeasonEntry` (driver ↔ team ↔ season), `Season` (champions, standings, regulations), `RaceEvent` → `ClassResult` (podium, pole, fastest lap, laps), `LeMansWinner`, `Story`.
 
 - Reference fields hold either the **id** of a profiled record (`audi-sport-team-joest`) or a **display name** for an entity without a page (`"Ford Chip Ganassi Racing"`). Ids are kebab-case, so the two never collide, and the validator checks every id resolves.
 - Every factual record carries `sources: string[]`, and the page shows them.
@@ -74,6 +75,14 @@ npm run data:validate                                  # check without writing
 - `results` CSV columns: `eventId,classId,pos,team,car,number,drivers,laps,pole`. Rows replace that event's results. See [`data/import/example-results.csv`](data/import/example-results.csv).
 - Imports accumulate in `data/archive.json`. Every run re-validates the whole archive and refuses to write if any reference is broken.
 - To mark a record as checked, import it with `"verified": true`.
+
+## Photos and chassis names
+
+- **Where they show:** driver pages (portrait), team pages (team photo plus a **Cars by season** gallery) and car pages (photo plus a **Season by season** gallery). Each season card shows the year, class, **chassis name**, car numbers and that year's car photo.
+- **Chassis names** live in the `CHASSIS` table in [`src/data/seed/teams.ts`](src/data/seed/teams.ts), by car and season (for example the Ferrari 488 GTE becoming the 488 GTE Evo from 2018). An imported `teamEntries` record can set `chassis` directly.
+- **Photos** live in [`data/photos.json`](data/photos.json), keyed `driver:<id>`, `team:<id>`, `car:<carRef>` or `entry:<teamId>|<season>|<carRef>`. Each one carries the author, licence and Commons file page, and the page prints that credit under the photo.
+- `npm run photos:fetch` fills in missing photos from Wikimedia Commons, accepting **free licences only** (CC, public domain, GFDL) and skipping logos. A season photo must show the season's year, name the model and point at the team (a team word or one of its car numbers). Otherwise the card falls back to the car's general photo, labelled "not from this season".
+- **Automatic picks need a human check.** To replace one, edit its entry in `data/photos.json` and set `"auto": false`; the script never overwrites those. `--refresh` re-picks all photos still marked `"auto": true`.
 
 ## How the AI grounding works
 
@@ -114,7 +123,8 @@ Everything in `src/data/seed` is placeholder data and needs checking against the
   - Driver `status` values.
   - The crew lists for Toyota's 2012 wins.
 - **No world championship rounds before 2010** are loaded, only Le Mans.
-- **No images are included.** Use only licensed images or placeholders, and no FIA/WEC/ACO or manufacturer logos.
+- **Photos are picked automatically** from Wikimedia Commons and are not yet hand-checked (see [Photos and chassis names](#photos-and-chassis-names)). Use only licensed images, and no FIA/WEC/ACO or manufacturer logos.
+- **Chassis names** per season are placeholder data like the rest of the seed.
 
 ## Project layout
 

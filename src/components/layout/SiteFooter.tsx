@@ -9,24 +9,24 @@ const LINKS = [
 
 export function SiteFooter() {
   return (
-    <footer className="mt-24 border-t border-line">
-      <Container className="grid gap-10 py-12 sm:grid-cols-[1.5fr_1fr_1fr]">
+    <footer className="mt-28 bg-surface-2 text-[12px] leading-relaxed">
+      <Container className="grid max-w-[1024px] gap-8 border-t border-line py-10 sm:grid-cols-[1.5fr_1fr_1fr]">
         <div>
-          <p className="flex items-center gap-2 font-semibold text-ink">
-            <Mark className="size-5" /> Paddock Archive
+          <p className="flex items-center gap-1.5 font-semibold text-ink">
+            <Mark className="size-4" /> Paddock Archive
           </p>
-          <p className="mt-3 max-w-sm text-sm text-body">
+          <p className="mt-3 max-w-sm text-muted-strong">
             An independent archive of world-championship endurance racing. Not affiliated with the FIA, the ACO, the WEC or any manufacturer; names are used for identification only.
           </p>
-          <p className="mt-3 max-w-sm text-xs text-muted-strong">Records are placeholder seed data pending verification. Every page lists its sources.</p>
+          <p className="mt-3 max-w-sm text-muted-strong">Records are placeholder seed data pending verification. Every page lists its sources.</p>
         </div>
         {LINKS.map(([title, links]) => (
           <nav key={title} aria-label={title}>
-            <p className="text-xs font-medium uppercase tracking-[0.12em] text-muted-strong">{title}</p>
-            <ul className="mt-3 space-y-2 text-sm">
+            <p className="font-semibold text-ink">{title}</p>
+            <ul className="mt-2 space-y-1.5">
               {links.map(([href, label]) => (
                 <li key={href}>
-                  <Link href={href} className="text-body hover:text-ink">
+                  <Link href={href} className="text-muted-strong hover:text-ink hover:underline">
                     {label}
                   </Link>
                 </li>

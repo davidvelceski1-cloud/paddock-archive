@@ -2,30 +2,32 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* ───────────────────────── Design tokens ───────────────────────── */
+/* ───────────────────────── Design tokens ─────────────────────────
+   Minimal, product-page style: soft grey canvas, white rounded tiles,
+   near-black type, a single blue accent, no decorative gradients. */
 :root {
-  --bg: #fafafb;
+  --bg: #f5f5f7;
   --surface: #ffffff;
-  --surface-2: #f4f4f7;
-  --border: #ececf1;
-  --border-strong: #dfdfe7;
-  --ink: #0f1222;
-  --body: #5b6075;
-  /* Decorative only (icons, rules, placeholders): #9AA0B4 is below AA for text. */
-  --muted: #9aa0b4;
-  /* Small metadata text: same hue, darkened to clear WCAG AA on white and on --bg. */
-  --muted-strong: #6a6f85;
+  --surface-2: #f5f5f7;
+  --border: #e8e8ed;
+  --border-strong: #d2d2d7;
+  --ink: #1d1d1f;
+  --body: #424245;
+  /* Decorative only (icons, rules, placeholders). */
+  --muted: #a1a1a6;
+  /* Small metadata text: clears WCAG AA on white and on --bg. */
+  --muted-strong: #6e6e73;
 
-  --accent-1: #6366f1;
-  --accent-2: #8b5cf6;
-  --accent-3: #f97362;
-  --accent-grad: linear-gradient(120deg, var(--accent-1), var(--accent-2) 55%, var(--accent-3));
-  --accent: #6366f1;
-  --accent-ink: #4f46e5;
-  --accent-soft: #eef0ff;
+  --accent-1: #0071e3;
+  --accent-2: #0071e3;
+  --accent-3: #0071e3;
+  --accent-grad: linear-gradient(var(--accent), var(--accent));
+  --accent: #0071e3;
+  --accent-ink: #0066cc;
+  --accent-soft: #e8f2fd;
 
-  --shadow: 0 1px 2px rgba(15, 18, 34, 0.04), 0 8px 24px rgba(15, 18, 34, 0.04);
-  --shadow-lift: 0 1px 2px rgba(15, 18, 34, 0.05), 0 14px 36px rgba(15, 18, 34, 0.08);
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  --shadow-lift: 0 4px 30px rgba(0, 0, 0, 0.1);
 
   /* Racing classes — muted pastels for badges (bg/ink) and timeline bars. */
   --hyper-bg: #fdecec;
@@ -45,35 +47,34 @@
   --hist-bar: #bcc0cc;
 
   /* Chart tokens */
-  --grid: #ececf1;
-  --axis: #c9ccd7;
-  /* Validated with the dataviz palette checker (light surface). */
-  --series-1: #5b5eea;
+  --grid: #e8e8ed;
+  --axis: #c7c7cc;
+  --series-1: #0071e3;
   --series-2: #dd5a42;
   --series-3: #0c8a7a;
   color-scheme: light;
 }
 
 .dark {
-  --bg: #0b0d17;
-  --surface: #11141f;
-  --surface-2: #171b29;
-  --border: #222738;
-  --border-strong: #2d3347;
-  --ink: #eef0f8;
-  --body: #a9aec4;
-  --muted: #646a85;
-  --muted-strong: #8f95ae;
+  --bg: #000000;
+  --surface: #161617;
+  --surface-2: #1d1d1f;
+  --border: #2c2c2e;
+  --border-strong: #3a3a3c;
+  --ink: #f5f5f7;
+  --body: #c7c7cc;
+  --muted: #636366;
+  --muted-strong: #a1a1a6;
 
-  --accent-1: #7c7ff5;
-  --accent-2: #9d7af7;
-  --accent-3: #f68b7d;
-  --accent: #8b8ef7;
-  --accent-ink: #a5a8fb;
-  --accent-soft: #1b1d3a;
+  --accent-1: #2997ff;
+  --accent-2: #2997ff;
+  --accent-3: #2997ff;
+  --accent: #2997ff;
+  --accent-ink: #2997ff;
+  --accent-soft: #0b2440;
 
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
-  --shadow-lift: 0 1px 2px rgba(0, 0, 0, 0.35), 0 14px 36px rgba(0, 0, 0, 0.4);
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lift: 0 4px 30px rgba(0, 0, 0, 0.6);
 
   --hyper-bg: #2a1517;
   --hyper-ink: #f6a7a1;
@@ -91,10 +92,9 @@
   --hist-ink: #b9bdcc;
   --hist-bar: #6b7085;
 
-  --grid: #222738;
-  --axis: #3a4055;
-  /* Selected dark steps, validated against the dark surface (#11141f). */
-  --series-1: #7b7ef0;
+  --grid: #2c2c2e;
+  --axis: #48484a;
+  --series-1: #2997ff;
   --series-2: #d9604e;
   --series-3: #239c88;
   color-scheme: dark;
@@ -114,12 +114,13 @@
   --color-accent-ink: var(--accent-ink);
   --color-accent-soft: var(--accent-soft);
   --color-accent-3: var(--accent-3);
-  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  /* System UI font first (San Francisco on Apple devices), Inter elsewhere. */
+  --font-sans: -apple-system, BlinkMacSystemFont, var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
   --shadow-card: var(--shadow);
   --shadow-lift: var(--shadow-lift);
-  --radius-card: 12px;
-  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --radius-card: 18px;
+  --ease-out: cubic-bezier(0.28, 0.11, 0.32, 1);
 }
 
 /* ───────────────────────── Base ───────────────────────── */
@@ -130,6 +131,9 @@ html {
 body {
   background: var(--bg);
   color: var(--body);
+  font-size: 17px;
+  letter-spacing: -0.022em;
+  line-height: 1.47;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -148,78 +152,68 @@ table {
 /* Large, tight-tracked display headline. */
 .display {
   font-weight: 600;
-  letter-spacing: -0.035em;
-  line-height: 1.02;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
   color: var(--ink);
 }
 
+/* Headline highlight: solid accent, no gradient. */
 .text-gradient {
-  background: var(--accent-grad);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--accent);
 }
 
 /* ───────────────────────── Surfaces ───────────────────────── */
 .card {
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid transparent;
   border-radius: var(--radius-card);
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 
-/* Entity cards: lift + a subtle gradient border on hover. */
+/* Tiles grow gently and gain a soft shadow on hover. */
 .card-link {
   transition:
-    transform 180ms var(--ease-out),
-    box-shadow 180ms var(--ease-out),
-    border-color 180ms var(--ease-out);
+    transform 300ms var(--ease-out),
+    box-shadow 300ms var(--ease-out);
 }
 .card-link:hover,
 .card-link:focus-visible {
-  transform: translateY(-2px);
+  transform: scale(1.015);
   box-shadow: var(--shadow-lift);
-  border-color: transparent;
-  background:
-    linear-gradient(var(--surface), var(--surface)) padding-box,
-    var(--accent-grad) border-box;
 }
 
-/* Soft hero glow: indigo → violet → coral at low opacity. Hero sections only. */
+/* Kept as a hook for hero sections; intentionally flat in this theme. */
 .hero-glow {
-  background:
-    radial-gradient(55% 75% at 12% 0%, rgba(99, 102, 241, 0.13), transparent 70%),
-    radial-gradient(45% 65% at 55% 5%, rgba(139, 92, 246, 0.1), transparent 70%),
-    radial-gradient(50% 75% at 95% 0%, rgba(249, 115, 98, 0.12), transparent 70%);
-}
-.dark .hero-glow {
-  background:
-    radial-gradient(55% 75% at 12% 0%, rgba(99, 102, 241, 0.2), transparent 70%),
-    radial-gradient(45% 65% at 55% 5%, rgba(139, 92, 246, 0.12), transparent 70%),
-    radial-gradient(50% 75% at 95% 0%, rgba(249, 115, 98, 0.1), transparent 70%);
+  background: transparent;
 }
 
+/* Primary action: solid blue pill. */
 .btn-grad {
-  background: var(--accent-grad);
+  background: var(--accent);
   color: #fff;
+  transition: background-color 200ms var(--ease-out);
+}
+.btn-grad:hover {
+  background: #0077ed;
+}
+.dark .btn-grad:hover {
+  background: #47a6ff;
 }
 
 /* ───────────────────────── Prose ───────────────────────── */
 .prose-archive p {
   margin-top: 1em;
-  line-height: 1.75;
+  line-height: 1.6;
 }
 .prose-archive p:first-child {
   margin-top: 0;
 }
 .prose-archive a {
-  color: var(--ink);
-  text-decoration: underline;
-  text-decoration-color: var(--border-strong);
-  text-underline-offset: 3px;
+  color: var(--accent-ink);
+  text-decoration: none;
 }
 .prose-archive a:hover {
-  text-decoration-color: var(--accent);
+  text-decoration: underline;
 }
 
 /* ───────────────────────── Tables ───────────────────────── */
@@ -247,7 +241,7 @@ table {
 @keyframes rise {
   from {
     opacity: 0;
-    transform: translateY(6px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -255,7 +249,7 @@ table {
   }
 }
 .rise {
-  animation: rise 220ms var(--ease-out) both;
+  animation: rise 700ms var(--ease-out) both;
 }
 @keyframes shimmer {
   0% {
@@ -269,7 +263,7 @@ table {
   background: linear-gradient(90deg, var(--surface-2) 25%, var(--border) 37%, var(--surface-2) 63%);
   background-size: 400% 100%;
   animation: shimmer 1.4s ease infinite;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 @media (prefers-reduced-motion: reduce) {

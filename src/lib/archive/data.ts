@@ -1,7 +1,7 @@
 import "server-only";
 import fs from "node:fs";
 import path from "node:path";
-import { Archive, ArchivePatch, mergeArchive, type ClassId, type EntryRef, type Team } from "@/data/schema";
+import { Archive, ArchivePatch, mergeArchive, Photos, type ClassId, type EntryRef, type Photo, type Team, type TeamSeasonEntry } from "@/data/schema";
 import { seed } from "@/data/seed";
 
 /**
@@ -18,6 +18,25 @@ function load(): Archive {
 
 let cached: Archive | null = null;
 export const archive = () => (cached ??= load());
+
+// ───────────── Photos ─────────────
+// Freely licensed photos from data/photos.json (filled by `npm run photos:fetch`).
+let photoCache: Record<string, Photo> | null = null;
+function photos() {
+  if (photoCache) return photoCache;
+  const file = path.join(process.cwd(), "data", "photos.json");
+  photoCache = fs.existsSync(file) ? Photos.parse(JSON.parse(fs.readFileSync(file, "utf8"))) : {};
+  return photoCache;
+}
+export const photoKey = {
+  driver: (id: string) => `driver:${id}`,
+  team: (id: string) => `team:${id}`,
+  car: (ref: string) => `car:${ref}`,
+  entry: (e: Pick<TeamSeasonEntry, "teamId" | "season" | "car">) => `entry:${e.teamId}|${e.season}|${e.car}`,
+};
+export const photoOf = (key: string): Photo | undefined => photos()[key];
+/** Chassis raced by a team entry, falling back to the car's name. */
+export const chassisOf = (e: TeamSeasonEntry) => e.chassis ?? resolveCar(e.car).label;
 
 // ───────────── Indexes ─────────────
 type Indexes = ReturnType<typeof buildIndexes>;

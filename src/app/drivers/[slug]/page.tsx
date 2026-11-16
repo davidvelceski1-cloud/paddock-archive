@@ -5,9 +5,10 @@ import { Trophy } from "lucide-react";
 import { Badge, Breadcrumbs, Container, PageHeader, PlaceholderNotice, Section, StatTile, StatusBadge } from "@/components/ui/primitives";
 import { CareerTimeline } from "@/components/archive/CareerTimeline";
 import { Ref, RelatedRail, SourcesSection } from "@/components/archive/bits";
+import { PhotoFigure } from "@/components/archive/Photo";
 import { AskContext, AskPrompts } from "@/components/ask/AskContext";
 import { SummaryButton } from "@/components/ask/SummaryButton";
-import { archive, href, ix, resolveCar, resolveDriver, resolveTeam, seasonLabel, seasonOfLeMans } from "@/lib/archive/data";
+import { archive, href, ix, photoKey, photoOf, resolveCar, resolveDriver, resolveTeam, seasonLabel, seasonOfLeMans } from "@/lib/archive/data";
 import { coverage, driverStats, teammates } from "@/lib/archive/stats";
 import { driverTimeline } from "@/lib/archive/timelines";
 import { countryName, demonym } from "@/data/countries";
@@ -42,19 +43,22 @@ export default async function DriverPage({ params }: { params: Params }) {
       <AskContext kind="driver" id={d.id} label={d.name} suggestions={[`Summarise ${d.name}'s career`, `Who were ${d.name}'s teammates?`, `What did ${d.name} win at Le Mans?`]} />
       <Breadcrumbs items={[{ label: "Drivers", href: "/drivers" }, { label: d.name }]} />
 
-      <PageHeader
-        kicker={
-          <>
-            <StatusBadge status={d.status} />
-            <Badge>{demonym(d.nationality)}</Badge>
-            <PlaceholderNotice />
-          </>
-        }
-        title={d.name}
-        actions={<SummaryButton kind="driver" id={d.id} />}
-      >
-        {d.bio}
-      </PageHeader>
+      <div className="grid items-end gap-8 sm:grid-cols-[minmax(0,1fr)_220px] lg:grid-cols-[minmax(0,1fr)_280px]">
+        <PageHeader
+          kicker={
+            <>
+              <StatusBadge status={d.status} />
+              <Badge>{demonym(d.nationality)}</Badge>
+              <PlaceholderNotice />
+            </>
+          }
+          title={d.name}
+          actions={<SummaryButton kind="driver" id={d.id} />}
+        >
+          {d.bio}
+        </PageHeader>
+        <PhotoFigure photo={photoOf(photoKey.driver(d.id))} aspect="portrait" kind="person" priority className="max-w-[280px]" />
+      </div>
 
       <dl className="mt-8 grid grid-cols-2 gap-4 text-sm sm:grid-cols-4">
         {[

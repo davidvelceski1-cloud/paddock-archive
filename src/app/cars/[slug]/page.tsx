@@ -3,9 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Badge, Breadcrumbs, Container, PageHeader, PlaceholderNotice, Section, StatTile } from "@/components/ui/primitives";
 import { ClassTag, Ref, RelatedRail, SourcesSection } from "@/components/archive/bits";
+import { PhotoFigure, SeasonCarGallery } from "@/components/archive/Photo";
 import { AskContext } from "@/components/ask/AskContext";
 import { SummaryButton } from "@/components/ask/SummaryButton";
-import { archive, className, href, ix, resolveDriver, resolveManufacturer, resolveTeam, seasonLabel, seasonOfLeMans } from "@/lib/archive/data";
+import { archive, className, href, ix, photoKey, photoOf, resolveDriver, resolveManufacturer, resolveTeam, seasonLabel, seasonOfLeMans } from "@/lib/archive/data";
 import { carStats } from "@/lib/archive/stats";
 import { listJoin } from "@/lib/utils";
 
@@ -32,19 +33,22 @@ export default async function CarPage({ params }: { params: Params }) {
     <Container className="pt-10">
       <AskContext kind="car" id={c.id} label={c.name} suggestions={[`What made the ${c.name} special?`, `Which teams raced the ${c.name}?`]} />
       <Breadcrumbs items={[{ label: "Cars", href: "/cars" }, { label: resolveManufacturer(c.manufacturerId).label, href: href.manufacturer(c.manufacturerId) }, { label: c.name }]} />
-      <PageHeader
-        kicker={
-          <>
-            <ClassTag id={c.classId} />
-            <Badge>{years}</Badge>
-            <PlaceholderNotice />
-          </>
-        }
-        title={c.name}
-        actions={<SummaryButton kind="car" id={c.id} />}
-      >
-        {c.summary}
-      </PageHeader>
+      <div className="grid items-end gap-8 lg:grid-cols-[minmax(0,1fr)_480px]">
+        <PageHeader
+          kicker={
+            <>
+              <ClassTag id={c.classId} />
+              <Badge>{years}</Badge>
+              <PlaceholderNotice />
+            </>
+          }
+          title={c.name}
+          actions={<SummaryButton kind="car" id={c.id} />}
+        >
+          {c.summary}
+        </PageHeader>
+        <PhotoFigure photo={photoOf(photoKey.car(c.id))} priority />
+      </div>
 
       <dl className="mt-8 grid gap-4 text-sm sm:grid-cols-3">
         <div className="card p-4">
@@ -93,6 +97,12 @@ export default async function CarPage({ params }: { params: Params }) {
           </ul>
         )}
       </Section>
+
+      {a.teamEntries.some((e) => e.car === c.id) && (
+        <Section title="Season by season" kicker="Chassis, entrants and photos" id="seasons">
+          <SeasonCarGallery entries={a.teamEntries.filter((e) => e.car === c.id)} show="team" />
+        </Section>
+      )}
 
       <div className="mt-14 grid gap-8 lg:grid-cols-2">
         <section aria-labelledby="teams-h">

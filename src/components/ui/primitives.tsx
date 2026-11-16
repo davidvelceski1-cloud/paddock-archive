@@ -10,11 +10,11 @@ export function Container({ children, className }: { children: ReactNode; classN
 
 export function Section({ title, kicker, action, children, className, id }: { title: ReactNode; kicker?: ReactNode; action?: ReactNode; children: ReactNode; className?: string; id?: string }) {
   return (
-    <section id={id} className={cn("mt-14 scroll-mt-24", className)} aria-labelledby={id ? `${id}-h` : undefined}>
-      <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
+    <section id={id} className={cn("mt-20 scroll-mt-24", className)} aria-labelledby={id ? `${id}-h` : undefined}>
+      <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
         <div>
-          {kicker && <p className="mb-1 text-xs font-medium uppercase tracking-[0.12em] text-muted-strong">{kicker}</p>}
-          <h2 id={id ? `${id}-h` : undefined} className="text-xl font-semibold tracking-tight">
+          {kicker && <p className="mb-1 text-[15px] font-semibold text-muted-strong">{kicker}</p>}
+          <h2 id={id ? `${id}-h` : undefined} className="text-3xl font-semibold tracking-tight sm:text-4xl">
             {title}
           </h2>
         </div>
@@ -29,8 +29,8 @@ export function PageHeader({ kicker, title, children, actions }: { kicker?: Reac
   return (
     <header className="rise">
       {kicker && <div className="mb-3 flex flex-wrap items-center gap-2">{kicker}</div>}
-      <h1 className="display text-4xl sm:text-5xl">{title}</h1>
-      {children && <div className="mt-4 max-w-2xl text-[17px] leading-relaxed text-body">{children}</div>}
+      <h1 className="display text-5xl sm:text-6xl">{title}</h1>
+      {children && <div className="mt-4 max-w-2xl text-xl leading-snug text-body">{children}</div>}
       {actions && <div className="mt-5 flex flex-wrap items-center gap-2">{actions}</div>}
     </header>
   );

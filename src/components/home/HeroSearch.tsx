@@ -19,7 +19,7 @@ export function HeroSearch() {
           e.preventDefault();
           if (q.trim()) askStore.open(q.trim());
         }}
-        className="flex items-center gap-2 rounded-2xl border border-line-strong bg-surface/90 p-2 pl-4 shadow-lift backdrop-blur transition-colors focus-within:border-accent/60"
+        className="flex items-center gap-2 rounded-full border border-transparent bg-surface-2 p-1.5 pl-5 transition-colors focus-within:border-accent"
       >
         <Sparkles className="size-5 shrink-0 text-accent" strokeWidth={1.5} aria-hidden />
         <label htmlFor="hero-ask" className="sr-only">
@@ -32,17 +32,17 @@ export function HeroSearch() {
           placeholder="Ask anything about endurance racing history…"
           className="h-11 min-w-0 flex-1 bg-transparent text-base text-ink outline-none placeholder:text-muted-strong"
         />
-        <button type="button" onClick={palette.open} className="hidden items-center gap-1.5 rounded-lg border border-line px-2 py-1 text-xs text-muted-strong hover:text-ink sm:flex" aria-label="Open quick search">
+        <button type="button" onClick={palette.open} className="hidden items-center gap-1.5 rounded-full px-2 py-1 text-xs text-muted-strong hover:text-ink sm:flex" aria-label="Open quick search">
           <Search className="size-3" strokeWidth={1.5} aria-hidden /> {mac ? "⌘" : "Ctrl"} K
         </button>
-        <button type="submit" disabled={!q.trim()} className="btn-grad rounded-xl p-2.5 transition-opacity disabled:opacity-40" aria-label="Ask">
+        <button type="submit" disabled={!q.trim()} className="btn-grad rounded-full p-3 transition-opacity disabled:opacity-40" aria-label="Ask">
           <ArrowUp className="size-4" strokeWidth={2} />
         </button>
       </form>
       <ul className="mt-4 flex flex-wrap justify-center gap-2" aria-label="Suggested questions">
         {PROMPTS.map((p) => (
           <li key={p}>
-            <button type="button" onClick={() => askStore.open(p)} className="rounded-full border border-line bg-surface/80 px-3 py-1.5 text-sm text-body transition-colors hover:border-line-strong hover:text-ink">
+            <button type="button" onClick={() => askStore.open(p)} className="rounded-full px-3 py-1.5 text-sm text-accent-ink transition-colors hover:bg-accent-soft">
               {p}
             </button>
           </li>

@@ -82,7 +82,7 @@ async function main() {
     await prisma.season.upsert({ where: { year: s.year }, create: { year: s.year, ...data }, update: data });
   }
   await prisma.teamSeasonEntry.deleteMany();
-  await prisma.teamSeasonEntry.createMany({ data: a.teamEntries.map((e) => ({ teamId: e.teamId, season: e.season, classId: e.classId, carRef: e.car, numbers: e.numbers, nameUsed: e.nameUsed, note: e.note })) });
+  await prisma.teamSeasonEntry.createMany({ data: a.teamEntries.map((e) => ({ teamId: e.teamId, season: e.season, classId: e.classId, carRef: e.car, chassis: e.chassis, numbers: e.numbers, nameUsed: e.nameUsed, note: e.note })) });
   await prisma.driverSeasonEntry.deleteMany();
   await prisma.driverSeasonEntry.createMany({ data: a.driverEntries.map((e) => ({ driverId: e.driverId, season: e.season, teamRef: e.team, classId: e.classId, carRef: e.car, number: e.number, note: e.note })) });
 

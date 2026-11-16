@@ -5,9 +5,10 @@ import { DoorOpen } from "lucide-react";
 import { Badge, Breadcrumbs, Container, PageHeader, PlaceholderNotice, Section, StatTile, StatusBadge } from "@/components/ui/primitives";
 import { CareerTimeline } from "@/components/archive/CareerTimeline";
 import { ClassTag, Ref, RelatedRail, SourcesSection } from "@/components/archive/bits";
+import { PhotoFigure, SeasonCarGallery } from "@/components/archive/Photo";
 import { AskContext, AskPrompts } from "@/components/ask/AskContext";
 import { SummaryButton } from "@/components/ask/SummaryButton";
-import { archive, href, ix, resolveCar, resolveDriver, resolveManufacturer, seasonEndYear, seasonLabel, teamDisplayName } from "@/lib/archive/data";
+import { archive, href, ix, photoKey, photoOf, resolveCar, resolveDriver, resolveManufacturer, seasonEndYear, seasonLabel, teamDisplayName } from "@/lib/archive/data";
 import { coverage, teamStats } from "@/lib/archive/stats";
 import { teamTimeline } from "@/lib/archive/timelines";
 import { countryName } from "@/data/countries";
@@ -51,6 +52,7 @@ export default async function TeamPage({ params }: { params: Params }) {
       <AskContext kind="team" id={t.id} label={name} suggestions={[`Summarise ${name}'s history`, `Who drove for ${name}?`, ...(t.status === "defunct" ? [`Why did ${name} leave?`] : [`How has ${name} done in recent seasons?`])]} />
       <Breadcrumbs items={[{ label: "Teams", href: "/teams" }, { label: name }]} />
 
+      <div className="grid items-end gap-8 lg:grid-cols-[minmax(0,1fr)_420px]">
       <PageHeader
         kicker={
           <>
@@ -64,6 +66,8 @@ export default async function TeamPage({ params }: { params: Params }) {
       >
         {t.tagline}
       </PageHeader>
+        <PhotoFigure photo={photoOf(photoKey.team(t.id))} priority />
+      </div>
 
       <dl className="mt-8 grid gap-4 text-sm sm:grid-cols-3">
         <div className="card p-4">
@@ -102,6 +106,14 @@ export default async function TeamPage({ params }: { params: Params }) {
 
       <Section title="Career timeline" kicker="Season by season" id="timeline">
         <CareerTimeline title={`${name} career timeline`} rows={teamTimeline(t.id)} />
+      </Section>
+
+      <Section title="Cars by season" kicker="Chassis and photos, year by year" id="cars-by-season">
+        {s.entries.length ? (
+          <SeasonCarGallery entries={s.entries} />
+        ) : (
+          <p className="card px-5 py-4 text-sm text-body">Season entries for this team are not yet in the archive.</p>
+        )}
       </Section>
 
       <Section title="Key stats" id="stats">

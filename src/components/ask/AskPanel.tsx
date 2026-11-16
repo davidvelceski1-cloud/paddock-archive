@@ -12,7 +12,7 @@ export function AskPanel() {
   return (
     <Dialog.Root open={open} onOpenChange={(o) => (o ? askStore.open() : askStore.close())}>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 z-40 bg-[#0f1222]/20 backdrop-blur-[2px]" />
+        <Dialog.Overlay className="fixed inset-0 z-40 bg-black/30 backdrop-blur-sm" />
         <Dialog.Content className="rise fixed inset-y-0 right-0 z-50 flex w-full max-w-[460px] flex-col border-l border-line bg-bg shadow-lift outline-none" aria-describedby={undefined}>
           <div className="flex items-center justify-between border-b border-line px-5 py-3.5">
             <Dialog.Title className="font-medium text-ink">Ask the Archive</Dialog.Title>

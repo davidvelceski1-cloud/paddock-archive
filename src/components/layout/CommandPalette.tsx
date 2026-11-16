@@ -99,7 +99,7 @@ export function CommandPalette() {
   return (
     <Dialog.Root open={open} onOpenChange={palette.set}>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 z-50 bg-[#0f1222]/25 backdrop-blur-[2px]" />
+        <Dialog.Overlay className="fixed inset-0 z-50 bg-black/30 backdrop-blur-sm" />
         <Dialog.Content className="card rise fixed left-1/2 top-[12vh] z-50 w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 overflow-hidden p-0 shadow-lift" aria-describedby={undefined}>
           <Dialog.Title className="sr-only">Search the archive</Dialog.Title>
           <Command shouldFilter={false} label="Search the archive" loop>
