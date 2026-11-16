@@ -11,7 +11,27 @@
 import { z } from "zod";
 
 export const ClassFamily = z.enum(["hyper", "lmp1", "lmp2", "gt", "hist"]);
-export const ClassId = z.enum(["overall", "hypercar", "lmp1", "lmp2", "lmgte-pro", "lmgte-am", "lmgt3", "group-c", "prototype", "gt1"]);
+export const ClassId = z.enum([
+  "overall",
+  "hypercar",
+  "lmp1",
+  "lmp2",
+  "lmgte-pro",
+  "lmgte-am",
+  "lmgt3",
+  "group-c",
+  "prototype",
+  "gt1",
+  // Historic classes
+  "gt-historic",
+  "group-5",
+  "group-c2",
+  "lmp-1990s",
+  "lmp900",
+  "lmgtp",
+  "gts",
+  "gt2",
+]);
 
 export const Source = z.object({
   id: z.string(),

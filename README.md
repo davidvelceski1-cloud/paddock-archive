@@ -128,6 +128,7 @@ Everything in `src/data/seed` is placeholder data and needs checking against the
 - **No world championship rounds before 2010** are loaded, only Le Mans.
 - **Photos are picked automatically** from Wikimedia Commons and are not yet hand-checked (see [Photos and chassis names](#photos-and-chassis-names)). Use only licensed images, and no FIA/WEC/ACO or manufacturer logos.
 - **Chassis names** per season are placeholder data like the rest of the seed.
+- **Historic teams and classes** (`src/data/seed/historic-teams.ts`): works teams and privateers from the Bentley Boys to Corvette Racing, linked to the Le Mans winners they ran (`LE_MANS_TEAMS`), plus historic classes (GT, Group 5, Group C2, 1990s LMP, LMP900, LMGTP, GTS, GT2). Class names and date ranges are simplified across rule changes; car numbers are filled in only where well documented. All pending verification.
 
 ## Project layout
 

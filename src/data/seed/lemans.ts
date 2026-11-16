@@ -5,6 +5,7 @@
  */
 import type { ArchiveInput } from "../schema.ts";
 import { LEMANS_SOURCES } from "./reference.ts";
+import { LE_MANS_TEAMS } from "./historic-teams.ts";
 
 type Row = [year: number, car: string, manufacturer: string, drivers: string[], extra?: { team?: string; number?: string; laps?: number; date?: string }];
 
@@ -111,6 +112,8 @@ export const leMans: ArchiveInput["leMans"] = ROWS.map(([year, car, manufacturer
   manufacturer,
   drivers,
   ...extra,
+  // Link the winning team to its profile where one exists (historic-teams.ts).
+  ...(LE_MANS_TEAMS[year] ? { team: LE_MANS_TEAMS[year] } : {}),
   sources: LEMANS_SOURCES,
 }));
 

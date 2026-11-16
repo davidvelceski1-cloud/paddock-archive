@@ -9,13 +9,14 @@ export const teams: ArchiveInput["teams"] = [
   {
     id: "toyota-gazoo-racing",
     names: [
+      { name: "Toyota Motorsport", from: 1998, to: 1999 },
       { name: "Toyota Racing", from: 2012, to: 2015 },
       { name: "Toyota Gazoo Racing", from: 2016, to: 2025 },
       { name: "Toyota Racing", from: 2026, to: null },
     ],
     country: "JP",
     status: "active",
-    firstSeason: 2012,
+    firstSeason: 1998,
     lastSeason: null,
     manufacturerIds: ["toyota"],
     tagline: "The constant of the WEC era: from heartbreak at Le Mans to a run of five straight wins.",
@@ -26,6 +27,7 @@ export const teams: ArchiveInput["teams"] = [
         "The TS040 Hybrid won both world titles in 2014. After the agony of 2016 — the leading car stopped in the final minutes of Le Mans — the team won the 24 Hours five times running from 2018 to 2022, spanning the end of LMP1 and the first Hypercar seasons with the GR010 Hybrid. After three years of Ferrari wins, the renamed Toyota Racing took a sixth Le Mans victory and both world titles in 2026 with the same car, now called the TR010 Hybrid.",
     },
     moments: [
+      { year: 1999, text: "The GT-One was closing on the leading BMW in the final hours when a puncture ended its challenge; it finished second." },
       { year: 2012, text: "First WEC victory at São Paulo, in only the team's third race." },
       { year: 2014, text: "Drivers' and manufacturers' world titles with the TS040 Hybrid." },
       { year: 2016, text: "The leading #5 car lost power in the final minutes of Le Mans with victory in sight." },
@@ -38,12 +40,15 @@ export const teams: ArchiveInput["teams"] = [
   },
   {
     id: "audi-sport-team-joest",
-    names: [{ name: "Audi Sport Team Joest", from: 2012, to: 2016 }],
+    names: [
+      { name: "Joest Racing", from: 1984, to: 1998 },
+      { name: "Audi Sport Team Joest", from: 1999, to: 2016 },
+    ],
     country: "DE",
     status: "defunct",
-    firstSeason: 2012,
+    firstSeason: 1984,
     lastSeason: 2016,
-    manufacturerIds: ["audi"],
+    manufacturerIds: ["audi", "porsche"],
     tagline: "Reinhold Joest's squad ran Audi's factory prototypes through the most successful run in modern endurance racing.",
     history: {
       founding:
@@ -55,6 +60,10 @@ export const teams: ArchiveInput["teams"] = [
     whyLeft:
       "Audi withdrew from the WEC at the end of 2016 to concentrate on Formula E, as the Volkswagen Group cut costs in the aftermath of the diesel-emissions scandal. With no Audi prototype to run, the Joest partnership in the WEC ended with it.",
     moments: [
+      { year: 1984, text: "First Le Mans win, as a Porsche 956 privateer, with Henri Pescarolo and Klaus Ludwig." },
+      { year: 1997, text: "Second straight win with the TWR Porsche WSC-95, Tom Kristensen's first Le Mans victory." },
+      { year: 2000, text: "Audi's first Le Mans win, a one-two-three with the R8." },
+      { year: 2006, text: "The R10 TDI became the first diesel to win Le Mans." },
       { year: 2012, text: "The R18 e-tron quattro became the first hybrid to win Le Mans." },
       { year: 2013, text: "Tom Kristensen's ninth Le Mans win, partnering Allan McNish and Loïc Duval to the world title." },
       { year: 2014, text: "Audi's 13th Le Mans victory." },
@@ -204,20 +213,22 @@ export const teams: ArchiveInput["teams"] = [
   },
   {
     id: "aston-martin-racing",
-    names: [{ name: "Aston Martin Racing", from: 2012, to: 2020 }],
+    names: [{ name: "Aston Martin Racing", from: 2005, to: 2020 }],
     country: "GB",
     status: "defunct",
-    firstSeason: 2012,
+    firstSeason: 2005,
     lastSeason: 2019,
     manufacturerIds: ["aston-martin"],
-    tagline: "Aston Martin's works GTE squad, a fixture of the GT classes for a decade.",
+    tagline: "Aston Martin's works team with Prodrive: GT1 winners with the DBR9, then a GTE Pro fixture for a decade.",
     history: {
-      founding: "Aston Martin Racing, run with Prodrive, entered the WEC's GTE Pro class from the first season with the Vantage GTE.",
+      founding: "Aston Martin Racing, run with Prodrive, brought the marque back to Le Mans in 2005 with the DBR9, winning the GT1 class in 2007 and 2008, and raced a Lola-Aston Martin prototype in 2009. It entered the WEC's GTE Pro class from the first season with the Vantage GTE.",
       peak: "The team won the GTE Pro class at Le Mans in 2017, with a last-lap pass, and again in 2020 with the Vantage AMR.",
       exit: "The works GTE Pro programme ended after the 2019–20 season, with the 2020 Le Mans class win as its finale. The brand returned to the WEC's top class in 2025 with the Valkyrie, run by a partner team.",
     },
     whyLeft: "Aston Martin's motorsport focus moved to its new Formula 1 team for 2021, and GTE Pro was already being wound down by the rule makers, so the works GT entry ended after 2019–20.",
     moments: [
+      { year: 2007, text: "GT1 class win at Le Mans with the DBR9." },
+      { year: 2008, text: "Second straight GT1 class win at Le Mans." },
       { year: 2017, text: "GTE Pro win at Le Mans, decided on the final lap." },
       { year: 2020, text: "Second GTE Pro class win at Le Mans with the Vantage AMR." },
     ],

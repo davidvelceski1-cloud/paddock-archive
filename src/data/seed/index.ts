@@ -9,6 +9,7 @@ import { seasons } from "./seasons.ts";
 import { events } from "./events.ts";
 import { stories } from "./stories.ts";
 import { tracks } from "./tracks.ts";
+import { historicTeamEntries, historicTeams } from "./historic-teams.ts";
 
 export const seed: ArchiveInput = {
   tracks,
@@ -18,9 +19,9 @@ export const seed: ArchiveInput = {
   eras,
   manufacturers,
   cars,
-  teams,
+  teams: [...teams, ...historicTeams],
   drivers,
-  teamEntries,
+  teamEntries: [...teamEntries, ...historicTeamEntries],
   driverEntries,
   seasons,
   events,

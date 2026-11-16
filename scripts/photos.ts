@@ -318,7 +318,7 @@ if (!only || only === "teams") {
     const latest = a.teamEntries
       .filter((e) => e.teamId === t.id)
       .sort((x, y) => y.season - x.season)
-      .map((e) => out[`entry:${e.teamId}|${e.season}|${e.car}`])
+      .map((e) => out[`entry:${e.teamId}|${e.season}|${e.car}`] ?? out[`car:${e.car}`])
       .find(Boolean);
     const key = `team:${t.id}`;
     if (!want(key)) continue;

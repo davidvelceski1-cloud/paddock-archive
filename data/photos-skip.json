@@ -13,7 +13,8 @@
   ],
   "car:ford-gt": [
     "File:AF Corse Ferrari 488 GTE Rigon Silverstone 2018.jpg",
-    "File:GT Gulf (49549850812).jpg"
+    "File:GT Gulf (49549850812).jpg",
+    "File:1. VLN Race 2012 (7035482425).jpg"
   ],
   "car:mclaren-f1-gtr": [
     "File:1998 Goodwood Festival of Speed (15781190981).jpg"
@@ -42,15 +43,26 @@
     "File:1937 Alfa Romeo 8C 2300 or 2900 Zagato.jpg"
   ],
   "car:Bugatti Type 57C": [
-    "File:1939 Bugatti Type 57C Vanvooren Cabriolet- (21864460571).jpg"
+    "File:1939 Bugatti Type 57C Vanvooren Cabriolet- (21864460571).jpg",
+    "File:Bugatti Type 57C Atalante (1938) (55079062663).jpg"
   ],
   "car:Mercedes-Benz 300 SL": [
-    "File:Fox Classic Car Collection, 2008 (02).JPG"
+    "File:Fox Classic Car Collection, 2008 (02).JPG",
+    "File:Mercedes 300SL grijs Nürburgring 2006 small.jpg"
   ],
   "car:Porsche 936/81": [
     "File:Porsche 93677 Spider.jpg"
   ],
   "wallpaper:le-mans-2012-2": true,
   "wallpaper:le-mans-2018-1": true,
-  "wallpaper:le-mans-2018-2": true
+  "wallpaper:le-mans-2018-2": true,
+  "car:BMW V12 LM": [
+    "File:BMW V12 LMR, Techno-Classica 2018, Essen (IMG 9769).jpg"
+  ],
+  "car:Glickenhaus 007 LMH": [
+    "File:1000 Miles of Sebring 2023-03-17 James Glickenhaus.jpg"
+  ],
+  "team:ford-chip-ganassi": true,
+  "team:glickenhaus": true,
+  "team:united-autosports": true
 }
