@@ -35,6 +35,16 @@ export const photoKey = {
   entry: (e: Pick<TeamSeasonEntry, "teamId" | "season" | "car">) => `entry:${e.teamId}|${e.season}|${e.car}`,
 };
 export const photoOf = (key: string): Photo | undefined => photos()[key];
+/** Photos for a wallpaper slideshow: every key with one of the prefixes, one per image, newest seasons first. */
+export function wallpaperPhotos(prefixes: string[], max = 18) {
+  const seen = new Set<string>();
+  return Object.entries(photos())
+    .filter(([k]) => prefixes.some((p) => k.startsWith(p)))
+    .sort(([x], [y]) => (y.match(/\|(\d{4})\|/)?.[1] ?? "0").localeCompare(x.match(/\|(\d{4})\|/)?.[1] ?? "0") || x.localeCompare(y))
+    .filter(([, p]) => (seen.has(p.src) ? false : (seen.add(p.src), true)))
+    .slice(0, max)
+    .map(([, p]) => ({ src: p.src, alt: p.alt, credit: `${p.credit} · ${p.license}` }));
+}
 /** Chassis raced by a team entry, falling back to the car's name. */
 export const chassisOf = (e: TeamSeasonEntry) => e.chassis ?? resolveCar(e.car).label;
 
@@ -55,6 +65,8 @@ function buildIndexes(a: Archive) {
     sources: by(a.sources, (s) => s.id),
     stories: by(a.stories, (s) => s.slug),
     leMans: by(a.leMans, (l) => l.year),
+    tracks: by(a.tracks, (t) => t.id),
+    trackByCircuit: new Map(a.tracks.flatMap((t) => t.circuitNames.map((n) => [n, t] as const))),
   };
 }
 let idx: Indexes | null = null;
@@ -73,7 +85,22 @@ export const href = {
   manufacturer: (id: string) => `/manufacturers/${id}`,
   story: (slug: string) => `/stories/${slug}`,
   era: (slug: string) => `/seasons?era=${slug}`,
+  track: (id: string) => `/tracks/${id}`,
 };
+
+// ───────────── Tracks ─────────────
+/** The profiled track for an event's `circuit` string, if any. */
+export const trackOfCircuit = (circuit: string) => ix().trackByCircuit.get(circuit);
+/** Races held at a track: archive events plus every Le Mans for the Circuit de la Sarthe. */
+export function racesAt(trackId: string) {
+  const t = ix().tracks.get(trackId);
+  if (!t) return { events: [], leMans: [] };
+  const events = archive()
+    .events.filter((e) => t.circuitNames.includes(e.circuit))
+    .sort((x, y) => (y.date ?? String(y.season)).localeCompare(x.date ?? String(x.season)));
+  const leMans = trackId === "circuit-de-la-sarthe" ? [...archive().leMans].sort((x, y) => y.year - x.year) : [];
+  return { events, leMans };
+}
 
 // ───────────── Seasons ─────────────
 export const seasonLabel = (year: number) => ix().seasons.get(year)?.label ?? String(year);

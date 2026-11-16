@@ -8,8 +8,10 @@ import { leMans } from "./lemans.ts";
 import { seasons } from "./seasons.ts";
 import { events } from "./events.ts";
 import { stories } from "./stories.ts";
+import { tracks } from "./tracks.ts";
 
 export const seed: ArchiveInput = {
+  tracks,
   sources,
   classes,
   championships,

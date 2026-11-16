@@ -3,6 +3,22 @@ import type { ArchiveInput } from "../schema.ts";
 
 export const stories: ArchiveInput["stories"] = [
   {
+    slug: "2026-toyota-strikes-back",
+    title: "2026: Toyota strikes back",
+    dek: "A sixth Le Mans win by under 11 seconds, both world titles, BMW's breakthrough and a calendar rewritten mid-season.",
+    eraSlug: "hypercar",
+    related: ["team:toyota-gazoo-racing", "team:bmw-m-team-wrt", "car:toyota-gr010-hybrid", "car:bmw-m-hybrid-v8", "driver:nyck-de-vries"],
+    body: `After three years of Ferrari wins at Le Mans, [Toyota](/teams/toyota-gazoo-racing) began 2026 with a new name — Toyota Racing — and a renamed car, the TR010 Hybrid, the same machine that had raced as the [GR010](/cars/toyota-gr010-hybrid). The #8 car of [Sébastien Buemi](/drivers/sebastien-buemi), [Brendon Hartley](/drivers/brendon-hartley) and [Ryo Hirakawa](/drivers/ryo-hirakawa) won the opening [6 Hours of Imola](/seasons/2026/imola).
+
+[BMW](/teams/bmw-m-team-wrt) answered at [Spa](/seasons/2026/spa) with the first one-two in its WEC history, led by the #20 [M Hybrid V8](/cars/bmw-m-hybrid-v8) of René Rast, Robin Frijns and Sheldon van der Linde. The same car pushed Toyota all the way at [Le Mans](/seasons/2026/le-mans): after 381 laps, the #7 Toyota of [Mike Conway](/drivers/mike-conway), [Kamui Kobayashi](/drivers/kamui-kobayashi) and [Nyck de Vries](/drivers/nyck-de-vries) won by 10.913 seconds. It was Toyota's sixth victory, and de Vries's first.
+
+BMW won again in [São Paulo](/seasons/2026/sao-paulo), [Ferrari](/teams/ferrari-af-corse)'s #50 won the [Lone Star Le Mans](/seasons/2026/cota), and then the #8 Toyota took control with wins at [Fuji](/seasons/2026/fuji) and in the championship's first visit to [Barcelona](/seasons/2026/barcelona). Buemi, Hartley and Hirakawa were champions on 115 points; Toyota won the manufacturers' title from BMW and Ferrari.
+
+The season ended at [Monza](/seasons/2026/monza) in November with a first WEC win for [Cadillac and Jota](/teams/cadillac-hertz-team-jota), shared by Jack Aitken, [Earl Bamber](/drivers/earl-bamber) and Sébastien Bourdais.
+
+Off track, the year was shaped by the calendar. The Qatar round was postponed in March because of tensions in the Middle East and later cancelled, Bahrain was dropped, and Barcelona and a November Monza date filled the gaps. Porsche's factory team had already left Hypercar, Genesis arrived with its GMR-001, and the FIA and ACO stopped publishing Balance of Performance tables.`,
+  },
+  {
     slug: "audi-peugeot-rivalry",
     title: "The Audi–Peugeot rivalry",
     dek: "Five years, two diesel philosophies and some of the closest finishes Le Mans has seen.",

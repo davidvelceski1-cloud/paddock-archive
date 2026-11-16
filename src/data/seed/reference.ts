@@ -42,6 +42,20 @@ export const sources: ArchiveInput["sources"] = [
     url: "https://www.racingsportscars.com",
     note: "Secondary source for historic championship rounds.",
   },
+  {
+    id: "wikipedia-wec-2026",
+    title: "2026 FIA World Endurance Championship",
+    publisher: "Wikipedia",
+    url: "https://en.wikipedia.org/wiki/2026_FIA_World_Endurance_Championship",
+    note: "Secondary source used for the 2026 calendar, race winners, champions and season news (read 16 November 2026). Verify against the official classifications.",
+  },
+  {
+    id: "wikipedia-circuits",
+    title: "Circuit articles",
+    publisher: "Wikipedia",
+    url: "https://en.wikipedia.org/wiki/List_of_motor_racing_tracks",
+    note: "Secondary source for circuit lengths, corner counts and history. Verify against the circuits' own data.",
+  },
 ];
 
 /** The default citation pair for seed records: the seed itself and the source to verify against. */

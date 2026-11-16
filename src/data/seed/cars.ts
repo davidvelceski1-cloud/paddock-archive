@@ -70,6 +70,28 @@ export const cars: ArchiveInput["cars"] = [
     summary: "A rebadged, performance-balanced version of the Rebellion R13 LMP1, allowed into the Hypercar class as a stop-gap while Alpine prepared its LMDh car.",
     sources: WEC_SOURCES,
   },
+  {
+    id: "bmw-m-hybrid-v8",
+    name: "BMW M Hybrid V8",
+    manufacturerId: "bmw",
+    classId: "hypercar",
+    from: 2024,
+    to: null,
+    powertrain: "4.0-litre twin-turbo V8 with the LMDh-specification rear-axle hybrid unit, on a Dallara chassis.",
+    summary: "BMW's LMDh car and its first top-class prototype since the Le Mans-winning V12 LMR of 1999. Run in the WEC by Team WRT, it scored BMW's first WEC one-two at Spa in 2026 and finished second at Le Mans that year.",
+    sources: WEC_SOURCES,
+  },
+  {
+    id: "cadillac-v-series-r",
+    name: "Cadillac V-Series.R",
+    manufacturerId: "cadillac",
+    classId: "hypercar",
+    from: 2023,
+    to: null,
+    powertrain: "5.5-litre naturally aspirated V8 with the LMDh-specification rear-axle hybrid unit, on a Dallara chassis.",
+    summary: "Cadillac's LMDh car, known for its loud naturally aspirated V8. Run in the WEC by Jota from 2025, it won the 2026 season finale at Monza.",
+    sources: WEC_SOURCES,
+  },
   // ── LMP1 hybrid era ──
   {
     id: "toyota-ts050-hybrid",

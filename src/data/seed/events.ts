@@ -26,7 +26,16 @@ const TOY6_2016 = ref(TOY, "toyota-ts050-hybrid", "6", ["stephane-sarrazin", "mi
 const TOY7_2023 = ref(TOY, "toyota-gr010-hybrid", "7", ["mike-conway", "kamui-kobayashi", "jose-maria-lopez"]);
 const TOY8_2023 = ref(TOY, "toyota-gr010-hybrid", "8", ["sebastien-buemi", "brendon-hartley", "ryo-hirakawa"]);
 
+// 2026 (Toyota renamed its team Toyota Racing and its car TR010 Hybrid; same records as before)
+const BMW = "bmw-m-team-wrt";
+const BMWV8 = "bmw-m-hybrid-v8";
+const CADV = "cadillac-v-series-r";
+const TOY7_2026 = ref(TOY, "toyota-gr010-hybrid", "7", ["mike-conway", "kamui-kobayashi", "nyck-de-vries"]);
+const TOY8_2026 = ref(TOY, "toyota-gr010-hybrid", "8", ["sebastien-buemi", "brendon-hartley", "ryo-hirakawa"]);
+const BMW20_2026 = ref(BMW, BMWV8, "20", ["René Rast", "Robin Frijns", "Sheldon van der Linde"]);
+
 const win = (entry: EntryRef, extra: Partial<ClassResult> = {}) => [{ classId: "overall" as const, podium: [entry], ...extra }];
+const gt3 = (entry: EntryRef): ClassResult => ({ classId: "lmgt3", podium: [entry] });
 
 const ev = (season: number, round: number, slug: string, name: string, circuit: string, country: string, date: string, format: string, results: Ev["results"] = [], summary?: string): Ev => ({
   id: `${season}-${slug}`,
@@ -147,4 +156,49 @@ export const events: ArchiveInput["events"] = [
   ev(2025, 6, "cota", "Lone Star Le Mans", "Circuit of the Americas", "US", "2025-09", "6 Hours"),
   ev(2025, 7, "fuji", "6 Hours of Fuji", "Fuji Speedway", "JP", "2025-09", "6 Hours"),
   ev(2025, 8, "bahrain", "8 Hours of Bahrain", "Bahrain International Circuit", "BH", "2025-11", "8 Hours"),
+
+  // ── 2026 ── (Qatar and Bahrain were cancelled; see the season record)
+  ev(2026, 1, "imola", "6 Hours of Imola", "Autodromo Enzo e Dino Ferrari", "IT", "2026-04-19", "6 Hours", [
+    ...win(TOY8_2026),
+    gt3(ref("Team WRT", "BMW M4 GT3 Evo", "69", ["Dan Harper", "Anthony McIntosh", "Parker Thompson"])),
+  ], "Toyota opened its comeback season with victory for the #8 crew."),
+  ev(2026, 2, "spa", "6 Hours of Spa-Francorchamps", "Circuit de Spa-Francorchamps", "BE", "2026-05-09", "6 Hours", [
+    ...win(BMW20_2026, { note: "A BMW one-two, the marque's first in the World Endurance Championship." }),
+    gt3(ref("Garage 59", "McLaren 720S GT3 Evo", "10", ["Antares Au", "Tom Fleming", "Marvin Kirchhöfer"])),
+  ]),
+  ev(
+    2026,
+    3,
+    "le-mans",
+    "24 Hours of Le Mans",
+    "Circuit de la Sarthe",
+    "FR",
+    "2026-06-14",
+    "24 Hours",
+    [
+      { classId: "overall", podium: [TOY7_2026, BMW20_2026, TOY8_2026], laps: 381, note: "Won by 10.913 seconds." },
+      gt3(ref("TF Sport", "Chevrolet Corvette Z06 GT3.R", "33", ["Jonny Edgar", "Nicky Catsburg", "Ben Keating"])),
+    ],
+    "The 94th 24 Hours. The #7 Toyota held off BMW's #20 by under 11 seconds after 381 laps, for Toyota's sixth Le Mans win and a first for Nyck de Vries. TF Sport's Corvette won LMGT3.",
+  ),
+  ev(2026, 4, "sao-paulo", "6 Hours of São Paulo", "Autódromo José Carlos Pace (Interlagos)", "BR", "2026-07-12", "6 Hours", [
+    ...win(ref(BMW, BMWV8, "15", ["Kevin Magnussen", "Raffaele Marciello", "Dries Vanthoor"])),
+    gt3(ref("Racing Team Turkey by TF", "Chevrolet Corvette Z06 GT3.R", "34", ["Peter Dempsey", "Charlie Eastwood", "Salih Yoluç"])),
+  ]),
+  ev(2026, 5, "cota", "Lone Star Le Mans", "Circuit of the Americas", "US", "2026-09-06", "6 Hours", [
+    ...win(ref("ferrari-af-corse", "ferrari-499p", "50", ["antonio-fuoco", "miguel-molina", "nicklas-nielsen"])),
+    gt3(ref("Heart of Racing Team", "Aston Martin Vantage AMR GT3 Evo", "27", ["Mattia Drudi", "Ian James", "Zacharie Robichon"])),
+  ]),
+  ev(2026, 6, "fuji", "6 Hours of Fuji", "Fuji Speedway", "JP", "2026-09-27", "6 Hours", [
+    ...win(TOY8_2026),
+    gt3(ref("Team WRT", "BMW M4 GT3 Evo", "32", ["Augusto Farfus", "Sean Gelael", "Darren Leung"])),
+  ]),
+  ev(2026, 7, "barcelona", "6 Hours of Barcelona", "Circuit de Barcelona-Catalunya", "ES", "2026-10-18", "6 Hours", [
+    ...win(TOY8_2026, { note: "The win put the #8 crew in control of the title." }),
+    gt3(ref("The Bend Manthey", "Porsche 911 GT3 R", "92", ["Richard Lietz", "Riccardo Pera", "Yasser Shahin"])),
+  ], "The championship's first race in Barcelona, added after the Qatar round was postponed."),
+  ev(2026, 8, "monza", "6 Hours of Monza", "Autodromo Nazionale Monza", "IT", "2026-11-08", "6 Hours", [
+    ...win(ref("cadillac-hertz-team-jota", CADV, "38", ["Jack Aitken", "earl-bamber", "Sébastien Bourdais"])),
+    gt3(ref("The Bend Manthey", "Porsche 911 GT3 R", "92", ["Richard Lietz", "Riccardo Pera", "Yasser Shahin"])),
+  ], "The season finale, moved to November after the Bahrain round was cancelled. Cadillac and Jota won; the #8 Toyota crew were confirmed as champions."),
 ];

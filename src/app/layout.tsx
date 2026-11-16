@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/layout/SiteFooter";
 import { CommandPalette } from "@/components/layout/CommandPalette";
 import { AskPanel } from "@/components/ask/AskPanel";
 import { AskFab } from "@/components/ask/AskFab";
+import { HoverPreviews } from "@/components/layout/HoverPreviews";
 import { SITE_NAME, SITE_URL } from "@/lib/utils";
 
 // Apple devices use the system font (see globals.css); Inter is the close match everywhere else.
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <CommandPalette />
         <AskPanel />
         <AskFab />
+        <HoverPreviews />
       </body>
     </html>
   );

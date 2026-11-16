@@ -10,7 +10,8 @@ export const teams: ArchiveInput["teams"] = [
     id: "toyota-gazoo-racing",
     names: [
       { name: "Toyota Racing", from: 2012, to: 2015 },
-      { name: "Toyota Gazoo Racing", from: 2016, to: null },
+      { name: "Toyota Gazoo Racing", from: 2016, to: 2025 },
+      { name: "Toyota Racing", from: 2026, to: null },
     ],
     country: "JP",
     status: "active",
@@ -22,7 +23,7 @@ export const teams: ArchiveInput["teams"] = [
       founding:
         "Toyota's endurance story long predates the WEC: the TS010 finished second at Le Mans in 1992 and the GT-One came close in 1998 and 1999. The company returned to top-class prototypes with the TS030 Hybrid in 2012, run from its motorsport base in Cologne, Germany.",
       peak:
-        "The TS040 Hybrid won both world titles in 2014. After the agony of 2016 — the leading car stopped in the final minutes of Le Mans — the team won the 24 Hours five times running from 2018 to 2022, spanning the end of LMP1 and the first Hypercar seasons with the GR010 Hybrid.",
+        "The TS040 Hybrid won both world titles in 2014. After the agony of 2016 — the leading car stopped in the final minutes of Le Mans — the team won the 24 Hours five times running from 2018 to 2022, spanning the end of LMP1 and the first Hypercar seasons with the GR010 Hybrid. After three years of Ferrari wins, the renamed Toyota Racing took a sixth Le Mans victory and both world titles in 2026 with the same car, now called the TR010 Hybrid.",
     },
     moments: [
       { year: 2012, text: "First WEC victory at São Paulo, in only the team's third race." },
@@ -31,6 +32,7 @@ export const teams: ArchiveInput["teams"] = [
       { year: 2017, text: "Kamui Kobayashi set the Le Mans lap record (3:14.791) in qualifying." },
       { year: 2018, text: "First Le Mans victory, at the 20th attempt, with Buemi, Nakajima and Alonso." },
       { year: 2021, text: "Won the first Le Mans of the Hypercar era with the GR010 Hybrid." },
+      { year: 2026, text: "Sixth Le Mans win, by 10.9 seconds over BMW, and both world championships as Toyota Racing." },
     ],
     sources: WEC_SOURCES,
   },
@@ -221,6 +223,41 @@ export const teams: ArchiveInput["teams"] = [
     ],
     sources: WEC_SOURCES,
   },
+  {
+    id: "bmw-m-team-wrt",
+    names: [{ name: "BMW M Team WRT", from: 2024, to: null }],
+    country: "BE",
+    status: "active",
+    firstSeason: 2024,
+    lastSeason: null,
+    manufacturerIds: ["bmw"],
+    tagline: "BMW's Hypercar works team, run by Belgium's Team WRT.",
+    history: {
+      founding: "BMW chose Team WRT, already a winner in LMP2 and GT racing, to run its M Hybrid V8 in the WEC when the marque returned to the top class in 2024.",
+      peak: "2026 was the breakthrough: a first WEC one-two at Spa, victory in São Paulo and second place at Le Mans, beaten by under 11 seconds. BMW finished runner-up in the manufacturers' championship.",
+    },
+    moments: [
+      { year: 2026, text: "BMW's first WEC one-two, at Spa-Francorchamps." },
+      { year: 2026, text: "Second at Le Mans, 10.9 seconds behind the winning Toyota." },
+    ],
+    sources: WEC_SOURCES,
+  },
+  {
+    id: "cadillac-hertz-team-jota",
+    names: [{ name: "Cadillac Hertz Team Jota", from: 2025, to: null }],
+    country: "GB",
+    status: "active",
+    firstSeason: 2025,
+    lastSeason: null,
+    manufacturerIds: ["cadillac"],
+    tagline: "The British Jota team, running Cadillac's factory Hypercar programme in the WEC.",
+    history: {
+      founding: "Jota, an LMP2 and Le Mans class winner, became Cadillac's WEC partner in 2025, taking over the V-Series.R programme.",
+      peak: "Jack Aitken, Earl Bamber and Sébastien Bourdais won the 2026 season finale at Monza.",
+    },
+    moments: [{ year: 2026, text: "Victory in the 6 Hours of Monza, the season finale." }],
+    sources: WEC_SOURCES,
+  },
 ];
 
 const range = (a: number, b: number) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
@@ -234,7 +271,12 @@ const CHASSIS: Record<string, [number, number, string][]> = {
   "toyota-ts030-hybrid": [[2012, 2013, "Toyota TS030 Hybrid"]],
   "toyota-ts040-hybrid": [[2014, 2015, "Toyota TS040 Hybrid"]],
   "toyota-ts050-hybrid": [[2016, 2019, "Toyota TS050 Hybrid"]],
-  "toyota-gr010-hybrid": [[2021, 2025, "Toyota GR010 Hybrid"]],
+  "toyota-gr010-hybrid": [
+    [2021, 2025, "Toyota GR010 Hybrid"],
+    [2026, 2026, "Toyota TR010 Hybrid (renamed GR010)"],
+  ],
+  "bmw-m-hybrid-v8": [[2024, 2026, "BMW M Hybrid V8"]],
+  "cadillac-v-series-r": [[2023, 2026, "Cadillac V-Series.R"]],
   "audi-r18-e-tron-quattro": [
     [2012, 2015, "Audi R18 e-tron quattro"],
     [2016, 2016, "Audi R18"],
@@ -246,7 +288,7 @@ const CHASSIS: Record<string, [number, number, string][]> = {
   "peugeot-908": [[2011, 2011, "Peugeot 908"]],
   "peugeot-9x8": [
     [2022, 2023, "Peugeot 9X8"],
-    [2024, 2025, "Peugeot 9X8 (2024 evolution, with rear wing)"],
+    [2024, 2026, "Peugeot 9X8 (2024 evolution, with rear wing)"],
   ],
   "Lola B12/60": [[2012, 2013, "Lola B12/60"]],
   "Rebellion R-One": [[2014, 2016, "Rebellion R-One"]],
@@ -258,7 +300,7 @@ const CHASSIS: Record<string, [number, number, string][]> = {
     [2016, 2017, "Ferrari 488 GTE"],
     [2018, 2022, "Ferrari 488 GTE Evo"],
   ],
-  "ferrari-499p": [[2023, 2025, "Ferrari 499P"]],
+  "ferrari-499p": [[2023, 2026, "Ferrari 499P"]],
   "porsche-963": [[2023, 2025, "Porsche 963"]],
   "aston-martin-vantage-gte": [[2012, 2017, "Aston Martin V8 Vantage GTE"]],
   "aston-martin-vantage-amr": [[2018, 2019, "Aston Martin Vantage AMR"]],
@@ -273,6 +315,10 @@ const entries: ArchiveInput["teamEntries"] = [
   { teamId: "toyota-gazoo-racing", season: 2016, classId: "lmp1", car: "toyota-ts050-hybrid", numbers: ["5", "6"], nameUsed: "Toyota Gazoo Racing" },
   ...[2017, 2018, 2019].map((season) => ({ teamId: "toyota-gazoo-racing", season, classId: "lmp1" as const, car: "toyota-ts050-hybrid", numbers: ["7", "8"], nameUsed: "Toyota Gazoo Racing" })),
   ...range(2021, 2025).map((season) => ({ teamId: "toyota-gazoo-racing", season, classId: "hypercar" as const, car: "toyota-gr010-hybrid", numbers: ["7", "8"], nameUsed: "Toyota Gazoo Racing" })),
+  { teamId: "toyota-gazoo-racing", season: 2026, classId: "hypercar", car: "toyota-gr010-hybrid", numbers: ["7", "8"], nameUsed: "Toyota Racing" },
+  // BMW and Cadillac
+  ...range(2024, 2026).map((season) => ({ teamId: "bmw-m-team-wrt", season, classId: "hypercar" as const, car: "bmw-m-hybrid-v8", numbers: ["15", "20"] })),
+  ...[2025, 2026].map((season) => ({ teamId: "cadillac-hertz-team-jota", season, classId: "hypercar" as const, car: "cadillac-v-series-r", numbers: ["12", "38"] })),
   // Audi
   { teamId: "audi-sport-team-joest", season: 2012, classId: "lmp1", car: "audi-r18-e-tron-quattro", numbers: ["1", "2"] },
   { teamId: "audi-sport-team-joest", season: 2012, classId: "lmp1", car: "audi-r18-ultra", numbers: [], note: "Non-hybrid sister model, raced early in the season and at Le Mans." },
@@ -286,7 +332,7 @@ const entries: ArchiveInput["teamEntries"] = [
   ...[1992, 1993].map((season) => ({ teamId: "peugeot-sport", season, classId: "group-c" as const, car: "Peugeot 905", numbers: [], nameUsed: "Peugeot Talbot Sport" })),
   ...range(2007, 2010).map((season) => ({ teamId: "peugeot-sport", season, classId: "lmp1" as const, car: "peugeot-908-hdi-fap", numbers: [], nameUsed: "Team Peugeot Total" })),
   { teamId: "peugeot-sport", season: 2011, classId: "lmp1", car: "peugeot-908", numbers: [], nameUsed: "Team Peugeot Total" },
-  ...range(2022, 2025).map((season) => ({ teamId: "peugeot-sport", season, classId: "hypercar" as const, car: "peugeot-9x8", numbers: ["93", "94"], nameUsed: "Peugeot TotalEnergies" })),
+  ...range(2022, 2026).map((season) => ({ teamId: "peugeot-sport", season, classId: "hypercar" as const, car: "peugeot-9x8", numbers: ["93", "94"], nameUsed: "Peugeot TotalEnergies" })),
   // Rebellion
   ...[2012, 2013].map((season) => ({ teamId: "rebellion-racing", season, classId: "lmp1" as const, car: "Lola B12/60", numbers: [] })),
   ...range(2014, 2016).map((season) => ({ teamId: "rebellion-racing", season, classId: "lmp1" as const, car: "Rebellion R-One", numbers: [] })),
@@ -298,7 +344,7 @@ const entries: ArchiveInput["teamEntries"] = [
   // Ferrari / AF Corse
   ...range(2012, 2015).map((season) => ({ teamId: "ferrari-af-corse", season, classId: "lmgte-pro" as const, car: "Ferrari 458 Italia GTE", numbers: ["51"], nameUsed: "AF Corse" })),
   ...range(2016, 2022).filter((y) => y !== 2020).map((season) => ({ teamId: "ferrari-af-corse", season, classId: "lmgte-pro" as const, car: "ferrari-488-gte", numbers: ["51"], nameUsed: "AF Corse" })),
-  ...range(2023, 2025).map((season) => ({ teamId: "ferrari-af-corse", season, classId: "hypercar" as const, car: "ferrari-499p", numbers: ["50", "51"], nameUsed: "Ferrari AF Corse" })),
+  ...range(2023, 2026).map((season) => ({ teamId: "ferrari-af-corse", season, classId: "hypercar" as const, car: "ferrari-499p", numbers: ["50", "51"], nameUsed: "Ferrari AF Corse" })),
   ...[2024, 2025].map((season) => ({ teamId: "ferrari-af-corse", season, classId: "hypercar" as const, car: "ferrari-499p", numbers: ["83"], nameUsed: "AF Corse", note: "Separately entered third car." })),
   // Porsche Penske
   ...range(2023, 2025).map((season) => ({ teamId: "porsche-penske-motorsport", season, classId: "hypercar" as const, car: "porsche-963", numbers: ["5", "6"] })),

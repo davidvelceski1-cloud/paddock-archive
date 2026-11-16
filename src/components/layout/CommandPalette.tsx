@@ -4,7 +4,7 @@ import { Command } from "cmdk";
 import * as Dialog from "@radix-ui/react-dialog";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
-import { BookOpen, Calendar, Car, Factory, Flag, Search, Sparkles, Trophy, User } from "lucide-react";
+import { BookOpen, Calendar, Car, Factory, Flag, MapPin, Search, Sparkles, Trophy, User } from "lucide-react";
 import type { SearchItem } from "@/app/api/search-index/route";
 import { askStore } from "@/lib/ask-store";
 import { fuzzyScore } from "@/lib/search/fuzzy";
@@ -25,12 +25,13 @@ export const palette = {
   },
 };
 
-const ICONS = { season: Calendar, team: Flag, driver: User, car: Car, manufacturer: Factory, race: Trophy, story: BookOpen };
+const ICONS = { season: Calendar, team: Flag, driver: User, car: Car, track: MapPin, manufacturer: Factory, race: Trophy, story: BookOpen };
 const GROUPS: [SearchItem["t"], string][] = [
   ["team", "Teams"],
   ["driver", "Drivers"],
   ["season", "Seasons"],
   ["car", "Cars"],
+  ["track", "Tracks"],
   ["manufacturer", "Manufacturers"],
   ["race", "Races"],
   ["story", "Stories"],

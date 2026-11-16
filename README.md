@@ -34,12 +34,14 @@ Requires Node 22.18+ (scripts run TypeScript directly).
 
 ## What's in the app
 
-- **Home** — hero with the universal search/AI bar, "On this day" (or the next anniversary), era timeline, featured stories, quick stats.
+- **Home** — a full-bleed photo slideshow behind the hero (slow zoom-and-pan with crossfades, like a phone wallpaper; still under reduced motion), with the universal search/AI bar, "On this day" (or the next anniversary), era timeline, featured stories, quick stats.
 - **Seasons** — every year since 1923, filterable by era and championship. Season pages: championship and regulations, classes, race calendar with winners/class winners/pole/laps (sortable), standings, champions, Le Mans winner, story of the season, regulation changes, prev/next.
 - **Races** — per-class results, pole, notes; breadcrumbs like *Seasons › 2016 › 24 Hours of Le Mans*.
 - **Teams** — facets (status, class, country, manufacturer, decade), sorting, natural-language filters as removable chips, pagination. Team pages: name history, status, career timeline, key stats, cars, drivers, history, "Why they left", notable moments.
 - **Drivers** — name search, facets, A–Z, NL filters. Driver pages: career timeline (WEC entries plus historic Le Mans wins), stats, Le Mans results, teammates, teams and cars.
 - **Cars & manufacturers** — car pages (powertrain, results, teams, drivers) and manufacturer participation across eras.
+- **Tracks** — every circuit (`src/data/seed/tracks.ts`) with photo, layout map, length, corners, opening year and a slideshow header. Track pages: specs, history, layout changes and every race held there (all Le Mans winners for the Circuit de la Sarthe). Race pages link to their track through the track's `circuitNames`.
+- **Hover previews** — hovering (with a mouse) any link to a driver, car, team, season, race or track opens a small card with the car photo, crew and specs. One site-wide listener (`components/layout/HoverPreviews.tsx`) reads `/api/previews`, built from the same records the pages use (`lib/archive/previews.ts`).
 - **Compare** — 2–3 drivers, teams or seasons: aligned stat table plus grouped bar chart. The state lives in the URL.
 - **Le Mans winners** — the full honour roll by decade.
 - **Ask the Archive** — slide-over panel (header button, floating button, ⌘K, hero bar, suggested-prompt pills) and a full page at `/ask`.
@@ -82,7 +84,8 @@ npm run data:validate                                  # check without writing
 - **Chassis names** live in the `CHASSIS` table in [`src/data/seed/teams.ts`](src/data/seed/teams.ts), by car and season (for example the Ferrari 488 GTE becoming the 488 GTE Evo from 2018). An imported `teamEntries` record can set `chassis` directly.
 - **Photos** live in [`data/photos.json`](data/photos.json), keyed `driver:<id>`, `team:<id>`, `car:<carRef>` or `entry:<teamId>|<season>|<carRef>`. Each one carries the author, licence and Commons file page, and the page prints that credit under the photo.
 - `npm run photos:fetch` fills in missing photos from Wikimedia Commons, accepting **free licences only** (CC, public domain, GFDL) and skipping logos. A season photo must show the season's year, name the model and point at the team (a team word or one of its car numbers). Otherwise the card falls back to the car's general photo, labelled "not from this season".
-- **Automatic picks need a human check.** To replace one, edit its entry in `data/photos.json` and set `"auto": false`; the script never overwrites those. `--refresh` re-picks all photos still marked `"auto": true`.
+- **Automatic picks need a human check.** To replace one, edit its entry in `data/photos.json` and set `"auto": false`; the script never overwrites those. `--refresh` re-picks all photos still marked `"auto": true`. A wrong pick you remove goes in `data/photos-skip.json` so it is never re-added; `--season 2026` limits the season-photo pass to one year.
+- **Tracks:** `track:<id>` is a photo and `trackmap:<id>` the layout map (`--only tracks`).
 
 ## How the AI grounding works
 

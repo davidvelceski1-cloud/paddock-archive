@@ -266,6 +266,70 @@ table {
   border-radius: 12px;
 }
 
+/* Wallpaper slideshow (home hero, tracks): slow zoom-and-pan, crossfade between photos. */
+.wallpaper-slide {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.wallpaper-slide.is-active {
+  z-index: 1;
+  animation: wp-fade 1600ms ease both;
+}
+.wallpaper-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform;
+}
+.wallpaper-img.pan-right {
+  animation: wp-pan-right 11s ease-out both;
+}
+.wallpaper-img.pan-left {
+  animation: wp-pan-left 11s ease-out both;
+}
+@keyframes wp-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes wp-pan-right {
+  from {
+    transform: scale(1.04) translate3d(-1.5%, 0, 0);
+  }
+  to {
+    transform: scale(1.16) translate3d(1.5%, -1%, 0);
+  }
+}
+@keyframes wp-pan-left {
+  from {
+    transform: scale(1.04) translate3d(1.5%, 0, 0);
+  }
+  to {
+    transform: scale(1.16) translate3d(-1.5%, 1%, 0);
+  }
+}
+
+/* Hover preview cards */
+.preview-card {
+  animation: preview-in 180ms var(--ease-out) both;
+}
+@keyframes preview-in {
+  from {
+    opacity: 0;
+    scale: 0.97;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

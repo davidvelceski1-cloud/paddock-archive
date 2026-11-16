@@ -80,6 +80,24 @@
     "page": "https://commons.wikimedia.org/wiki/File:2003BentleySpeed8.jpg",
     "auto": true
   },
+  "car:bmw-m-hybrid-v8": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/2026_6_Hours_of_Spa-Francorchamps_BMW_M_Team_WRT_BMW_M_Hybrid_V8_No.20_%28DSC2744%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_BMW_M_Team_WRT_BMW_M_Hybrid_V8_No.20_%28DSC2744%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW M Hybrid V8",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_BMW_M_Team_WRT_BMW_M_Hybrid_V8_No.20_(DSC2744).jpg",
+    "auto": true
+  },
+  "car:cadillac-v-series-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_%28DSC07675%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_%28DSC07675%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Cadillac V-Series.R",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_(DSC07675).jpg",
+    "auto": true
+  },
   "car:ferrari-488-gte": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ferrari_488_GTE_EVO_-_Alessandro_Pier_Guidi%2C_James_Calado_%26_Daniel_Serra_in_the_Esses_at_the_2022_Le_Mans_%2853554182629%29_%28cropped%29.jpg/1280px-Ferrari_488_GTE_EVO_-_Alessandro_Pier_Guidi%2C_James_Calado_%26_Daniel_Serra_in_the_Esses_at_the_2022_Le_Mans_%2853554182629%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari 488 GTE",
@@ -195,6 +213,15 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.93_(DSC07965).jpg",
+    "auto": true
+  },
+  "car:porsche-917k": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Porsche_917_Classic-Days_2022_IMG_6984.jpg/1280px-Porsche_917_Classic-Days_2022_IMG_6984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Porsche 917K",
+    "credit": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porsche_917_Classic-Days_2022_IMG_6984.jpg",
     "auto": true
   },
   "car:porsche-919-hybrid": {
@@ -834,6 +861,24 @@
     "page": "https://commons.wikimedia.org/wiki/File:No._8_Audi_R18_(2016)_-_Lucas_di_Grassi,_Loic_Duval,_Oliver_Jarvis_-_2016_24_Hours_of_Le_Mans_(1).jpg",
     "auto": true
   },
+  "entry:bmw-m-team-wrt|2026|bmw-m-hybrid-v8": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/24_Heures_du_Mans_2026_Hypercar_No._15_BMW_M_Hybrid_V8.jpg/1280px-24_Heures_du_Mans_2026_Hypercar_No._15_BMW_M_Hybrid_V8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW M Hybrid V8, BMW M Team WRT, 2026 season",
+    "credit": "T GOUREAU",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2026_Hypercar_No._15_BMW_M_Hybrid_V8.jpg",
+    "auto": true
+  },
+  "entry:cadillac-hertz-team-jota|2026|cadillac-v-series-r": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_%28DSC07675%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_%28DSC07675%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Cadillac V-Series.R, Cadillac Hertz Team Jota, 2026 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_(DSC07675).jpg",
+    "auto": true
+  },
   "entry:ferrari-af-corse|2016|ferrari-488-gte": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Le_Mans_2016_-_GTE_Pro_-_-51_AF_Corse_Ferrari_488_GTE_-_Gianmaria_Bruni_James_Calado_Alessandro_Pier_Guidi_%2827739716782%29.jpg/1280px-Le_Mans_2016_-_GTE_Pro_-_-51_AF_Corse_Ferrari_488_GTE_-_Gianmaria_Bruni_James_Calado_Alessandro_Pier_Guidi_%2827739716782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Ferrari 488 GTE, AF Corse, 2016 season",
@@ -879,6 +924,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:2025_6_Hours_of_Imola_AF_Corse_Ferrari_499P_No.83_-_Hanson,_Kubica,_Ye.jpg",
     "auto": true
   },
+  "entry:ferrari-af-corse|2026|ferrari-499p": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/2026_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_%28DSC09711%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_%28DSC09711%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ferrari 499P, Ferrari AF Corse, 2026 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.50_(DSC09711).jpg",
+    "auto": true
+  },
   "entry:nissan-motorsports|2015|nissan-gt-r-lm-nismo": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Nissan_Motorsports_-_Nissan_GT-R_LM_Nismo_-23_%2818860958202%29.jpg/1280px-Nissan_Motorsports_-_Nissan_GT-R_LM_Nismo_-23_%2818860958202%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Nissan GT-R LM Nismo, Nissan Motorsports, 2015 season",
@@ -904,6 +958,15 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_(DSC02285).jpg",
+    "auto": true
+  },
+  "entry:peugeot-sport|2026|peugeot-9x8": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/2026_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC07945%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC07945%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Peugeot 9X8 (2024 evolution, with rear wing), Peugeot TotalEnergies, 2026 season",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_(DSC07945).jpg",
     "auto": true
   },
   "entry:porsche-lmp1-team|2014|porsche-919-hybrid": {
@@ -1068,6 +1131,15 @@
     "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Toyota_Gazoo_Racing_Toyota_GR010_Hybrid_No.7_(DSC04523).jpg",
     "auto": true
   },
+  "entry:toyota-gazoo-racing|2026|toyota-gr010-hybrid": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/24_Heures_du_Mans_2026_Hypercar_No._7_Toyota_TR010_Hybrid.jpg/1280px-24_Heures_du_Mans_2026_Hypercar_No._7_Toyota_TR010_Hybrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Toyota TR010 Hybrid (renamed GR010), Toyota Racing, 2026 season",
+    "credit": "T GOUREAU",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2026_Hypercar_No._7_Toyota_TR010_Hybrid.jpg",
+    "auto": true
+  },
   "team:aston-martin-racing": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/No.95_Aston_Martin_Vantage_AMR.jpg/1280px-No.95_Aston_Martin_Vantage_AMR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Aston Martin Racing car on track",
@@ -1084,6 +1156,24 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:No._8_Audi_R18_(2016)_-_Lucas_di_Grassi,_Loic_Duval,_Oliver_Jarvis_-_2016_24_Hours_of_Le_Mans_(1).jpg",
+    "auto": true
+  },
+  "team:bmw-m-team-wrt": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/24_Heures_du_Mans_2026_Hypercar_No._15_BMW_M_Hybrid_V8.jpg/1280px-24_Heures_du_Mans_2026_Hypercar_No._15_BMW_M_Hybrid_V8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "BMW M Team WRT car on track",
+    "credit": "T GOUREAU",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:24_Heures_du_Mans_2026_Hypercar_No._15_BMW_M_Hybrid_V8.jpg",
+    "auto": true
+  },
+  "team:cadillac-hertz-team-jota": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_%28DSC07675%29.jpg/1280px-2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_%28DSC07675%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Cadillac Hertz Team Jota car on track",
+    "credit": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026_6_Hours_of_Spa-Francorchamps_Cadillac_Hertz_Team_Jota_Cadillac_V-Series.R_No.12_(DSC07675).jpg",
     "auto": true
   },
   "team:ferrari-af-corse": {
@@ -1147,6 +1237,247 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2024_6_Hours_of_Spa-Francorchamps_Toyota_Gazoo_Racing_Toyota_GR010_Hybrid_No.7_(DSC04523).jpg",
+    "auto": true
+  },
+  "track:bahrain": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/2012_Bahrain_Grand_Prix_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Bahrain International Circuit",
+    "credit": "Ryan Bayona",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2012_Bahrain_Grand_Prix_2.jpg",
+    "auto": true
+  },
+  "track:barcelona": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/F1_Circuit_de_Catalunya_-_Tribuna.jpg/1280px-F1_Circuit_de_Catalunya_-_Tribuna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Circuit de Barcelona-Catalunya",
+    "credit": "Mutari 10:51, 21 September 2007 (UTC)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:F1_Circuit_de_Catalunya_-_Tribuna.jpg",
+    "auto": true
+  },
+  "track:circuit-de-la-sarthe": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Circuit_de_la_Sarthe_Ford_Chicanes.jpg/1280px-Circuit_de_la_Sarthe_Ford_Chicanes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Circuit de la Sarthe",
+    "credit": "Mike Roberts from London, United Kingdom",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Circuit_de_la_Sarthe_Ford_Chicanes.jpg",
+    "auto": true
+  },
+  "track:cota": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Circuit_of_the_americas_cota_%2852781066233%29.jpg/1280px-Circuit_of_the_americas_cota_%2852781066233%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Circuit of the Americas",
+    "credit": "Zach Catanzareti Photo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Circuit_of_the_americas_cota_(52781066233).jpg",
+    "auto": true
+  },
+  "track:fuji": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Race_Track_-_2019_6_hours_of_Fuji_-_FIA_World_Endurance_Championship.jpg/1280px-Race_Track_-_2019_6_hours_of_Fuji_-_FIA_World_Endurance_Championship.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Fuji Speedway",
+    "credit": "United Autosports/James Roberts",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Race_Track_-_2019_6_hours_of_Fuji_-_FIA_World_Endurance_Championship.jpg",
+    "auto": true
+  },
+  "track:hermanos-rodriguez": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez%2C_June_4%2C_2018_SkySat_%28cropped%29.jpg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez%2C_June_4%2C_2018_SkySat_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Autódromo Hermanos Rodríguez",
+    "credit": "Planet Labs, Inc.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez,_June_4,_2018_SkySat_(cropped).jpg",
+    "auto": true
+  },
+  "track:imola": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/WTCC08_Dino_ed_Enzo_Ferrari_Circuit_Imola.jpg/1280px-WTCC08_Dino_ed_Enzo_Ferrari_Circuit_Imola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Autodromo Enzo e Dino Ferrari (Imola)",
+    "credit": "by Grantuking",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WTCC08_Dino_ed_Enzo_Ferrari_Circuit_Imola.jpg",
+    "auto": true
+  },
+  "track:interlagos": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Interlagos_2006_aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Autódromo José Carlos Pace (Interlagos)",
+    "credit": "Marlon Hammes, cropped/retouched by Morio",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Interlagos_2006_aerial.jpg",
+    "auto": true
+  },
+  "track:monza": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Monza_old_ring.jpg/1280px-Monza_old_ring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Autodromo Nazionale Monza",
+    "credit": "Gian Luca Sgaggero",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monza_old_ring.jpg",
+    "auto": true
+  },
+  "track:portimao": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Aut%C3%B3dromo_Internacional_do_Algarve_-_Portim%C3%A3o_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853656876708%29.jpg/1280px-Aut%C3%B3dromo_Internacional_do_Algarve_-_Portim%C3%A3o_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853656876708%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Algarve International Circuit",
+    "credit": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Internacional_do_Algarve_-_Portim%C3%A3o_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_(53656876708).jpg",
+    "auto": true
+  },
+  "track:sebring": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/2018_12_Hours_of_Sebring%2C_Race_Impression.jpg/1280px-2018_12_Hours_of_Sebring%2C_Race_Impression.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Sebring International Raceway",
+    "credit": "Patrick Smith",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2018_12_Hours_of_Sebring,_Race_Impression.jpg",
+    "auto": true
+  },
+  "track:shanghai": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Shanghai_F1_Circui_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Shanghai International Circuit",
+    "credit": "Unknown author",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shanghai_F1_Circui_01.jpg",
+    "auto": true
+  },
+  "track:spa-francorchamps": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2022_4_Hours_of_Spa-Francorchamps_-_Circuit.jpg/1280px-2022_4_Hours_of_Spa-Francorchamps_-_Circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Circuit de Spa-Francorchamps",
+    "credit": "United Autosports",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2022_4_Hours_of_Spa-Francorchamps_-_Circuit.jpg",
+    "auto": true
+  },
+  "trackmap:bahrain": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Bahrain_International_Circuit--Grand_Prix_Layout.svg/1280px-Bahrain_International_Circuit--Grand_Prix_Layout.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Bahrain International Circuit",
+    "credit": "Will Pittenger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bahrain_International_Circuit--Grand_Prix_Layout.svg",
+    "auto": true
+  },
+  "trackmap:barcelona": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Circuit_de_Catalunya_moto_2021.svg/1280px-Circuit_de_Catalunya_moto_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Circuit de Barcelona-Catalunya",
+    "credit": "Formula1 Circuit Catalunya.svg: Will Pittenger derivative work: HorsePunchKid, Cs-wolves, Sentoan, Gpmat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Circuit_de_Catalunya_moto_2021.svg",
+    "auto": true
+  },
+  "trackmap:circuit-de-la-sarthe": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Circuit_de_la_Sarthe_v2.png/1280px-Circuit_de_la_Sarthe_v2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Circuit de la Sarthe",
+    "credit": "Willag",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Circuit_de_la_Sarthe_v2.png",
+    "auto": true
+  },
+  "trackmap:cota": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Austin_circuit.svg/1280px-Austin_circuit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Circuit of the Americas",
+    "credit": "Gustavo GirardelliOwn work This W3C-unspecified vector image was created with Inkscape .",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Austin_circuit.svg",
+    "auto": true
+  },
+  "trackmap:fuji": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Fuji.svg/1280px-Fuji.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Fuji Speedway",
+    "credit": "Will Pittenger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fuji.svg",
+    "auto": true
+  },
+  "trackmap:hermanos-rodriguez": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Autódromo Hermanos Rodríguez",
+    "credit": "Pitlane02",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg",
+    "auto": true
+  },
+  "trackmap:lusail": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lusail_International_Circuit_2023.svg/1280px-Lusail_International_Circuit_2023.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Lusail International Circuit",
+    "credit": "Losail.svg: Will Pittenger derivative work: Gpmat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lusail_International_Circuit_2023.svg",
+    "auto": true
+  },
+  "trackmap:monza": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Monza_track_map.svg/1280px-Monza_track_map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Autodromo Nazionale Monza",
+    "credit": "Will Pittenger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monza_track_map.svg",
+    "auto": true
+  },
+  "trackmap:nurburgring": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/N%C3%BCrburgring_-_Grand-Prix-Strecke.svg/1280px-N%C3%BCrburgring_-_Grand-Prix-Strecke.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Nürburgring",
+    "credit": "Will Pittenger",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:N%C3%BCrburgring_-_Grand-Prix-Strecke.svg",
+    "auto": true
+  },
+  "trackmap:portimao": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Aut%C3%B3dromo_do_Algarve_F1_Sectors.svg/1280px-Aut%C3%B3dromo_do_Algarve_F1_Sectors.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Algarve International Circuit",
+    "credit": "GabrielStella",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_do_Algarve_F1_Sectors.svg",
+    "auto": true
+  },
+  "trackmap:sebring": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Sebring_International_Raceway.svg/1280px-Sebring_International_Raceway.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Sebring International Raceway",
+    "credit": "Will Pittenger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sebring_International_Raceway.svg",
+    "auto": true
+  },
+  "trackmap:shanghai": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Shanghai_International_Racing_Circuit_track_map.svg/1280px-Shanghai_International_Racing_Circuit_track_map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Shanghai International Circuit",
+    "credit": "Will Pittenger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shanghai_International_Racing_Circuit_track_map.svg",
+    "auto": true
+  },
+  "trackmap:silverstone": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Circuit_Silverstone_2011.svg/1280px-Circuit_Silverstone_2011.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Silverstone Circuit",
+    "credit": "AlexJ",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Circuit_Silverstone_2011.svg",
+    "auto": true
+  },
+  "trackmap:spa-francorchamps": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Spa-Francorchamps_of_Belgium.svg/1280px-Spa-Francorchamps_of_Belgium.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Layout map of Circuit de Spa-Francorchamps",
+    "credit": "Will Pittenger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spa-Francorchamps_of_Belgium.svg",
     "auto": true
   }
 }

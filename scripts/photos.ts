@@ -25,6 +25,8 @@ const args = process.argv.slice(2);
 const OUT = args.includes("--out") ? path.resolve(args[args.indexOf("--out") + 1]) : path.join(process.cwd(), "data", "photos.json");
 const refresh = args.includes("--refresh");
 const only = args.includes("--only") ? args[args.indexOf("--only") + 1] : undefined;
+/** --season 2026: limit the season-entry pass to one season (so hand-removed picks elsewhere stay removed). */
+const onlySeason = args.includes("--season") ? Number(args[args.indexOf("--season") + 1]) : undefined;
 const UA = "PaddockArchive/0.1 (local photo fetch script)";
 const WIDTH = 1280;
 
@@ -70,9 +72,10 @@ const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCa
 
 type FileInfo = { title: string; photo: Omit<Photo, "alt">; text: string; date: string };
 
-function toFileInfo(page: any): FileInfo | null {
+/** `allowSvg`: accept SVG files (Commons serves a PNG rendering as the thumbnail), used for track maps. */
+function toFileInfo(page: any, allowSvg = false): FileInfo | null {
   const ii = page?.imageinfo?.[0];
-  if (!ii || !/image\/(jpeg|png|webp)/.test(ii.mime ?? "")) return null;
+  if (!ii || !(allowSvg ? /image\/(jpeg|png|webp|svg\+xml)/ : /image\/(jpeg|png|webp)/).test(ii.mime ?? "")) return null;
   const m = ii.extmetadata ?? {};
   const license = strip(m.LicenseShortName?.value) || "";
   if (!FREE.test(license)) return null;
@@ -94,26 +97,26 @@ function toFileInfo(page: any): FileInfo | null {
 
 const IIPROP = { prop: "imageinfo", iiprop: "url|mime|extmetadata", iiurlwidth: String(WIDTH), iiextmetadatafilter: "Artist|Credit|LicenseShortName|LicenseUrl|ImageDescription|DateTimeOriginal|Categories" };
 
-async function commonsFile(fileTitle: string): Promise<FileInfo | null> {
+async function commonsFile(fileTitle: string, allowSvg = false): Promise<FileInfo | null> {
   const r = await api("commons.wikimedia.org", { action: "query", titles: fileTitle, ...IIPROP });
-  return toFileInfo(r.query?.pages?.[0]);
+  return toFileInfo(r.query?.pages?.[0], allowSvg);
 }
 
 async function commonsSearch(q: string, limit = 20): Promise<FileInfo[]> {
   const r = await api("commons.wikimedia.org", { action: "query", generator: "search", gsrsearch: `${q} filetype:bitmap`, gsrnamespace: "6", gsrlimit: String(limit), ...IIPROP });
   const pages: any[] = (r.query?.pages ?? []).sort((x: any, y: any) => x.index - y.index);
-  return pages.map(toFileInfo).filter((x): x is FileInfo => !!x);
+  return pages.map((p) => toFileInfo(p)).filter((x): x is FileInfo => !!x);
 }
 
 /** Free lead image of the best-matching English Wikipedia article. */
-async function articlePhoto(query: string, accept: (title: string) => boolean): Promise<FileInfo | null> {
+async function articlePhoto(query: string, accept: (title: string) => boolean, allowSvg = false): Promise<FileInfo | null> {
   const s = await api("en.wikipedia.org", { action: "query", list: "search", srsearch: query, srlimit: "5" });
   const hit = (s.query?.search ?? []).find((h: any) => accept(h.title));
   if (!hit) return null;
   const p = await api("en.wikipedia.org", { action: "query", titles: hit.title, redirects: "1", prop: "pageimages", piprop: "name", pilicense: "free" });
   const file = p.query?.pages?.[0]?.pageimage;
-  if (!file || /\.svg$/i.test(file)) return null;
-  return commonsFile(`File:${file}`);
+  if (!file || (!allowSvg && /\.svg$/i.test(file))) return null;
+  return commonsFile(`File:${file}`, allowSvg);
 }
 
 /**
@@ -134,7 +137,11 @@ const GENERIC = new Set(["racing", "team", "sport", "sports", "motorsport", "mot
 // ───────────── Run ─────────────
 const existing: Record<string, Photo> = fs.existsSync(OUT) ? Photos.parse(JSON.parse(fs.readFileSync(OUT, "utf8"))) : {};
 const out: Record<string, Photo> = { ...existing };
-const want = (key: string) => !existing[key] || (refresh && existing[key].auto);
+// data/photos-skip.json: keys whose automatic picks were wrong and removed by hand. Never auto-filled again.
+const SKIP_FILE = path.join(path.dirname(OUT), "photos-skip.json");
+const skip = new Set<string>(fs.existsSync(SKIP_FILE) ? JSON.parse(fs.readFileSync(SKIP_FILE, "utf8")) : []);
+for (const k of skip) delete out[k];
+const want = (key: string) => !skip.has(key) && (!existing[key] || (refresh && existing[key].auto));
 const stats = { found: 0, missing: [] as string[] };
 const save = () => fs.writeFileSync(OUT, JSON.stringify(Object.fromEntries(Object.entries(out).sort(([x], [y]) => x.localeCompare(y))), null, 2) + "\n");
 
@@ -170,6 +177,26 @@ if (!only || only === "drivers") {
   save();
 }
 
+if (!only || only === "tracks") {
+  console.log("Tracks (layout map + photo)");
+  for (const t of a.tracks) {
+    const words = fold(t.name.replace(/\(.*?\)/g, ""))
+      .split(/[\s-]+/)
+      .filter((w) => w.length > 3 && !["circuit", "international", "autodromo", "autódromo", "raceway", "speedway", "nazionale"].includes(w));
+    // The circuit's Wikipedia infobox image is usually its layout map (often an SVG).
+    await put(`trackmap:${t.id}`, `Layout map of ${t.name}`, () => articlePhoto(`${t.name} circuit`, (title) => words.some((w) => fold(title).includes(w)), true));
+    // A real photo: Commons search, which must mention the circuit and not be a map.
+    await put(`track:${t.id}`, `${t.name}`, async () => {
+      for (const q of [`"${t.name.replace(/\s*\(.*?\)/g, "")}"`, `${t.location.split(",")[0]} circuit ${words[0] ?? ""}`]) {
+        const hit = (await commonsSearch(q)).find((f) => words.some((w) => f.text.includes(w)) && !/map|layout|plan|track ?map|\.svg/i.test(f.title));
+        if (hit) return hit;
+      }
+      return null;
+    });
+  }
+  save();
+}
+
 if (!only || only === "cars") {
   console.log("Cars");
   const refs = new Set([...a.cars.map((c) => c.id), ...a.teamEntries.map((e) => e.car)]);
@@ -186,7 +213,7 @@ if (!only || only === "entries") {
   console.log("Season entries (car photos by year)");
   const usedByTeam = new Map<string, Set<string>>();
   const seen = new Set<string>();
-  for (const e of [...a.teamEntries].sort((x, y) => x.teamId.localeCompare(y.teamId) || x.season - y.season)) {
+  for (const e of [...a.teamEntries].filter((x) => onlySeason === undefined || x.season === onlySeason).sort((x, y) => x.teamId.localeCompare(y.teamId) || x.season - y.season)) {
     const key = `entry:${e.teamId}|${e.season}|${e.car}`;
     if (seen.has(key)) continue;
     seen.add(key);

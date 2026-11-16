@@ -232,7 +232,31 @@ export const Story = z.object({
   related: z.array(z.string()).default([]),
 });
 
+/** A circuit. Race events are matched to it through `circuitNames` (the `circuit` strings events use). */
+export const Track = z.object({
+  id: z.string(),
+  name: z.string(),
+  /** Every `circuit` string used by events held here, e.g. "Autódromo José Carlos Pace (Interlagos)". */
+  circuitNames: z.array(z.string()).min(1),
+  country: z.string().length(2),
+  location: z.string(),
+  /** Current endurance layout. */
+  lengthKm: z.number(),
+  turns: z.number().int(),
+  opened: z.number().int(),
+  /** Years the archive's championships or Le Mans raced here, as a short label ("WEC 2012–", "Le Mans since 1923"). */
+  usage: z.string(),
+  lapRecord: z.string().optional(),
+  tagline: z.string(),
+  /** Markdown: the circuit's history, oldest first. */
+  history: z.string(),
+  layouts: z.array(z.object({ years: z.string(), text: z.string() })).default([]),
+  verified: z.boolean().default(false),
+  sources: z.array(z.string()).default([]),
+});
+
 export const Archive = z.object({
+  tracks: z.array(Track).default([]),
   sources: z.array(Source),
   classes: z.array(RaceClass),
   championships: z.array(Championship),
@@ -272,6 +296,7 @@ export type Standings = z.infer<typeof Standings>;
 export type Season = z.infer<typeof Season>;
 export type LeMansWinner = z.infer<typeof LeMansWinner>;
 export type Story = z.infer<typeof Story>;
+export type Track = z.infer<typeof Track>;
 export type Archive = z.infer<typeof Archive>;
 export type ArchivePatch = z.infer<typeof ArchivePatch>;
 /** Seed authoring type: fields with zod defaults may be omitted. */
@@ -293,6 +318,7 @@ export const KEYS: { [K in keyof Archive]: (r: Archive[K][number]) => string } =
   events: (r) => r.id,
   leMans: (r) => String(r.year),
   stories: (r) => r.slug,
+  tracks: (r) => r.id,
 };
 
 /** Merge an import patch over a base archive, replacing records with the same key. */

@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowRight, Flag, Timer } from "lucide-react";
 import { Badge, Breadcrumbs, Container, EmptyState, PageHeader, PlaceholderNotice, Section } from "@/components/ui/primitives";
 import { ClassTag, Crew, SourcesSection } from "@/components/archive/bits";
 import { AskContext, AskPrompts } from "@/components/ask/AskContext";
-import { archive, className, eventSlug, eventsForSeason, href, ix, seasonLabel } from "@/lib/archive/data";
+import { archive, className, eventSlug, eventsForSeason, href, ix, seasonLabel, trackOfCircuit } from "@/lib/archive/data";
 import { countryName } from "@/data/countries";
 import { fmtDate, ordinal } from "@/lib/utils";
 
@@ -29,6 +29,7 @@ export default async function RacePage({ params }: { params: Params }) {
   const e = await getEvent(params);
   if (!e) notFound();
   const label = seasonLabel(e.season);
+  const track = trackOfCircuit(e.circuit);
   const all = eventsForSeason(e.season);
   const i = all.findIndex((x) => x.id === e.id);
   const prev = all[i - 1];
@@ -50,7 +51,14 @@ export default async function RacePage({ params }: { params: Params }) {
         title={e.name}
       >
         <p>
-          {e.circuit}, {countryName(e.country)} · <span className="tnum">{fmtDate(e.date, { day: "numeric", month: "long", year: "numeric" })}</span>
+          {track ? (
+            <Link href={href.track(track.id)} className="underline decoration-line-strong underline-offset-2 hover:decoration-accent">
+              {e.circuit}
+            </Link>
+          ) : (
+            e.circuit
+          )}
+          , {countryName(e.country)} · <span className="tnum">{fmtDate(e.date, { day: "numeric", month: "long", year: "numeric" })}</span>
         </p>
         {e.summary && <p className="mt-3">{e.summary}</p>}
       </PageHeader>

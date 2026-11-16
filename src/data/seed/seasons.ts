@@ -253,16 +253,51 @@ const wec: S[] = [
     year: 2026,
     championshipId: "wec",
     eraSlug: "hypercar",
-    status: "in-progress",
+    status: "complete",
     classes: ["hypercar", "lmgt3"],
-    story: "The current season. Results will appear here once they are imported and verified.",
-    sources: WEC_SOURCES,
+    rounds: 8,
+    regulations: "Hypercar (LMH and LMDh cars balanced by Balance of Performance) and LMGT3. From 2026 the FIA and ACO no longer publish the BoP tables; they are shared only with the teams.",
+    regulationChanges: [
+      "Balance of Performance tables are no longer published.",
+      "Toyota renames its team Toyota Racing and its car the TR010 Hybrid.",
+      "Porsche Penske Motorsport leaves Hypercar; Proton's customer Porsche goes with it.",
+      "Genesis Magma Racing debuts with the Oreca-built GMR-001 LMDh.",
+      "Ford enters LMGT3 with Proton Competition's Mustang GT3 Evo; Garage 59 becomes McLaren's LMGT3 partner.",
+      "Iron Dames leave the WEC after five seasons.",
+      "Qatar postponed in March over Middle East tensions, then cancelled; Bahrain cancelled. Barcelona joins the calendar and Monza becomes the November finale.",
+    ],
+    story:
+      "Toyota's comeback year. The renamed [Toyota Racing](/teams/toyota-gazoo-racing) won the [Imola](/seasons/2026/imola) opener, then [Mike Conway](/drivers/mike-conway), [Kamui Kobayashi](/drivers/kamui-kobayashi) and [Nyck de Vries](/drivers/nyck-de-vries) won [Le Mans](/seasons/2026/le-mans) by 10.9 seconds from BMW, ending Ferrari's three-year run. The #8 crew of [Sébastien Buemi](/drivers/sebastien-buemi), [Brendon Hartley](/drivers/brendon-hartley) and [Ryo Hirakawa](/drivers/ryo-hirakawa) added wins at Fuji and Barcelona and took the drivers' title on 115 points; Toyota won the manufacturers' championship.\n\n[BMW](/teams/bmw-m-team-wrt) had its best WEC season — a first one-two at Spa and a win in São Paulo — and finished second among manufacturers. [Ferrari](/teams/ferrari-af-corse) won at COTA, and [Cadillac and Jota](/teams/cadillac-hertz-team-jota) won the Monza finale. In LMGT3, TF Sport's Jonny Edgar was champion.\n\nThe calendar was reshaped mid-season: Qatar was postponed and then cancelled, Bahrain was dropped, and the championship raced in Barcelona for the first time.",
+    champions: [
+      { classId: "hypercar", drivers: ["sebastien-buemi", "brendon-hartley", "ryo-hirakawa"], manufacturer: "toyota", team: "toyota-gazoo-racing", car: "toyota-gr010-hybrid" },
+      { classId: "lmgt3", drivers: ["Jonny Edgar"], team: "TF Sport", car: "Chevrolet Corvette Z06 GT3.R" },
+    ],
+    standings: [
+      {
+        classId: "hypercar",
+        kind: "drivers",
+        rows: [
+          { pos: 1, entrant: ["sebastien-buemi", "brendon-hartley", "ryo-hirakawa"], car: "toyota-gr010-hybrid", points: 115 },
+          { pos: 2, entrant: ["mike-conway", "kamui-kobayashi", "nyck-de-vries"], car: "toyota-gr010-hybrid" },
+        ],
+      },
+      {
+        classId: "hypercar",
+        kind: "manufacturers",
+        rows: [
+          { pos: 1, entrant: ["toyota"], points: 215 },
+          { pos: 2, entrant: ["bmw"], points: 172 },
+          { pos: 3, entrant: ["ferrari"], points: 150 },
+        ],
+      },
+    ],
+    sources: [...WEC_SOURCES, "wikipedia-wec-2026"],
   },
 ];
 
 export const seasons: ArchiveInput["seasons"] = [...historic, ...wec];
 
 /** Season keys whose race calendars are in the archive. */
-export const FEATURED_SEASONS = [2012, 2016, 2023, 2025];
+export const FEATURED_SEASONS = [2012, 2016, 2023, 2025, 2026];
 
 export type { Season };

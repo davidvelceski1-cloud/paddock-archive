@@ -102,6 +102,7 @@ const ROWS: Row[] = [
   [2023, "ferrari-499p", "ferrari", ["alessandro-pier-guidi", "james-calado", "antonio-giovinazzi"], { team: "ferrari-af-corse", number: "51", laps: 342, date: "2023-06-11" }],
   [2024, "ferrari-499p", "ferrari", ["antonio-fuoco", "miguel-molina", "nicklas-nielsen"], { team: "ferrari-af-corse", number: "50", date: "2024-06-16" }],
   [2025, "ferrari-499p", "ferrari", ["robert-kubica", "yifei-ye", "phil-hanson"], { team: "ferrari-af-corse", number: "83", laps: 387, date: "2025-06-15" }],
+  [2026, "toyota-gr010-hybrid", "toyota", ["mike-conway", "kamui-kobayashi", "nyck-de-vries"], { team: "toyota-gazoo-racing", number: "7", laps: 381, date: "2026-06-14" }],
 ];
 
 export const leMans: ArchiveInput["leMans"] = ROWS.map(([year, car, manufacturer, drivers, extra]) => ({

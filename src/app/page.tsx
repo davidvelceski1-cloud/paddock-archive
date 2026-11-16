@@ -2,8 +2,9 @@ import Link from "next/link";
 import { ArrowRight, CalendarDays, ChevronRight } from "lucide-react";
 import { Container, PlaceholderNotice, Section } from "@/components/ui/primitives";
 import { HeroSearch } from "@/components/home/HeroSearch";
+import { Wallpaper } from "@/components/home/Wallpaper";
 import { AskContext } from "@/components/ask/AskContext";
-import { archive, href, ix } from "@/lib/archive/data";
+import { archive, href, ix, wallpaperPhotos } from "@/lib/archive/data";
 import { quickStats } from "@/lib/archive/stats";
 import { onThisDay } from "@/lib/archive/onthisday";
 import { fmtDate, fmtNum } from "@/lib/utils";
@@ -28,18 +29,24 @@ export default function Home() {
   return (
     <>
       <AskContext kind="home" suggestions={[]} />
-      <section className="bg-surface">
-        <Container className="pb-20 pt-16 text-center sm:pb-24 sm:pt-24">
-          <p className="rise mb-3 text-[17px] font-semibold text-muted-strong sm:text-xl">Le Mans 1923 to the Hypercar era</p>
-          <h1 className="display rise mx-auto max-w-4xl text-5xl sm:text-[80px]">
+      <section className="relative isolate overflow-hidden bg-black">
+        <Wallpaper photos={wallpaperPhotos(["entry:", "car:"], 20)} className="absolute inset-0 -z-10" />
+        {/* Darken for legibility, fading into the page background at the bottom. */}
+        <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-black/55 via-black/45 to-black/70" aria-hidden />
+        <Container className="relative pb-20 pt-16 text-center sm:pb-28 sm:pt-28">
+          <p className="rise mb-3 text-[17px] font-semibold text-white/80 sm:text-xl">Le Mans 1923 to the Hypercar era</p>
+          <h1 className="display rise mx-auto max-w-4xl text-5xl text-white drop-shadow-[0_2px_16px_rgba(0,0,0,0.45)] sm:text-[80px]">
             Every lap of <span className="text-gradient">endurance</span> history.
           </h1>
-          <p className="rise mx-auto mt-5 max-w-2xl text-xl text-body sm:text-2xl sm:leading-snug">Seasons, teams, drivers and cars. Linked, sourced, and searchable in plain language.</p>
+          <p className="rise mx-auto mt-5 max-w-2xl text-xl text-white/85 sm:text-2xl sm:leading-snug">Seasons, teams, drivers, cars and tracks. Linked, sourced, and searchable in plain language.</p>
           <p className="rise mt-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-lg sm:text-xl">
-            <Link href="/seasons" className="inline-flex items-center gap-0.5 text-accent-ink hover:underline">
-              Explore seasons <ChevronRight className="size-5" strokeWidth={2} aria-hidden />
+            <Link href="/seasons/2026" className="inline-flex items-center gap-0.5 text-white hover:underline">
+              The 2026 season <ChevronRight className="size-5" strokeWidth={2} aria-hidden />
             </Link>
-            <Link href="/le-mans" className="inline-flex items-center gap-0.5 text-accent-ink hover:underline">
+            <Link href="/tracks" className="inline-flex items-center gap-0.5 text-white hover:underline">
+              Tracks <ChevronRight className="size-5" strokeWidth={2} aria-hidden />
+            </Link>
+            <Link href="/le-mans" className="inline-flex items-center gap-0.5 text-white hover:underline">
               Le Mans winners <ChevronRight className="size-5" strokeWidth={2} aria-hidden />
             </Link>
           </p>

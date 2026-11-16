@@ -3,7 +3,7 @@ import { archive, href, ix, resolveTeam, seasonLabel, teamDisplayName } from "@/
 
 export const dynamic = "force-static";
 
-export type SearchItem = { t: "season" | "team" | "driver" | "car" | "manufacturer" | "race" | "story"; l: string; s?: string; h: string; w: number; k?: string };
+export type SearchItem = { t: "season" | "team" | "driver" | "car" | "track" | "manufacturer" | "race" | "story"; l: string; s?: string; h: string; w: number; k?: string };
 
 /** Compact index for the ⌘K command palette. */
 export async function GET() {
@@ -18,6 +18,7 @@ export async function GET() {
   for (const c of a.cars) items.push({ t: "car", l: c.name, s: `${c.from}${c.to !== c.from ? `–${c.to ?? ""}` : ""}`, h: href.car(c.id), w: 4 });
   for (const m of a.manufacturers) items.push({ t: "manufacturer", l: m.name, s: countryName(m.country), h: href.manufacturer(m.id), w: 3 });
   for (const e of a.events) items.push({ t: "race", l: `${seasonLabel(e.season)} ${e.name}`, s: e.results[0]?.podium[0] ? resolveTeam(e.results[0].podium[0].team, e.season).label : undefined, h: href.event(e.id), w: 1, k: e.circuit });
+  for (const t of a.tracks) items.push({ t: "track", l: t.name, s: `${t.location}, ${countryName(t.country)}`, h: href.track(t.id), w: 4, k: t.circuitNames.join(" ") });
   for (const s of a.stories) items.push({ t: "story", l: s.title, s: "Story", h: href.story(s.slug), w: 3 });
   return Response.json(items);
 }

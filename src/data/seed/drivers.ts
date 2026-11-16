@@ -34,22 +34,22 @@ export const drivers: ArchiveInput["drivers"] = [
   d("timo-bernhard", "Timo Bernhard", "DE", 1981, "retired", "Le Mans winner with Audi in 2010 and Porsche in 2017, and world champion in 2015 and 2017."),
   d("mark-webber", "Mark Webber", "AU", 1976, "retired", "Nine-time Formula 1 race winner who joined Porsche in 2014, won the 2015 world title, and retired at the end of 2016."),
   d("nico-hulkenberg", "Nico Hülkenberg", "DE", 1987, "retired", "Won Le Mans at his first attempt in 2015 in a third Porsche, while a full-time Formula 1 driver."),
-  d("earl-bamber", "Earl Bamber", "NZ", 1990, "active", "Won Le Mans with Porsche in 2015 and again in 2017, when he also won the world title."),
+  d("earl-bamber", "Earl Bamber", "NZ", 1990, "active", "Won Le Mans with Porsche in 2015 and again in 2017, when he also won the world title. In 2026 he won the WEC season finale at Monza for Cadillac Hertz Team Jota."),
   d("nick-tandy", "Nick Tandy", "GB", 1984, "active", "Won Le Mans in 2015 in the #19 Porsche on his top-class debut."),
-  d("brendon-hartley", "Brendon Hartley", "NZ", 1989, "active", "World champion with Porsche (2015, 2017) and Toyota (2021, 2022, 2023), and a three-time Le Mans winner (2017, 2020, 2022). He also raced in Formula 1 for Toro Rosso."),
+  d("brendon-hartley", "Brendon Hartley", "NZ", 1989, "active", "World champion with Porsche (2015, 2017) and Toyota (2021, 2022, 2023, 2026), and a three-time Le Mans winner (2017, 2020, 2022). He also raced in Formula 1 for Toro Rosso."),
   // Toyota
-  d("sebastien-buemi", "Sébastien Buemi", "CH", 1988, "active", "Toyota's longest-serving driver of the WEC era: world champion in 2014, 2018–19, 2021, 2022 and 2023, and a four-time Le Mans winner."),
+  d("sebastien-buemi", "Sébastien Buemi", "CH", 1988, "active", "Toyota's longest-serving driver of the WEC era: world champion in 2014, 2018–19, 2021, 2022, 2023 and 2026, and a four-time Le Mans winner."),
   d("kazuki-nakajima", "Kazuki Nakajima", "JP", 1985, "retired", "The first Japanese driver to win Le Mans in a Japanese car (2018). He won it three times running and the world title twice before stepping back to a management role at Toyota."),
   d("fernando-alonso", "Fernando Alonso", "ES", 1981, "retired", "Two-time Formula 1 world champion who won Le Mans twice (2018, 2019) and the 2018–19 world title with Toyota during a break from Formula 1."),
   d("anthony-davidson", "Anthony Davidson", "GB", 1979, "retired", "Won the 2014 world title with Sébastien Buemi in Toyota's #8."),
   d("alexander-wurz", "Alexander Wurz", "AT", 1974, "retired", "Won Le Mans in 1996 with Joest Porsche and in 2009 with Peugeot, then drove for Toyota from 2012 to 2015."),
   d("nicolas-lapierre", "Nicolas Lapierre", "FR", 1984, "retired", "Toyota driver in the TS030 years who became a multiple LMP2 class winner at Le Mans with Alpine."),
   d("stephane-sarrazin", "Stéphane Sarrazin", "FR", 1975, "retired", "A Le Mans regular with Peugeot's 908 and Toyota, finishing second overall several times without winning."),
-  d("mike-conway", "Mike Conway", "GB", 1983, "active", "Toyota driver since 2015; world champion in 2019–20 and Le Mans winner in 2021."),
-  d("kamui-kobayashi", "Kamui Kobayashi", "JP", 1986, "active", "Set the Le Mans lap record in 2017, won the race in 2021 and the 2019–20 world title. He also became Toyota's team principal while still racing."),
+  d("mike-conway", "Mike Conway", "GB", 1983, "active", "Toyota driver since 2015; world champion in 2019–20 and Le Mans winner in 2021 and 2026."),
+  d("kamui-kobayashi", "Kamui Kobayashi", "JP", 1986, "active", "Set the Le Mans lap record in 2017, won the race in 2021 and 2026, and the 2019–20 world title. He also became Toyota's team principal while still racing."),
   d("jose-maria-lopez", "José María López", "AR", 1983, "active", "Three-time World Touring Car champion who joined Toyota in 2017, won the 2019–20 world title and Le Mans 2021."),
-  d("ryo-hirakawa", "Ryo Hirakawa", "JP", 1994, "active", "Won Le Mans in 2022 in his first season and the world title in 2022 and 2023."),
-  d("nyck-de-vries", "Nyck de Vries", "NL", 1995, "active", "Former Formula E champion who joined Toyota's Hypercar line-up in 2024."),
+  d("ryo-hirakawa", "Ryo Hirakawa", "JP", 1994, "active", "Won Le Mans in 2022 in his first season and the world title in 2022, 2023 and 2026."),
+  d("nyck-de-vries", "Nyck de Vries", "NL", 1995, "active", "Former Formula E champion who joined Toyota's Hypercar line-up in 2024 and won Le Mans in 2026 with Mike Conway and Kamui Kobayashi."),
   // Ferrari
   d("alessandro-pier-guidi", "Alessandro Pier Guidi", "IT", 1983, "active", "Long-time Ferrari GT driver who won Le Mans outright in 2023 and the 2025 world title."),
   d("james-calado", "James Calado", "GB", 1989, "active", "Ferrari works driver; Le Mans winner in 2023 and world champion in 2025."),
@@ -136,7 +136,7 @@ export const driverEntries: ArchiveInput["driverEntries"] = [
     ...e(["mike-conway", "kamui-kobayashi", "jose-maria-lopez"], y, TOYOTA, "hypercar", "toyota-gr010-hybrid", "7"),
     ...e(["sebastien-buemi", "brendon-hartley", "ryo-hirakawa"], y, TOYOTA, "hypercar", "toyota-gr010-hybrid", "8"),
   ]),
-  ...[2024, 2025].flatMap((y) => [
+  ...[2024, 2025, 2026].flatMap((y) => [
     ...e(["mike-conway", "kamui-kobayashi", "nyck-de-vries"], y, TOYOTA, "hypercar", "toyota-gr010-hybrid", "7"),
     ...e(["sebastien-buemi", "brendon-hartley", "ryo-hirakawa"], y, TOYOTA, "hypercar", "toyota-gr010-hybrid", "8"),
   ]),
@@ -147,6 +147,9 @@ export const driverEntries: ArchiveInput["driverEntries"] = [
   ]),
   ...e(["robert-kubica", "yifei-ye"], 2024, FERRARI, "hypercar", "ferrari-499p", "83"),
   ...e(["robert-kubica", "yifei-ye", "phil-hanson"], 2025, FERRARI, "hypercar", "ferrari-499p", "83"),
+  ...e(["antonio-fuoco", "miguel-molina", "nicklas-nielsen"], 2026, FERRARI, "hypercar", "ferrari-499p", "50"),
+  // Cadillac
+  ...e(["earl-bamber"], 2026, "cadillac-hertz-team-jota", "hypercar", "cadillac-v-series-r", "38", "Won the Monza finale with Jack Aitken and Sébastien Bourdais."),
   // Porsche Penske
   ...[2023, 2024].flatMap((y) => e(["kevin-estre", "andre-lotterer", "laurens-vanthoor"], y, "porsche-penske-motorsport", "hypercar", "porsche-963", "6")),
   ...e(["kevin-estre", "laurens-vanthoor"], 2025, "porsche-penske-motorsport", "hypercar", "porsche-963", "6"),
