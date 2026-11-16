@@ -2,9 +2,30 @@
 
 An AI-assisted encyclopedia of world-championship endurance racing: every 24 Hours of Le Mans since 1923, the World Sportscar Championship, the Intercontinental Le Mans Cup and the FIA World Endurance Championship through the Hypercar era.
 
-Browse by **season**, **team**, **driver** and **car / manufacturer**, compare any two or three side by side, jump anywhere with **⌘K / Ctrl+K**, and ask questions in plain language. Every answer is grounded in the archive's own records and cites the pages it used.
+Browse by **season**, **team**, **driver**, **car / manufacturer** and **track**, compare any two or three side by side, jump anywhere with **⌘K / Ctrl+K**, and ask questions in plain language. Every answer is grounded in the archive's own records and cites the pages it used.
+
+**Live site: [paddock-archive.vercel.app](https://paddock-archive.vercel.app)**
 
 > **Data status: placeholder.** All records ship as seed data written from general motorsport knowledge and flagged "pending verification" on every page. Load verified data through the import path below before relying on any of it. See [Data status](#data-status).
+
+## Screenshots
+
+![Home page: a photo slideshow behind the search bar](docs/screenshots/home.jpg)
+
+| | |
+|---|---|
+| ![Seasons: every year since 1923 with its Le Mans winner](docs/screenshots/seasons.jpg) | ![Hover card: car photo, crew and specs for the 1967 season](docs/screenshots/hover-card.jpg) |
+| **Seasons** — every year since 1923, each with its Le Mans-winning car | **Hover cards** — rest the mouse on any season, driver, car, team, race or track |
+| ![The 2026 season page](docs/screenshots/season-2026.jpg) | ![Toyota's cars by season](docs/screenshots/team-cars-by-season.jpg) |
+| **Season pages** — story, champions, standings and race calendar | **Cars by season** — each team's chassis and car photo, year by year |
+| ![Teams with filters for status, class, country, maker and decade](docs/screenshots/teams.jpg) | ![Drivers with portraits](docs/screenshots/drivers.jpg) |
+| **Teams** — from the Bentley Boys to LMGT3, with filters | **Drivers** — portraits, Le Mans wins and titles |
+| ![Cars with photos and engines](docs/screenshots/cars.jpg) | ![Tracks with photos, layout maps and specs](docs/screenshots/tracks.jpg) |
+| **Cars** — prototypes and GT cars from every era | **Tracks** — photos, layout maps and specs |
+
+![Circuit de la Sarthe track page](docs/screenshots/track-le-mans.jpg)
+
+*Screenshots of the live site in dark mode at 1440×900. Photos on the site are freely licensed from Wikimedia Commons and credited on each page.*
 
 ## Quick start
 
